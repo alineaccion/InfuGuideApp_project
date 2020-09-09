@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1C4EC2443127CE745DDF6BB3 /* Pods_InfuApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C596BE3285886278A788DB /* Pods_InfuApp.framework */; };
 		B70432C125090D5600DF2F22 /* MenuTypes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70432C025090D5600DF2F22 /* MenuTypes.storyboard */; };
+		B735C36E25091C6300895083 /* CellMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B735C36D25091C6300895083 /* CellMenu.xib */; };
 		B7446FE62508DA9700F968D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7446FE52508DA9700F968D1 /* AppDelegate.swift */; };
 		B7446FE82508DA9700F968D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7446FE72508DA9700F968D1 /* SceneDelegate.swift */; };
 		B7446FEA2508DA9700F968D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7446FE92508DA9700F968D1 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		471F88E01368888FB406A014 /* Pods-InfuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfuApp.release.xcconfig"; path = "Target Support Files/Pods-InfuApp/Pods-InfuApp.release.xcconfig"; sourceTree = "<group>"; };
 		6316117FA0C81E0434FD443A /* Pods-InfuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfuApp.debug.xcconfig"; path = "Target Support Files/Pods-InfuApp/Pods-InfuApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B70432C025090D5600DF2F22 /* MenuTypes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuTypes.storyboard; sourceTree = "<group>"; };
+		B735C36D25091C6300895083 /* CellMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellMenu.xib; sourceTree = "<group>"; };
 		B7446FE22508DA9700F968D1 /* InfuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7446FE52508DA9700F968D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7446FE72508DA9700F968D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 				D0C596BE3285886278A788DB /* Pods_InfuApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B735C36C25091C0E00895083 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B735C36D25091C6300895083 /* CellMenu.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		B7446FD92508DA9700F968D1 = {
@@ -109,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				B70432C025090D5600DF2F22 /* MenuTypes.storyboard */,
+				B735C36C25091C0E00895083 /* Cells */,
 			);
 			path = "Menu Types";
 			sourceTree = "<group>";
@@ -150,7 +161,6 @@
 				6316117FA0C81E0434FD443A /* Pods-InfuApp.debug.xcconfig */,
 				471F88E01368888FB406A014 /* Pods-InfuApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B735C36E25091C6300895083 /* CellMenu.xib in Resources */,
 				B7446FF22508DA9A00F968D1 /* LaunchScreen.storyboard in Resources */,
 				B74470012508DD6400F968D1 /* Colors.xcassets in Resources */,
 				B7446FEF2508DA9A00F968D1 /* Assets.xcassets in Resources */,
