@@ -1,0 +1,6 @@
+framework module Pods_InfuApp {
+  umbrella header "Pods-InfuApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -17,34 +17,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dve-Bt-jzT">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <rect key="frame" x="127" y="368" width="160" height="160"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="provisional blanco" translatesAutoresizingMaskIntoConstraints="NO" id="KUZ-DR-Kk2">
+                                        <rect key="frame" x="2" y="2" width="156" height="156"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="KUZ-DR-Kk2" firstAttribute="leading" secondItem="Dve-Bt-jzT" secondAttribute="leading" constant="2" id="8jr-XD-550"/>
+                                    <constraint firstItem="KUZ-DR-Kk2" firstAttribute="top" secondItem="Dve-Bt-jzT" secondAttribute="top" constant="2" id="Oby-pu-Aop"/>
+                                    <constraint firstAttribute="bottom" secondItem="KUZ-DR-Kk2" secondAttribute="bottom" constant="2" id="iVe-KT-d9v"/>
+                                    <constraint firstAttribute="trailing" secondItem="KUZ-DR-Kk2" secondAttribute="trailing" constant="2" id="sFK-Dh-6j1"/>
+                                </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="SEC-iR-YLP">
-                                <rect key="frame" x="87" y="368" width="240" height="160"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" name="Primary"/>
                         <constraints>
-                            <constraint firstItem="SEC-iR-YLP" firstAttribute="leading" secondItem="Dve-Bt-jzT" secondAttribute="leading" id="0cc-6V-9wU"/>
-                            <constraint firstItem="Dve-Bt-jzT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="84k-jL-TSl"/>
-                            <constraint firstItem="Dve-Bt-jzT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="LH1-mf-yuu"/>
-                            <constraint firstItem="SEC-iR-YLP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="324" id="Mnj-6N-wp1"/>
-                            <constraint firstItem="SEC-iR-YLP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Mr2-74-sVh"/>
-                            <constraint firstItem="Dve-Bt-jzT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="QP4-dS-tfp"/>
-                            <constraint firstItem="SEC-iR-YLP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WRd-65-rxW"/>
-                            <constraint firstItem="Dve-Bt-jzT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iWD-Aj-fax"/>
+                            <constraint firstItem="Dve-Bt-jzT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2O6-iw-At0"/>
+                            <constraint firstItem="Dve-Bt-jzT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o0s-BH-txp"/>
+                            <constraint firstItem="Dve-Bt-jzT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="324" id="rl8-iy-Ok8"/>
+                            <constraint firstItem="Dve-Bt-jzT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="vW2-j7-it8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="130"/>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Splash" width="50.666667938232422" height="50.666667938232422"/>
+        <image name="provisional blanco" width="152" height="152"/>
         <namedColor name="Primary">
             <color red="0.7803921568627451" green="0.90196078431372551" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
