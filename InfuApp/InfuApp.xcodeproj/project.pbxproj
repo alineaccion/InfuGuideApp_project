@@ -22,7 +22,6 @@
 		B74470012508DD6400F968D1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B74470002508DD6400F968D1 /* Colors.xcassets */; };
 		B7FF5F86250A765B00042E25 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF5F85250A765B00042E25 /* SplashViewController.swift */; };
 		B7FF5F88250A76AA00042E25 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF5F87250A76AA00042E25 /* SplashViewModel.swift */; };
-		B7FF5F8A250A76C000042E25 /* SplashViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF5F89250A76C000042E25 /* SplashViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +43,6 @@
 		B74470002508DD6400F968D1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B7FF5F85250A765B00042E25 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		B7FF5F87250A76AA00042E25 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
-		B7FF5F89250A76C000042E25 /* SplashViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewDelegate.swift; sourceTree = "<group>"; };
 		D0C596BE3285886278A788DB /* Pods_InfuApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfuApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -167,7 +165,6 @@
 				B7446FEB2508DA9700F968D1 /* Splash.storyboard */,
 				B7FF5F85250A765B00042E25 /* SplashViewController.swift */,
 				B7FF5F87250A76AA00042E25 /* SplashViewModel.swift */,
-				B7FF5F89250A76C000042E25 /* SplashViewDelegate.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -312,7 +309,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7FF5F88250A76AA00042E25 /* SplashViewModel.swift in Sources */,
-				B7FF5F8A250A76C000042E25 /* SplashViewDelegate.swift in Sources */,
 				B7446FEA2508DA9700F968D1 /* ViewController.swift in Sources */,
 				B7446FE62508DA9700F968D1 /* AppDelegate.swift in Sources */,
 				B7FF5F86250A765B00042E25 /* SplashViewController.swift in Sources */,
