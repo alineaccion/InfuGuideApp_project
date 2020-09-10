@@ -66,10 +66,23 @@
                         <viewLayoutGuide key="safeArea" id="BOA-4e-sK0"/>
                     </view>
                     <navigationItem key="navigationItem" title="Tipo de infusion" id="UHv-Rt-4fF"/>
+                    <connections>
+                        <segue destination="Ayi-Ao-eHk" kind="show" id="O1F-vq-cEt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rhp-JF-VFI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-223.18840579710147" y="12.723214285714285"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="RN2-ea-Mdw">
+            <objects>
+                <viewControllerPlaceholder id="Ayi-Ao-eHk" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="jbV-Vz-QQ6"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z5I-8L-4WY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="698" y="13"/>
         </scene>
     </scenes>
     <resources>

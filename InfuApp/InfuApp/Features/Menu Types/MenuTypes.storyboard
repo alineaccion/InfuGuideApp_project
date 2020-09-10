@@ -39,10 +39,23 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nsK-YM-t0m"/>
                     </view>
+                    <connections>
+                        <segue destination="CbE-XA-i6B" kind="show" id="3F0-9f-EVm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YJ3-fH-4fw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-36.231884057971016" y="-83.035714285714278"/>
+        </scene>
+        <!--Collection-->
+        <scene sceneID="QtV-4n-c6P">
+            <objects>
+                <viewControllerPlaceholder referencedIdentifier="Collection" id="CbE-XA-i6B" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="pHP-Vd-sVY"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tFN-lf-5Nl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="736" y="-83"/>
         </scene>
     </scenes>
     <resources>
