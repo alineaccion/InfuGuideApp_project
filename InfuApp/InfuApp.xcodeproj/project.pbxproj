@@ -10,6 +10,9 @@
 		1C4EC2443127CE745DDF6BB3 /* Pods_InfuApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C596BE3285886278A788DB /* Pods_InfuApp.framework */; };
 		B70432C125090D5600DF2F22 /* MenuTypes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70432C025090D5600DF2F22 /* MenuTypes.storyboard */; };
 		B735C36E25091C6300895083 /* CellMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B735C36D25091C6300895083 /* CellMenu.xib */; };
+		B735C3702509254E00895083 /* InfuCollection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B735C36F2509254E00895083 /* InfuCollection.storyboard */; };
+		B735C373250927C600895083 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B735C372250927C600895083 /* CollectionCell.xib */; };
+		B735C375250A386200895083 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B735C374250A386200895083 /* Detail.storyboard */; };
 		B7446FE62508DA9700F968D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7446FE52508DA9700F968D1 /* AppDelegate.swift */; };
 		B7446FE82508DA9700F968D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7446FE72508DA9700F968D1 /* SceneDelegate.swift */; };
 		B7446FEA2508DA9700F968D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7446FE92508DA9700F968D1 /* ViewController.swift */; };
@@ -24,6 +27,9 @@
 		6316117FA0C81E0434FD443A /* Pods-InfuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfuApp.debug.xcconfig"; path = "Target Support Files/Pods-InfuApp/Pods-InfuApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B70432C025090D5600DF2F22 /* MenuTypes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuTypes.storyboard; sourceTree = "<group>"; };
 		B735C36D25091C6300895083 /* CellMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellMenu.xib; sourceTree = "<group>"; };
+		B735C36F2509254E00895083 /* InfuCollection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfuCollection.storyboard; sourceTree = "<group>"; };
+		B735C372250927C600895083 /* CollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
+		B735C374250A386200895083 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		B7446FE22508DA9700F968D1 /* InfuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7446FE52508DA9700F968D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7446FE72508DA9700F968D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +68,14 @@
 				B735C36D25091C6300895083 /* CellMenu.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		B735C371250927AE00895083 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B735C372250927C600895083 /* CollectionCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		B7446FD92508DA9700F968D1 = {
@@ -109,7 +123,7 @@
 			children = (
 				B7446FFE2508DD3A00F968D1 /* Splash */,
 				B7446FFD2508DD2C00F968D1 /* Infu Detail */,
-				B7446FFC2508DD2100F968D1 /* List Types */,
+				B7446FFC2508DD2100F968D1 /* Collection List */,
 				B7446FFB2508DB5D00F968D1 /* Menu Types */,
 			);
 			path = Features;
@@ -124,16 +138,19 @@
 			path = "Menu Types";
 			sourceTree = "<group>";
 		};
-		B7446FFC2508DD2100F968D1 /* List Types */ = {
+		B7446FFC2508DD2100F968D1 /* Collection List */ = {
 			isa = PBXGroup;
 			children = (
+				B735C371250927AE00895083 /* Cell */,
+				B735C36F2509254E00895083 /* InfuCollection.storyboard */,
 			);
-			path = "List Types";
+			path = "Collection List";
 			sourceTree = "<group>";
 		};
 		B7446FFD2508DD2C00F968D1 /* Infu Detail */ = {
 			isa = PBXGroup;
 			children = (
+				B735C374250A386200895083 /* Detail.storyboard */,
 			);
 			path = "Infu Detail";
 			sourceTree = "<group>";
@@ -226,10 +243,13 @@
 			files = (
 				B735C36E25091C6300895083 /* CellMenu.xib in Resources */,
 				B7446FF22508DA9A00F968D1 /* LaunchScreen.storyboard in Resources */,
+				B735C375250A386200895083 /* Detail.storyboard in Resources */,
 				B74470012508DD6400F968D1 /* Colors.xcassets in Resources */,
 				B7446FEF2508DA9A00F968D1 /* Assets.xcassets in Resources */,
 				B70432C125090D5600DF2F22 /* MenuTypes.storyboard in Resources */,
 				B7446FED2508DA9700F968D1 /* Splash.storyboard in Resources */,
+				B735C3702509254E00895083 /* InfuCollection.storyboard in Resources */,
+				B735C373250927C600895083 /* CollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
