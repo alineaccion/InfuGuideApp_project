@@ -50,7 +50,7 @@
     <resources>
         <image name="provisional blanco" width="152" height="152"/>
         <namedColor name="Primary">
-            <color red="0.7803921568627451" green="0.90196078431372551" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.77999997138977051" green="0.90200001001358032" blue="0.7839999794960022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

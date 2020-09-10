@@ -10,7 +10,7 @@
 		1C4EC2443127CE745DDF6BB3 /* Pods_InfuApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C596BE3285886278A788DB /* Pods_InfuApp.framework */; };
 		B70432C125090D5600DF2F22 /* MenuTypes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70432C025090D5600DF2F22 /* MenuTypes.storyboard */; };
 		B735C36E25091C6300895083 /* CellMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B735C36D25091C6300895083 /* CellMenu.xib */; };
-		B735C3702509254E00895083 /* InfuCollection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B735C36F2509254E00895083 /* InfuCollection.storyboard */; };
+		B735C3702509254E00895083 /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B735C36F2509254E00895083 /* Collection.storyboard */; };
 		B735C373250927C600895083 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B735C372250927C600895083 /* CollectionCell.xib */; };
 		B735C375250A386200895083 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B735C374250A386200895083 /* Detail.storyboard */; };
 		B7446FE62508DA9700F968D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7446FE52508DA9700F968D1 /* AppDelegate.swift */; };
@@ -20,6 +20,9 @@
 		B7446FEF2508DA9A00F968D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7446FEE2508DA9A00F968D1 /* Assets.xcassets */; };
 		B7446FF22508DA9A00F968D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7446FF02508DA9A00F968D1 /* LaunchScreen.storyboard */; };
 		B74470012508DD6400F968D1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B74470002508DD6400F968D1 /* Colors.xcassets */; };
+		B7FF5F86250A765B00042E25 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF5F85250A765B00042E25 /* SplashViewController.swift */; };
+		B7FF5F88250A76AA00042E25 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF5F87250A76AA00042E25 /* SplashViewModel.swift */; };
+		B7FF5F8A250A76C000042E25 /* SplashViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF5F89250A76C000042E25 /* SplashViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +30,7 @@
 		6316117FA0C81E0434FD443A /* Pods-InfuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfuApp.debug.xcconfig"; path = "Target Support Files/Pods-InfuApp/Pods-InfuApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B70432C025090D5600DF2F22 /* MenuTypes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuTypes.storyboard; sourceTree = "<group>"; };
 		B735C36D25091C6300895083 /* CellMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellMenu.xib; sourceTree = "<group>"; };
-		B735C36F2509254E00895083 /* InfuCollection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfuCollection.storyboard; sourceTree = "<group>"; };
+		B735C36F2509254E00895083 /* Collection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
 		B735C372250927C600895083 /* CollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
 		B735C374250A386200895083 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		B7446FE22508DA9700F968D1 /* InfuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +42,9 @@
 		B7446FF12508DA9A00F968D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7446FF32508DA9A00F968D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B74470002508DD6400F968D1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		B7FF5F85250A765B00042E25 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		B7FF5F87250A76AA00042E25 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		B7FF5F89250A76C000042E25 /* SplashViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewDelegate.swift; sourceTree = "<group>"; };
 		D0C596BE3285886278A788DB /* Pods_InfuApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfuApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -141,8 +147,8 @@
 		B7446FFC2508DD2100F968D1 /* Collection List */ = {
 			isa = PBXGroup;
 			children = (
+				B735C36F2509254E00895083 /* Collection.storyboard */,
 				B735C371250927AE00895083 /* Cell */,
-				B735C36F2509254E00895083 /* InfuCollection.storyboard */,
 			);
 			path = "Collection List";
 			sourceTree = "<group>";
@@ -159,6 +165,9 @@
 			isa = PBXGroup;
 			children = (
 				B7446FEB2508DA9700F968D1 /* Splash.storyboard */,
+				B7FF5F85250A765B00042E25 /* SplashViewController.swift */,
+				B7FF5F87250A76AA00042E25 /* SplashViewModel.swift */,
+				B7FF5F89250A76C000042E25 /* SplashViewDelegate.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -248,7 +257,7 @@
 				B7446FEF2508DA9A00F968D1 /* Assets.xcassets in Resources */,
 				B70432C125090D5600DF2F22 /* MenuTypes.storyboard in Resources */,
 				B7446FED2508DA9700F968D1 /* Splash.storyboard in Resources */,
-				B735C3702509254E00895083 /* InfuCollection.storyboard in Resources */,
+				B735C3702509254E00895083 /* Collection.storyboard in Resources */,
 				B735C373250927C600895083 /* CollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,8 +311,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7FF5F88250A76AA00042E25 /* SplashViewModel.swift in Sources */,
+				B7FF5F8A250A76C000042E25 /* SplashViewDelegate.swift in Sources */,
 				B7446FEA2508DA9700F968D1 /* ViewController.swift in Sources */,
 				B7446FE62508DA9700F968D1 /* AppDelegate.swift in Sources */,
+				B7FF5F86250A765B00042E25 /* SplashViewController.swift in Sources */,
 				B7446FE82508DA9700F968D1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
