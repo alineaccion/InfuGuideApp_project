@@ -42,7 +42,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <segue destination="Ggf-dh-m8N" kind="show" identifier="SEGUE_FROM_SPLASH_TO_MENUTYPES" id="6I5-8a-vlN"/>
+                        <segue destination="Ggf-dh-m8N" kind="show" identifier="SEGUE_FROM_SPLASH_TO_MENUTYPES" id="FVN-gE-clC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

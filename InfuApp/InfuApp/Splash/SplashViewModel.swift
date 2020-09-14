@@ -17,7 +17,10 @@ class SplashViewModel {
     var needNavigateToMenuTypes: PublishSubject<String> = PublishSubject()
     
     func onViewLoaded() {
-        needNavigateToMenuTypes.onNext(navigationidentifier)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            self.needNavigateToMenuTypes.onNext(self.navigationidentifier)
+
+        }
     }
     
     
