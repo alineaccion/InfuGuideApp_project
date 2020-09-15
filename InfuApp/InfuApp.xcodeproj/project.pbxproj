@@ -28,6 +28,9 @@
 		B7AA93E42510D09F00AB3AAD /* DataCollectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93E32510D09F00AB3AAD /* DataCollectionList.swift */; };
 		B7AA93E62510ED1F00AB3AAD /* MenuTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93E52510ED1F00AB3AAD /* MenuTypesViewController.swift */; };
 		B7AA93E82510EDDB00AB3AAD /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93E72510EDDB00AB3AAD /* CollectionCell.swift */; };
+		B7AA93EA2511079C00AB3AAD /* InfuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93E92511079C00AB3AAD /* InfuDetailViewController.swift */; };
+		B7AA93EC2511080900AB3AAD /* InfuDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93EB2511080900AB3AAD /* InfuDetailViewModel.swift */; };
+		B7AA93EE251108FD00AB3AAD /* DataDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93ED251108FD00AB3AAD /* DataDetail.swift */; };
 		B7E030E0251009F200BA69AD /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E030DF251009F200BA69AD /* Enums.swift */; };
 		B7FF5F86250A765B00042E25 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF5F85250A765B00042E25 /* SplashViewController.swift */; };
 		B7FF5F88250A76AA00042E25 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF5F87250A76AA00042E25 /* SplashViewModel.swift */; };
@@ -59,6 +62,9 @@
 		B7AA93E32510D09F00AB3AAD /* DataCollectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionList.swift; sourceTree = "<group>"; };
 		B7AA93E52510ED1F00AB3AAD /* MenuTypesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTypesViewController.swift; sourceTree = "<group>"; };
 		B7AA93E72510EDDB00AB3AAD /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		B7AA93E92511079C00AB3AAD /* InfuDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfuDetailViewController.swift; sourceTree = "<group>"; };
+		B7AA93EB2511080900AB3AAD /* InfuDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfuDetailViewModel.swift; sourceTree = "<group>"; };
+		B7AA93ED251108FD00AB3AAD /* DataDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDetail.swift; sourceTree = "<group>"; };
 		B7E030DF251009F200BA69AD /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		B7FF5F85250A765B00042E25 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		B7FF5F87250A76AA00042E25 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
@@ -183,6 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				B735C374250A386200895083 /* Detail.storyboard */,
+				B7AA93E92511079C00AB3AAD /* InfuDetailViewController.swift */,
+				B7AA93EB2511080900AB3AAD /* InfuDetailViewModel.swift */,
 			);
 			path = "Infu Detail";
 			sourceTree = "<group>";
@@ -212,6 +220,7 @@
 				B78C14B9250A93DE00C16738 /* DataMenuType.swift */,
 				B7E030DF251009F200BA69AD /* Enums.swift */,
 				B7AA93E32510D09F00AB3AAD /* DataCollectionList.swift */,
+				B7AA93ED251108FD00AB3AAD /* DataDetail.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -346,6 +355,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7AA93EE251108FD00AB3AAD /* DataDetail.swift in Sources */,
+				B7AA93EA2511079C00AB3AAD /* InfuDetailViewController.swift in Sources */,
+				B7AA93EC2511080900AB3AAD /* InfuDetailViewModel.swift in Sources */,
 				B7E030E0251009F200BA69AD /* Enums.swift in Sources */,
 				B7FF5F88250A76AA00042E25 /* SplashViewModel.swift in Sources */,
 				B7AA93E22510D01D00AB3AAD /* CollectionListDelegate.swift in Sources */,
