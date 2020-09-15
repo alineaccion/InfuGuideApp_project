@@ -53,7 +53,11 @@ class MenuTypesViewController: UIViewController {
     }
     
     func navigateToInfuCollectionType(infuType: InfuType) {
+        guard let viewController = UIStoryboard(name: CollectionListViewController.storyboardName, bundle: nil)
+            .instantiateViewController(withIdentifier: CollectionListViewController.storyboardId) as? CollectionListViewController else { return }
         
+        viewController.viewModel.infuType = infuType
+        navigationController?.pushViewController(viewController, animated: true)
         
     }
 }

@@ -12,10 +12,9 @@ import RxSwift
 
 class CollectionListViewController: UIViewController {
     
-    var infuType: InfuType?
     static var storyboardId = "CollectionListViewController"
     static var storyboardName = "Collection"
-    private let viewModel = CollectionListViewModel()
+    let viewModel = CollectionListViewModel()
     private let disposeBag = DisposeBag()
     var listCollection: [DataCollectionList]?
     
@@ -24,10 +23,23 @@ class CollectionListViewController: UIViewController {
     override func viewDidLoad() {
            super.viewDidLoad()
     }
+    
     func configureViews() {
-        collectionView.register(<#T##cellClass: AnyClass?##AnyClass?#>, forCellWithReuseIdentifier: <#T##String#>)
+        collectionView.register(UINib(nibName: CollectionCell.cellCollectionId, bundle: nil), forCellWithReuseIdentifier: CollectionCell.cellCollectionId)
+        collectionView.delegate = self
+        collectionView.dataSource = self
     }
+}
 
+extension CollectionListViewController: UICollectionViewDelegate,UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
+    }
+    
     
 
 }

@@ -11,4 +11,8 @@ import RxSwift
 
 class CollectionListViewModel {
     
+    var infuType: InfuType?
+
+    
+    
 }
