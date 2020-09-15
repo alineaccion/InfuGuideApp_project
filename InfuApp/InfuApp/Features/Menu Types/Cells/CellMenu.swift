@@ -23,8 +23,6 @@ static var cellMenuId = "CellMenu"
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        
     }
     
     func configureCell(image: String, text: String){
