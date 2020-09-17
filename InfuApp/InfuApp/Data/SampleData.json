@@ -1,0 +1,43 @@
+{
+    "infusiones": [
+        {
+            "id": 0,
+            "name":"Té Verde",
+            "description": "",
+            "details": "",
+            "image": "",
+            "icon": "",
+            "preparacion": {
+                "time": 11,
+                "temp": ""
+            }
+            "type": 0
+        },
+        {
+        
+        }
+    ],
+    "types": [
+        {
+            "id": 0,
+            "name": "Salud",
+            "description":"Infusiones de tipo salud",
+            "image": "",
+            "icon": ""
+        },
+        {
+            "id": 1,
+            "name": "",
+            "description":"",
+            "image": "",
+            "icon": ""
+        },
+        {
+            "id": 2,
+            "name": "",
+            "description":"",
+            "image": "",
+            "icon": ""
+        }
+    ]
+}

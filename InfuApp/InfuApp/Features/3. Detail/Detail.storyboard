@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="PPe-9o-U9D">
+            <objects>
+                <viewController id="AAd-Fo-9Xo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Id2-TP-AwG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Kh-7M-lvW">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="barTintColor" name="Primary"/>
+                                <items>
+                                    <navigationItem title="Nombre de la infusion" id="veF-dY-FFH">
+                                        <barButtonItem key="rightBarButtonItem" title="Temporizador" image="clock" catalog="system" id="6z5-ex-PA0">
+                                            <color key="tintColor" red="0.20784313730000001" green="0.23529411759999999" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OBF-nb-aXv" userLabel="DetailView">
+                                <rect key="frame" x="2" y="112" width="410" height="250"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JX4-DS-LAP" userLabel="DetailImageView">
+                                        <rect key="frame" x="8" y="8" width="394" height="234"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" name="pruebafondomenu"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="JX4-DS-LAP" secondAttribute="trailing" constant="8" id="AO4-T6-wfm"/>
+                                    <constraint firstItem="JX4-DS-LAP" firstAttribute="top" secondItem="OBF-nb-aXv" secondAttribute="top" constant="8" id="PW5-9Y-fca"/>
+                                    <constraint firstAttribute="bottom" secondItem="JX4-DS-LAP" secondAttribute="bottom" constant="8" id="rEr-3C-C9t"/>
+                                    <constraint firstItem="JX4-DS-LAP" firstAttribute="leading" secondItem="OBF-nb-aXv" secondAttribute="leading" constant="8" id="u3n-27-VKg"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Qp-9D-WV4" userLabel="DetailStackView">
+                                <rect key="frame" x="40" y="386" width="360.5" height="218"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo infusion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAP-50-TWY" userLabel="Title">
+                                        <rect key="frame" x="0.0" y="0.0" width="122.5" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" name="PrimaryDark"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripcion general de la infusion      " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uEW-AR-rmC">
+                                        <rect key="frame" x="0.0" y="52" width="284.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Propiedades de la infusion, beneficios, efectos." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qqr-7U-EYt">
+                                        <rect key="frame" x="0.0" y="100.5" width="360.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperatura infusionado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2d7-a5-62n">
+                                        <rect key="frame" x="0.0" y="149" width="190.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tiempo de infusionado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chE-QE-4Xe">
+                                        <rect key="frame" x="0.0" y="197.5" width="175" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="pruebafondomenu"/>
+                        <constraints>
+                            <constraint firstItem="OBF-nb-aXv" firstAttribute="top" secondItem="9Kh-7M-lvW" secondAttribute="bottom" constant="24" id="0iO-fB-caH"/>
+                            <constraint firstItem="4Qp-9D-WV4" firstAttribute="leading" secondItem="TbE-I4-yrW" secondAttribute="leading" constant="40" id="3hK-il-12T"/>
+                            <constraint firstItem="OBF-nb-aXv" firstAttribute="centerX" secondItem="9Kh-7M-lvW" secondAttribute="centerX" id="EUJ-za-ey2"/>
+                            <constraint firstItem="9Kh-7M-lvW" firstAttribute="top" secondItem="TbE-I4-yrW" secondAttribute="top" id="GTm-Rz-epZ"/>
+                            <constraint firstItem="TbE-I4-yrW" firstAttribute="bottom" secondItem="OBF-nb-aXv" secondAttribute="bottom" constant="500" id="T8w-7E-EDQ"/>
+                            <constraint firstItem="TbE-I4-yrW" firstAttribute="trailing" secondItem="OBF-nb-aXv" secondAttribute="trailing" constant="2" id="b1N-4u-hUD"/>
+                            <constraint firstItem="4Qp-9D-WV4" firstAttribute="top" secondItem="OBF-nb-aXv" secondAttribute="bottom" constant="24" id="c2y-or-bFY"/>
+                            <constraint firstItem="OBF-nb-aXv" firstAttribute="leading" secondItem="TbE-I4-yrW" secondAttribute="leading" constant="2" id="cUN-TZ-eoC"/>
+                            <constraint firstItem="9Kh-7M-lvW" firstAttribute="leading" secondItem="Id2-TP-AwG" secondAttribute="leading" id="n4G-Og-qjq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TbE-I4-yrW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sF2-Tf-r5F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-69.565217391304358" y="-190.17857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="clock" catalog="system" width="128" height="121"/>
+        <namedColor name="Primary">
+            <color red="0.77999997138977051" green="0.90200001001358032" blue="0.7839999794960022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="PrimaryDark">
+            <color red="0.59200000762939453" green="0.70599997043609619" blue="0.59600001573562622" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="pruebafondomenu">
+            <color red="0.94499999284744263" green="0.97299998998641968" blue="0.91399997472763062" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
