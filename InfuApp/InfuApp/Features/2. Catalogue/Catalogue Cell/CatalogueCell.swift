@@ -1,5 +1,5 @@
 //
-//  CollectionCell.swift
+//  CatalogueCell.swift
 //  InfuApp
 //
 //  Created by Alicia Moreno Alvarez on 15/09/2020.
@@ -13,7 +13,7 @@ class CatalogueCell: UICollectionViewCell {
     @IBOutlet weak var collectionListImageView: UIImageView!
        @IBOutlet weak var collectionListTextView: UILabel!
     
-    static var cellCollectionId = "CollectionCell"
+    static var cellCatalogueId = "CatalogueCell"
     
     override func prepareForReuse() {
         collectionListTextView.text = nil
@@ -23,9 +23,9 @@ class CatalogueCell: UICollectionViewCell {
     override func awakeFromNib() {
            super.awakeFromNib()
        }
-    func configureCollectionCell(image: String, text: String){
+    func configureCatalogueCell(image: String, text: String){
         self.collectionListTextView.text = text
-        self.collectionListImageView.image = UIImage(named: image)
+        //self.collectionListImageView.image = UIImage(named: image)
     }
     
 

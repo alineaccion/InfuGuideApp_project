@@ -49,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
         </scene>
-        <!--MenuTypes-->
+        <!--HomeMenu-->
         <scene sceneID="wYr-44-kyV">
             <objects>
-                <viewControllerPlaceholder storyboardName="MenuTypes" id="Ggf-dh-m8N" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="HomeMenu" id="Ggf-dh-m8N" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="QRf-bn-6tH"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="euP-87-eYH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

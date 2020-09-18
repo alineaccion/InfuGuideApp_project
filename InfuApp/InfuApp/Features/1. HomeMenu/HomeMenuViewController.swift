@@ -1,5 +1,5 @@
 //
-//  MenuTypesViewController.swift
+//  HomeMenuViewController.swift
 //  InfuApp
 //
 //  Created by Alicia Moreno Alvarez on 10/09/2020.
@@ -15,7 +15,7 @@ class HomeMenuViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     // MARK: - Properties
     
-    private let viewModel = HomeMenuViewModel()
+     let viewModel = HomeMenuViewModel()
     private let disposeBag = DisposeBag()
     
     var listMenuType: [DataHomeMenu]?
@@ -47,16 +47,16 @@ class HomeMenuViewController: UIViewController {
         viewModel.needNavigateToCatalogue
             .observeOn(MainScheduler.instance)
             .subscribe(onNext: {[weak self] typeSelected in
-                self?.navigateToInfuCollectionType(infuType: typeSelected)
+                self?.navigateToInfuCatalogue(infuType: typeSelected)
             })
             .disposed(by: disposeBag)
     }
     
-    func navigateToInfuCollectionType(infuType: InfuType) {
+    func navigateToInfuCatalogue(infuType: InfuType) {
         guard let viewController = UIStoryboard(name: CatalogueViewController.storyboardName, bundle: nil)
             .instantiateViewController(withIdentifier: CatalogueViewController.storyboardId) as? CatalogueViewController else { return }
         
-        //  viewController.viewModel.infuType = infuType
+          viewController.viewModel.infuType = infuType
         navigationController?.pushViewController(viewController, animated: true)
         
     }

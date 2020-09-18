@@ -1,0 +1,82 @@
+
+{
+    "types": [
+    {
+    "id": 0,
+    "name": "Estimulante",
+    "description":"Recupera tu energía",
+    "image": "",
+    "icon": "power"
+    "elements": [ "infusiones estimulantes":
+    {
+    "id": 0,
+    "name":"Té Verde",
+    "description": "",
+    "details": "",
+    "image": "",
+    "icon": "",
+    "preparacion": {
+    "time": ,
+    "temp": ""
+    }
+    "type": 0
+    },
+    {
+    "id": 0,
+    "name":"Té Rojo",
+    "description": "",
+    "details": "",
+    "image": "",
+    "icon": "",
+    "preparacion": {
+    "time": 11,
+    "temp": ""
+    }
+    "type": 0
+    },
+    {
+    "id": 0,
+    "name":"Té Negro",
+    "description": "",
+    "details": "",
+    "image": "",
+    "icon": "",
+    "preparacion": {
+    "time": 11,
+    "temp": ""
+    }
+    "type": 0
+    },
+    {
+    "id": 0,
+    "name":"Té Matcha",
+    "description": "",
+    "details": "",
+    "image": "",
+    "icon": "",
+    "preparacion": {
+    "time": 11,
+    "temp": ""
+    }
+    "type": 0
+    }
+    ]
+    
+    },
+    {
+    "id": 1,
+    "name": "Relajantes",
+    "description":"Encuentra tu momento de calma",
+    "image": "",
+    "icon": "calm"
+    },
+    {
+    "id": 2,
+    "name": "",
+    "description":"",
+    "image": "",
+    "icon": ""
+    }
+    ]
+}
+

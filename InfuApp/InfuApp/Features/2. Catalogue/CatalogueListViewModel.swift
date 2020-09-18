@@ -13,8 +13,11 @@ class CatalogueListViewModel {
     
     var infuType: InfuType?
     
+    private let navigationIdentifier = "SEGUE_FROM_CELLCATALOGUE_TO_DETAIL"
+
+    
     var needNavigateToDetail: PublishSubject<DataCatalogue> = PublishSubject()
-    var needUpdateCatalogue: PublishSubject<[DataCatalogue]> = PublishSubject()
+    var needUpdateCatalogue: PublishSubject<Bool> = PublishSubject()
     
     let listCatalogue = [DataCatalogue(title: "Te negro", image: "1"),
                           DataCatalogue(title: "Te rojo", image: "2"),
@@ -22,16 +25,23 @@ class CatalogueListViewModel {
                           DataCatalogue(title: "Te matcha", image: "4"),
                           DataCatalogue(title: "Mate", image: "5")]
     func onViewLoaded() {
-    needUpdateCatalogue.onNext(listCatalogue)
+    needUpdateCatalogue.onNext(true)
     }
     
-    func onCollectionListSelected(index: Int) {
+    func onDetailSelected(index: Int) {
            if index < listCatalogue.count {
             needNavigateToDetail.onNext(listCatalogue[index])
            }
        }
-                          
-
+    func dataCatalogue(for index: Int) -> DataCatalogue? {
+        if index < listCatalogue.count {
+            return listCatalogue[index]
+        } else {
+            return nil
+        }
+    }
     
-    
+    func dataCatalogueCount() -> Int {
+       return  listCatalogue.count
+    }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pG1-9l-L8k">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="alu-Uf-VaQ">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -9,20 +9,20 @@
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
-        <scene sceneID="HVD-dC-9hc">
+        <scene sceneID="NZr-Y4-API">
             <objects>
-                <navigationController modalPresentationStyle="currentContext" navigationBarHidden="YES" id="pG1-9l-L8k" sceneMemberID="viewController">
-                    <nil key="simulatedTopBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IBM-fM-Own">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JeF-tD-x16" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController modalPresentationStyle="currentContext" id="alu-Uf-VaQ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5s8-hI-ld6">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="9y1-gg-3yA" kind="relationship" relationship="rootViewController" id="otb-39-BkO"/>
+                        <segue destination="9y1-gg-3yA" kind="relationship" relationship="rootViewController" id="XpQ-mW-rrD"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vtB-oE-xHx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1497" y="-185"/>
+            <point key="canvasLocation" x="-1436" y="-185"/>
         </scene>
         <!--Home Menu View Controller-->
         <scene sceneID="7rf-oy-ldV">
@@ -33,12 +33,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="adj-ai-DKD">
-                                <rect key="frame" x="16" y="188" width="382" height="674"/>
+                                <rect key="frame" x="16" y="232" width="382" height="630"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" name="PrimaryLight"/>
                             </tableView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="provisional primaryDark" translatesAutoresizingMaskIntoConstraints="NO" id="aYG-Dw-Dsv">
-                                <rect key="frame" x="59" y="76" width="296" height="80"/>
+                                <rect key="frame" x="59" y="120" width="296" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="ViI-Bj-A00"/>
                                 </constraints>
@@ -56,7 +56,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nsK-YM-t0m"/>
                     </view>
-                    <navigationItem key="navigationItem" id="0qQ-9T-d4s"/>
+                    <navigationItem key="navigationItem" id="0qQ-9T-d4s">
+                        <barButtonItem key="backBarButtonItem" title=" " id="n53-mB-mxR"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="adj-ai-DKD" id="Hcy-gp-Ofv"/>
                     </connections>

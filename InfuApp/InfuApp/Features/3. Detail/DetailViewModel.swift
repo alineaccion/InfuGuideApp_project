@@ -6,10 +6,18 @@
 //  Copyright © 2020 Alicia Moreno Alvarez. All rights reserved.
 //
 
-import Foundation
+import RxSwift
+import UIKit
 
 class DetailViewModel {
     
+    var needUpdateDetailData: PublishSubject<Bool> = PublishSubject()
+    
+    
+    func onViewLoaded() {
+        needUpdateDetailData.onNext(true)
+    }
+   
     
     
     

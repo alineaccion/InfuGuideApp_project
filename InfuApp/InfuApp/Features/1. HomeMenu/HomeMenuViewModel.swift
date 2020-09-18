@@ -1,5 +1,5 @@
 //
-//  MenuTypesViewModel.swift
+//  HomeMenuViewModel.swift
 //  InfuApp
 //
 //  Created by Alicia Moreno Alvarez on 10/09/2020.
@@ -9,7 +9,7 @@
 import Foundation
 import RxSwift
 
-class HomeMenuViewModel{
+class HomeMenuViewModel {
     // MARK: - Properties
     
     var needNavigateToCatalogue: PublishSubject<InfuType> = PublishSubject()
