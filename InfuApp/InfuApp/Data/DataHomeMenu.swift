@@ -8,7 +8,9 @@
 
 import Foundation
 
-class DataHomeMenu: NSObject {
+/*
+ 
+ class DataHomeMenu: NSObject {
     let title: String
     let image: String
     let infutype: InfuType
@@ -19,3 +21,4 @@ class DataHomeMenu: NSObject {
         self.infutype = infutype
     }
 }
+ */

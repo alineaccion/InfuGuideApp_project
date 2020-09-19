@@ -1,5 +1,5 @@
 //
-//  CollectionListViewModel.swift
+//  CatalogueViewModel.swift
 //  InfuApp
 //
 //  Created by Alicia Moreno Alvarez on 15/09/2020.
@@ -9,9 +9,9 @@
 import UIKit
 import RxSwift
 
-class CatalogueListViewModel {
-    
-    var infuType: InfuType?
+class CatalogueViewModel {
+    // No me mateis, tiene que ser obligatorio que se le pase un id para acceder a los datos :)
+    var infuFamilyID: Int!
     
     private let navigationIdentifier = "SEGUE_FROM_CELLCATALOGUE_TO_DETAIL"
 

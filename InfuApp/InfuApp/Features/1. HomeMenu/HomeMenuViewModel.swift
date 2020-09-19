@@ -12,38 +12,60 @@ import RxSwift
 class HomeMenuViewModel {
     // MARK: - Properties
     
-    var needNavigateToCatalogue: PublishSubject<InfuType> = PublishSubject()
-    var needUpdateHomeMenu: PublishSubject<[DataHomeMenu]> = PublishSubject()
+    var needNavigateToCatalogue: PublishSubject<Int> = PublishSubject()
     
-    let listHomeMenu = [DataHomeMenu(title: "Estimulante", image: "Estimulante", infutype:                             .estimulante),
-                        DataHomeMenu(title: "Relajante", image: "Relajante", infutype: .relajante),
-                        DataHomeMenu(title: "Sano", image: "Sano", infutype: .saludable)]
+    private var infuAppData: InfuAppData?
+    /*let listHomeMenu = [DataHomeMenu(title: "Estimulante", image: "Estimulante", infutype:                             .estimulante),
+     DataHomeMenu(title: "Relajante", image: "Relajante", infutype: .relajante),
+     DataHomeMenu(title: "Sano", image: "Sano", infutype: .saludable)]
+     */
     
-       
-       func onViewLoaded() {
-        needUpdateHomeMenu.onNext(listHomeMenu)
+    
+    func onViewLoaded() {
+        // David no me mates por usar !, es para que no funcione si no hay datos y no quedar mal :)
+        let jsonData = loadJsonData()!
         
-       }
-    func onMenuTypeSelected(index: Int) {
-        if index < listHomeMenu.count {
-            needNavigateToCatalogue.onNext(listHomeMenu[index].infutype)
+        do {
+            infuAppData = try JSONDecoder().decode(InfuAppData.self, from: jsonData)
+        } catch {
+            
+        }
+        
+    }
+    func infuFamilyCount() -> Int {
+        guard let infuFamilyList = infuAppData?.infuFamily else { return 0 }
+        
+        return  infuFamilyList.count
+    }
+    func infuFamilyItem(for index: Int) -> InfuFamily? {
+        guard let infuFamilyList = infuAppData?.infuFamily else { return nil }
+        
+        if index < infuFamilyList.count {
+            return infuFamilyList[index]
+        } else {
+            return nil
         }
     }
     
-    private func loadJsonData(forName name: String) -> Data? {
-      do {
-        if let bundlePath = Bundle.main.path(forResource: "SampleData",
-                           ofType: "json"),
-          let jsonData = try String(contentsOfFile: bundlePath).data(using: .utf8) {
-          return jsonData
+    func onInfuFamilySelected(index: Int) {
+        guard let infuFamilyList = infuAppData?.infuFamily else { return }
+        
+        if index < infuFamilyList.count {
+            needNavigateToCatalogue.onNext(infuFamilyList[index].id)
         }
-      } catch {
-        print(error)
-      }
-      return nil
     }
-    
-    
-       
+    // -------------------------------- JSON -------------------------------
+    private func loadJsonData() -> Data? {
+        do {
+            if let bundlePath = Bundle.main.path(forResource: "SampleData",
+                                                 ofType: "json"),
+                let jsonData = try String(contentsOfFile: bundlePath).data(using: .utf8) {
+                return jsonData
+            }
+        } catch {
+            print(error)
+        }
+        return nil
+    }
     
 }

@@ -7,8 +7,10 @@
 //
 
 import Foundation
-enum InfuType {
+/*
+ enum InfuType {
     case estimulante
     case relajante
     case saludable
 }
+ */

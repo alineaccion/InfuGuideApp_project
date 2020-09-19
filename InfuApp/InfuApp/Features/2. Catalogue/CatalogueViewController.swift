@@ -18,7 +18,7 @@ class CatalogueViewController: UIViewController {
     static var storyboardName = "Catalogue"
     
     
-    let viewModel = CatalogueListViewModel()
+    let viewModel = CatalogueViewModel()
     private let disposeBag = DisposeBag()
     
     override func viewDidLoad() {

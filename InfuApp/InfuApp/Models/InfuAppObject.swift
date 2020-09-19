@@ -8,31 +8,42 @@ import Foundation
 // MARK: - InfuAppData
 struct InfuAppData: Codable {
     let infussions: [Infussion]
-    let catalogue: [Catalogue]
+    let infuFamily: [InfuFamily]
 }
 
 // MARK: - Catalogue
-struct Catalogue: Codable {
+struct InfuFamily: Codable {
     let id: Int
-    let longTitle, title, image, symbol: String
+    let longTitle: String
+    let title: String
+    let image: String
+    let symbol: String
 }
 
 // MARK: - Infussion
 struct Infussion: Codable {
-    let title, generalInfo, properties, image: String
+    let title: String
+    let generalInfo: String
+    let properties: String
+    let image: String
     let icon: String
-    let catalogueID: Int
+    let infuFamilyID: Int
     let tags: Tags
 
     enum CodingKeys: String, CodingKey {
-        case title, generalInfo, properties, image, icon
-        case catalogueID = "catalogueId"
+        case title
+        case generalInfo
+        case properties
+        case image
+        case icon
+        case infuFamilyID = "infuFamilyID"
         case tags
     }
 }
 
 // MARK: - Tags
 struct Tags: Codable {
-    let time, temp: String
+    let time: String
+    let temp: String
 }
 
