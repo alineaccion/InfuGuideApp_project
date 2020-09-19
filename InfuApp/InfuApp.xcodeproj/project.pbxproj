@@ -14,7 +14,6 @@
 		B735C375250A386200895083 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B735C374250A386200895083 /* Detail.storyboard */; };
 		B7446FE62508DA9700F968D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7446FE52508DA9700F968D1 /* AppDelegate.swift */; };
 		B7446FE82508DA9700F968D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7446FE72508DA9700F968D1 /* SceneDelegate.swift */; };
-		B7446FEA2508DA9700F968D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7446FE92508DA9700F968D1 /* ViewController.swift */; };
 		B7446FED2508DA9700F968D1 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7446FEB2508DA9700F968D1 /* Splash.storyboard */; };
 		B7446FEF2508DA9A00F968D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7446FEE2508DA9A00F968D1 /* Assets.xcassets */; };
 		B7446FF22508DA9A00F968D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7446FF02508DA9A00F968D1 /* LaunchScreen.storyboard */; };
@@ -22,6 +21,8 @@
 		B78C14B7250A8F2700C16738 /* CellHomeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C14B6250A8F2700C16738 /* CellHomeMenu.swift */; };
 		B78C14BA250A93DE00C16738 /* DataHomeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C14B9250A93DE00C16738 /* DataHomeMenu.swift */; };
 		B78FF7842513E97A00E03C63 /* JsonSampleData.json in Sources */ = {isa = PBXBuildFile; fileRef = B78FF7832513E97A00E03C63 /* JsonSampleData.json */; };
+		B78FF7862514DD7900E03C63 /* InfuAppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FF7852514DD7900E03C63 /* InfuAppData.swift */; };
+		B78FF788251662A200E03C63 /* SampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = B7AA93EF2511110400AB3AAD /* SampleData.json */; };
 		B7AA93DE2510100200AB3AAD /* CatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93DD2510100200AB3AAD /* CatalogueViewController.swift */; };
 		B7AA93E02510D00300AB3AAD /* CatalogueListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93DF2510D00300AB3AAD /* CatalogueListViewModel.swift */; };
 		B7AA93E42510D09F00AB3AAD /* DataCatalogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93E32510D09F00AB3AAD /* DataCatalogue.swift */; };
@@ -47,7 +48,6 @@
 		B7446FE22508DA9700F968D1 /* InfuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7446FE52508DA9700F968D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7446FE72508DA9700F968D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7446FE92508DA9700F968D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7446FEC2508DA9700F968D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Splash.storyboard; sourceTree = "<group>"; };
 		B7446FEE2508DA9A00F968D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7446FF12508DA9A00F968D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +56,7 @@
 		B78C14B6250A8F2700C16738 /* CellHomeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellHomeMenu.swift; sourceTree = "<group>"; };
 		B78C14B9250A93DE00C16738 /* DataHomeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHomeMenu.swift; sourceTree = "<group>"; };
 		B78FF7832513E97A00E03C63 /* JsonSampleData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JsonSampleData.json; sourceTree = "<group>"; };
+		B78FF7852514DD7900E03C63 /* InfuAppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfuAppData.swift; sourceTree = "<group>"; };
 		B7AA93DD2510100200AB3AAD /* CatalogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewController.swift; sourceTree = "<group>"; };
 		B7AA93DF2510D00300AB3AAD /* CatalogueListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueListViewModel.swift; sourceTree = "<group>"; };
 		B7AA93E32510D09F00AB3AAD /* DataCatalogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCatalogue.swift; sourceTree = "<group>"; };
@@ -130,13 +131,13 @@
 		B7446FE42508DA9700F968D1 /* InfuApp */ = {
 			isa = PBXGroup;
 			children = (
+				B78FF7872514DE3A00E03C63 /* Models */,
 				B7446FF92508DABF00F968D1 /* App */,
 				B78C14B8250A93CB00C16738 /* Data */,
 				B7446FFA2508DAD600F968D1 /* Features */,
 				B7446FF32508DA9A00F968D1 /* Info.plist */,
 				B7446FF02508DA9A00F968D1 /* LaunchScreen.storyboard */,
 				B7446FFF2508DD4900F968D1 /* Resources */,
-				B7446FE92508DA9700F968D1 /* ViewController.swift */,
 			);
 			path = InfuApp;
 			sourceTree = "<group>";
@@ -206,6 +207,7 @@
 		B7446FFF2508DD4900F968D1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B7AA93EF2511110400AB3AAD /* SampleData.json */,
 				B7446FEE2508DA9A00F968D1 /* Assets.xcassets */,
 				B74470002508DD6400F968D1 /* Colors.xcassets */,
 			);
@@ -219,10 +221,17 @@
 				B7E030DF251009F200BA69AD /* Enums.swift */,
 				B7AA93E32510D09F00AB3AAD /* DataCatalogue.swift */,
 				B7AA93ED251108FD00AB3AAD /* DataDetail.swift */,
-				B7AA93EF2511110400AB3AAD /* SampleData.json */,
 				B78FF7832513E97A00E03C63 /* JsonSampleData.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		B78FF7872514DE3A00E03C63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B78FF7852514DD7900E03C63 /* InfuAppData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		CE99FB71F92B5CA43B5781DC /* Pods */ = {
@@ -294,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B78FF788251662A200E03C63 /* SampleData.json in Resources */,
 				B735C36E25091C6300895083 /* CellHomeMenu.xib in Resources */,
 				B7446FF22508DA9A00F968D1 /* LaunchScreen.storyboard in Resources */,
 				B735C375250A386200895083 /* Detail.storyboard in Resources */,
@@ -363,7 +373,6 @@
 				B7AA93E42510D09F00AB3AAD /* DataCatalogue.swift in Sources */,
 				B7FF5F90250A865F00042E25 /* HomeMenuViewModel.swift in Sources */,
 				B78C14BA250A93DE00C16738 /* DataHomeMenu.swift in Sources */,
-				B7446FEA2508DA9700F968D1 /* ViewController.swift in Sources */,
 				B7446FE62508DA9700F968D1 /* AppDelegate.swift in Sources */,
 				B7AA93F02511110400AB3AAD /* SampleData.json in Sources */,
 				B7FF5F86250A765B00042E25 /* SplashViewController.swift in Sources */,
@@ -373,6 +382,7 @@
 				B7AA93DE2510100200AB3AAD /* CatalogueViewController.swift in Sources */,
 				B7AA93E62510ED1F00AB3AAD /* HomeMenuViewController.swift in Sources */,
 				B7AA93E82510EDDB00AB3AAD /* CatalogueCell.swift in Sources */,
+				B78FF7862514DD7900E03C63 /* InfuAppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
