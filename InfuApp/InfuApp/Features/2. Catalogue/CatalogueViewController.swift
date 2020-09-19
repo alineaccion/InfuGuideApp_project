@@ -43,22 +43,15 @@ class CatalogueViewController: UIViewController {
     }
     
     func configureObservers() {
-        viewModel.needUpdateCatalogue
-            .observeOn(MainScheduler.instance)
-            .subscribe(onNext: {[weak self] catalogueList in
-                self?.collectionView.reloadData()
-            })
-            .disposed(by: disposeBag)
-        
         viewModel.needNavigateToDetail
             .observeOn(MainScheduler.instance)
-            .subscribe(onNext: {[weak self] infussionSelected in
-                self?.navigateToDetail(dataCatalogue: infussionSelected)
+            .subscribe(onNext: {[weak self] infussion in
+                self?.navigateToDetail(infussion: infussion )
             })
             .disposed(by: disposeBag)
     }
     
-    func navigateToDetail(dataCatalogue:DataCatalogue) {
+    func navigateToDetail(infussion: Infussion) {
         guard let viewController = UIStoryboard(name: DetailViewController.storyboardName, bundle: nil)
             .instantiateViewController(withIdentifier: DetailViewController.storyboardId) as? DetailViewController
             else {
@@ -74,15 +67,15 @@ class CatalogueViewController: UIViewController {
 
 extension CatalogueViewController: UICollectionViewDelegate,UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return viewModel.dataCatalogueCount()
+        return viewModel.catalogueCount()
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CatalogueCell.cellCatalogueId, for: indexPath) as? CatalogueCell else {
             return UICollectionViewCell()
         }
-        if let dataCatalogue = viewModel.dataCatalogue(for: indexPath.row) {
-            cell.configureCatalogueCell(image:dataCatalogue.image, text: dataCatalogue.title)
+        if let itemCatalogue = viewModel.catalogueItem(for: indexPath.row) {
+            cell.configureCatalogueCell(image:itemCatalogue.image, text: itemCatalogue.title)
         }
         return cell
     }
@@ -101,7 +94,7 @@ extension CatalogueViewController: UICollectionViewDelegate,UICollectionViewData
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        viewModel.onDetailSelected(index: indexPath.row)
+        viewModel.onCatalogueSelected(index: indexPath.row)
     }
     
     

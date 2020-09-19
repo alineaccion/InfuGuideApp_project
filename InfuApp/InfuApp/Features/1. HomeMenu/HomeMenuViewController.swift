@@ -49,7 +49,7 @@ class HomeMenuViewController: UIViewController {
         guard let viewController = UIStoryboard(name: CatalogueViewController.storyboardName, bundle: nil)
             .instantiateViewController(withIdentifier: CatalogueViewController.storyboardId) as? CatalogueViewController else { return }
         
-          // viewController.viewModel.familyID = familyID
+        viewController.viewModel.infuFamilyID = familyID
         navigationController?.pushViewController(viewController, animated: true)
         
     }

@@ -25,7 +25,7 @@ class CatalogueCell: UICollectionViewCell {
        }
     func configureCatalogueCell(image: String, text: String){
         self.collectionListTextView.text = text
-        //self.collectionListImageView.image = UIImage(named: image)
+        self.collectionListImageView.image = UIImage(named: image)
     }
     
 
