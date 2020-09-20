@@ -88,7 +88,8 @@ extension CatalogueViewController: UICollectionViewDelegate,UICollectionViewData
     }
  */
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let sizeCell = collectionView.frame.width/2
+        // Numero de columnas. La fraccion indica en cuantas partes se divide la pantalla
+        let sizeCell = collectionView.frame.width/3
         
         return CGSize(width: sizeCell, height: sizeCell * 1.3)
     }
