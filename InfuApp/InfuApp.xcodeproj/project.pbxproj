@@ -57,6 +57,10 @@
 		B78C14B9250A93DE00C16738 /* DataHomeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHomeMenu.swift; sourceTree = "<group>"; };
 		B78FF7852514DD7900E03C63 /* InfuAppObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfuAppObject.swift; sourceTree = "<group>"; };
 		B78FF78C2517C0D500E03C63 /* UIView+Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Properties.swift"; sourceTree = "<group>"; };
+		B78FF78F2517DF7E00E03C63 /* Argestadisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Argestadisplay-Regular.ttf"; sourceTree = "<group>"; };
+		B78FF7902517DF9400E03C63 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		B78FF7912517DFA200E03C63 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		B78FF7922517DFAF00E03C63 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		B7AA93DD2510100200AB3AAD /* CatalogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewController.swift; sourceTree = "<group>"; };
 		B7AA93DF2510D00300AB3AAD /* CatalogueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewModel.swift; sourceTree = "<group>"; };
 		B7AA93E32510D09F00AB3AAD /* DataCatalogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCatalogue.swift; sourceTree = "<group>"; };
@@ -208,6 +212,7 @@
 		B7446FFF2508DD4900F968D1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B78FF78E2517DF5900E03C63 /* Fonts */,
 				B7AA93EF2511110400AB3AAD /* SampleData.json */,
 				B7446FEE2508DA9A00F968D1 /* Assets.xcassets */,
 				B74470002508DD6400F968D1 /* Colors.xcassets */,
@@ -240,6 +245,17 @@
 				B78FF78C2517C0D500E03C63 /* UIView+Properties.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B78FF78E2517DF5900E03C63 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B78FF7922517DFAF00E03C63 /* Montserrat-SemiBold.ttf */,
+				B78FF7912517DFA200E03C63 /* Montserrat-Regular.ttf */,
+				B78FF7902517DF9400E03C63 /* Montserrat-Light.ttf */,
+				B78FF78F2517DF7E00E03C63 /* Argestadisplay-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		CE99FB71F92B5CA43B5781DC /* Pods */ = {
