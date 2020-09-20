@@ -1,11 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "SplashLabel.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "LabelSplash.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

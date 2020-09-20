@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "infuguidelogo.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -9,7 +10,6 @@
       "scale" : "2x"
     },
     {
-      "filename" : "SplashTitlex2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
