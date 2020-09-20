@@ -14,10 +14,10 @@ class CatalogueViewModel {
     var infuFamilyID: Int!
     
     private var infuAppData: InfuAppData?
-    
+    var infussionList : [Infussion]?
     //private let navigationIdentifier = "SEGUE_FROM_CELLCATALOGUE_TO_DETAIL"
     
-    var needNavigateToDetail: PublishSubject<Infussion> = PublishSubject()
+    var needNavigateToDetail: PublishSubject<Int> = PublishSubject()
     // var needUpdateCatalogue: PublishSubject<Bool> = PublishSubject()
     
     /* let listCatalogue = [DataCatalogue(title: "Te negro", image: "1"),
@@ -31,6 +31,8 @@ class CatalogueViewModel {
         do {
             infuAppData = try JSONDecoder().decode(InfuAppData.self, from: jsonData)
         } catch {}
+        
+        infussionList = getInfussionCatalogue()
     }
     
     private func loadJsonData(name: String) -> Data? {
@@ -46,24 +48,29 @@ class CatalogueViewModel {
         return nil
     }
     
+    func getInfussionCatalogue() -> [Infussion]? {
+        guard let infussionList = infuAppData?.infussions.filter({$0.infuFamilyID == infuFamilyID}) else { return nil }
+        return  infussionList
+    }
+    
     func catalogueCount() -> Int {
-        guard let catalogueList = infuAppData?.infussions.filter({$0.infuFamilyID == infuFamilyID}) else { return 0 }
-        return  catalogueList.count
+        guard let infussionCount = infussionList?.count else { return 0 }
+        return  infussionCount
     }
     
     func catalogueItem(for index: Int) -> Infussion? {
-        guard let catalogueList = infuAppData?.infussions else { return nil }
-        if index < catalogueList.count {
-            return catalogueList[index]
+        guard let infussionList = infussionList else { return nil }
+        if index < infussionList.count {
+            return infussionList[index]
         } else {
             return nil
         }
     }
     
     func onCatalogueSelected(index: Int) {
-        guard let catalogueList = infuAppData?.infussions else { return }
-        if index < catalogueList.count {
-            needNavigateToDetail.onNext(catalogueList[index])
+        guard let infussionList = infussionList else { return }
+        if index < infussionList.count {
+            needNavigateToDetail.onNext(infussionList[index].id)
         }
     }
     
