@@ -1,42 +1,365 @@
 {
     "infussions": [
         {
-            
+            "id": 1,
             "title":"Té Verde",
             "generalInfo": "Es un tipo de té Camellia sinensis que no ha sufrido una oxidación durante su procesado, a diferencia del té negro, ya que las hojas se recogen frescas y después de someterse al secado, se prensan, enrollan, trituran y finalmente se secan.",
             "properties": "El té verde contiene importantes cantidades de L-teanina, una sustancia nootrópica y adaptogénica que potencia la actividad cognitiva, induciendo la neurogénesis adulta, y mejorando procesos cognitivos tales como memoria, atención, concentración y aprendizaje.6​7​8​9​10​11​12​13​ El té verde reduciría el estrés y estimularía la producción de ondas alfa. Se piensa que es debido al alto contenido en antioxidantes y la presencia de L-teanina, un análogo de glutamato presente en el té verde que puede atravesar la barrera hematoencefálica y reducir la excitotoxicidad del glutamato durante el estrés y la isquemia.14​",
             "image": "teVerde",
             "icon": "tacitaverde",
-            "infuFamilyID": 0,
+            "infuFamilyID": 1,
             "tags": {
                 "time": "2 Min",
                 "temp": "100ºC"
             }
-            
+        },
+        
+        {
+            "id": 1,
+            "title":"Té Negro",
+            "generalInfo": "",
+            "properties": "",
+            "image": "teNegro",
+            "icon": "RedMug",
+            "infuFamilyID": 1,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 1,
+            "title":"Té Rojo",
+            "generalInfo": "",
+            "properties": "",
+            "image": "teRojo",
+            "icon": "RedMug",
+            "infuFamilyID": 1,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 1,
+            "title":"Té Matcha",
+            "generalInfo": "",
+            "properties": "",
+            "image": "teMatcha",
+            "icon": "GreenMug",
+            "infuFamilyID": 1,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 1,
+            "title":"Mate",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Mate",
+            "icon": "RedMug",
+            "infuFamilyID": 1,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 1,
+            "title":"Té Azul",
+            "generalInfo": "",
+            "properties": "",
+            "image": "teAzul",
+            "icon": "RedMug",
+            "infuFamilyID": 1,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 1,
+            "title":"Gingseng",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Gingseng",
+            "icon": "RedMug",
+            "infuFamilyID": 1,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 2,
+            "title":"Valeriana",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Valeriana",
+            "icon": "RedMug",
+            "infuFamilyID": 2,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 2,
+            "title":"Lavanda",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Lavanda",
+            "icon": "RedMug",
+            "infuFamilyID": 2,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 2,
+            "title":"Tila",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Tila",
+            "icon": "RedMug",
+            "infuFamilyID": 2,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 2,
+            "title":"Melisa",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Melisa",
+            "icon": "RedMug",
+            "infuFamilyID": 2,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 2,
+            "title":"Azahar",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Azahar",
+            "icon": "RedMug",
+            "infuFamilyID": 2,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 2,
+            "title":"Hipérico",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Hiperico",
+            "icon": "RedMug",
+            "infuFamilyID": 2,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 2,
+            "title":"Boldo",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Boldo",
+            "icon": "RedMug",
+            "infuFamilyID": 2,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 2,
+            "title":"Lavanda",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Lavanda",
+            "icon": "RedMug",
+            "infuFamilyID": 2,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 2,
+            "title":"Espino Blanco",
+            "generalInfo": "",
+            "properties": "",
+            "image": "EspinoBlanco",
+            "icon": "RedMug",
+            "infuFamilyID": 2,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 3,
+            "title":"Manzanilla",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Manzanilla",
+            "icon": "RedMug",
+            "infuFamilyID": 3,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 3,
+            "title":"Rooibos",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Rooibos",
+            "icon": "RedMug",
+            "infuFamilyID": 3,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 3,
+            "title":"Anís",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Anis",
+            "icon": "RedMug",
+            "infuFamilyID": 3,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 3,
+            "title":"Jengibre",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Jengibre",
+            "icon": "RedMug",
+            "infuFamilyID": 3,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 3,
+            "title":"Poleo Menta",
+            "generalInfo": "",
+            "properties": "",
+            "image": "PoleoMenta",
+            "icon": "RedMug",
+            "infuFamilyID": 3,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 3,
+            "title":"Cola de caballo",
+            "generalInfo": "",
+            "properties": "",
+            "image": "ColaDeCaballo",
+            "icon": "RedMug",
+            "infuFamilyID": 3,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 3,
+            "title":"Hinojo",
+            "generalInfo": "",
+            "properties": "",
+            "image": "Hinojo",
+            "icon": "RedMug",
+            "infuFamilyID": 3,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        },
+        
+        {
+            "id": 3,
+            "title":"Diente de león",
+            "generalInfo": "",
+            "properties": "",
+            "image": "DienteDeLeon",
+            "icon": "RedMug",
+            "infuFamilyID": 3,
+            "tags": {
+                "time": "2 Min",
+                "temp": "100ºC"
+            }
+        }
+        
         }
         
     ],
     "infuFamily": [
         {
-            "id": 0,
-            "longTitle":"Para cuando se necesita energia",
+            "id": 1,
+            "longTitle":"Obtén la energia que necesitas",
             "title": "Energia",
-            "image": "energiaImagen",
-            "symbol": "imagenrayo"
+            "image": "energia",
+            "symbol": "rayo"
         },
         {
-            "id": 1,
-            "longTitle":"Para cuando se necesita energia",
-            "title": "Energia",
-            "image": "energiaImagen",
-            "symbol": "imagenrayo"
+            "id": 2,
+            "longTitle":"Encuentra tu momento de calma",
+            "title": "Relax",
+            "image": "relax",
+            "symbol": "luna"
         },
         
-        {"id": 2,
-            "longTitle":"Para cuando se necesita energia",
-            "title": "Energia",
-            "image": "energiaImagen",
-            "symbol": "imagenrayo"
+        {"id": 3,
+            "longTitle":"Empieza a cuidarte desde dentro",
+            "title": "Salud",
+            "image": "salud",
+            "symbol": "corazon"
         }
     ]
 }
