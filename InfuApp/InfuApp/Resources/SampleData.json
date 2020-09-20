@@ -5,12 +5,14 @@
             "title":"Té Verde",
             "generalInfo": "Es un tipo de té Camellia sinensis que no ha sufrido una oxidación durante su procesado, a diferencia del té negro, ya que las hojas se recogen frescas y después de someterse al secado, se prensan, enrollan, trituran y finalmente se secan.",
             "properties": "El té verde contiene importantes cantidades de L-teanina, una sustancia nootrópica y adaptogénica que potencia la actividad cognitiva, induciendo la neurogénesis adulta, y mejorando procesos cognitivos tales como memoria, atención, concentración y aprendizaje.6​7​8​9​10​11​12​13​ El té verde reduciría el estrés y estimularía la producción de ondas alfa. Se piensa que es debido al alto contenido en antioxidantes y la presencia de L-teanina, un análogo de glutamato presente en el té verde que puede atravesar la barrera hematoencefálica y reducir la excitotoxicidad del glutamato durante el estrés y la isquemia.14​",
-            "image": "tazaprueba",
-            "icon": "tacitaverde",
+            "image": "",
+            "icon": "tazaprueba",
             "infuFamilyID": 1,
+            "shopUrl": "",
             "tags": {
                 "time": "2 Min",
                 "temp": "100ºC"
+                
             }
         },
         
