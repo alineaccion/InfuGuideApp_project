@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,40 +12,52 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellHomeMenu" rowHeight="170" id="ySg-aX-TLH" userLabel="MenuTypeViewCell" customClass="CellHomeMenu" customModule="InfuApp" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="400" height="180"/>
+            <rect key="frame" x="0.0" y="0.0" width="400" height="116"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ySg-aX-TLH" id="CC0-RW-Igk">
-                <rect key="frame" x="0.0" y="0.0" width="400" height="180"/>
+                <rect key="frame" x="0.0" y="0.0" width="400" height="116"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QoI-WT-wGl" userLabel="ViewEstimulante">
-                        <rect key="frame" x="8" y="8" width="384" height="164"/>
+                        <rect key="frame" x="8" y="8" width="384" height="100"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Estimulante provisional" translatesAutoresizingMaskIntoConstraints="NO" id="5uU-L5-TjY">
-                                <rect key="frame" x="2" y="2" width="380" height="160"/>
+                                <rect key="frame" x="266" y="8" width="110" height="84"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="y1v-bD-w9E"/>
+                                    <constraint firstAttribute="height" constant="84" id="N3u-3w-B1x"/>
+                                    <constraint firstAttribute="width" constant="110" id="cTs-Uf-3Rc"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ESTADO INFUSION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h6j-1l-NH4" userLabel="ESTADO INFUSION">
-                                <rect key="frame" x="129" y="72" width="147" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mq-8A-JwN">
+                                <rect key="frame" x="16" y="8" width="242" height="84"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" name="PrimaryLight"/>
+                                <color key="textColor" name="Font"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" name="PrimaryDark"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="5uU-L5-TjY" firstAttribute="top" secondItem="QoI-WT-wGl" secondAttribute="top" constant="2" id="0D7-Zk-0Cb"/>
-                            <constraint firstAttribute="bottom" secondItem="5uU-L5-TjY" secondAttribute="bottom" constant="2" id="0pB-8M-GKI"/>
-                            <constraint firstAttribute="trailing" secondItem="5uU-L5-TjY" secondAttribute="trailing" constant="2" id="7lC-Va-321"/>
-                            <constraint firstItem="5uU-L5-TjY" firstAttribute="leading" secondItem="QoI-WT-wGl" secondAttribute="leading" constant="2" id="hVM-Ek-gwR"/>
-                            <constraint firstItem="5uU-L5-TjY" firstAttribute="centerY" secondItem="QoI-WT-wGl" secondAttribute="centerY" id="mDc-LI-lC2"/>
+                            <constraint firstAttribute="bottom" secondItem="6mq-8A-JwN" secondAttribute="bottom" constant="8" id="Foj-DC-bgd"/>
+                            <constraint firstItem="5uU-L5-TjY" firstAttribute="top" secondItem="QoI-WT-wGl" secondAttribute="top" constant="8" id="K9x-oC-fqz"/>
+                            <constraint firstItem="5uU-L5-TjY" firstAttribute="leading" secondItem="6mq-8A-JwN" secondAttribute="trailing" constant="8" symbolic="YES" id="YNf-DL-hF4"/>
+                            <constraint firstAttribute="bottom" secondItem="5uU-L5-TjY" secondAttribute="bottom" constant="8" id="dXC-11-Aed"/>
+                            <constraint firstAttribute="trailing" secondItem="5uU-L5-TjY" secondAttribute="trailing" constant="8" id="fmB-2G-eOx"/>
+                            <constraint firstItem="6mq-8A-JwN" firstAttribute="top" secondItem="QoI-WT-wGl" secondAttribute="top" constant="8" id="hmO-N7-aBj"/>
+                            <constraint firstItem="6mq-8A-JwN" firstAttribute="leading" secondItem="QoI-WT-wGl" secondAttribute="leading" constant="16" id="mLP-BG-W5B"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
-                <color key="backgroundColor" name="Primary"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="QoI-WT-wGl" secondAttribute="trailing" constant="8" id="0mb-gg-DsR"/>
                     <constraint firstAttribute="bottom" secondItem="QoI-WT-wGl" secondAttribute="bottom" constant="8" id="7Aw-vY-Uav"/>
@@ -53,23 +66,18 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="E2c-et-QTs"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="homeMenuImageView" destination="5uU-L5-TjY" id="Awe-Ic-Qu1"/>
-                <outlet property="homeMenuTextView" destination="h6j-1l-NH4" id="z5C-Mt-Lak"/>
+                <outlet property="homeMenuTextView" destination="6mq-8A-JwN" id="RBU-LF-dDg"/>
             </connections>
-            <point key="canvasLocation" x="209.42028985507247" y="-25.446428571428569"/>
+            <point key="canvasLocation" x="208.69565217391306" y="-25.446428571428569"/>
         </tableViewCell>
     </objects>
     <resources>
         <image name="Estimulante provisional" width="2200" height="1461"/>
-        <namedColor name="Primary">
-            <color red="0.77999997138977051" green="0.90200001001358032" blue="0.7839999794960022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="PrimaryDark">
-            <color red="0.59200000762939453" green="0.70599997043609619" blue="0.59600001573562622" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="PrimaryLight">
-            <color red="0.98400002717971802" green="1" blue="0.98799997568130493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="Font">
+            <color red="0.20000000000000001" green="0.35294117647058826" blue="0.25882352941176473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
