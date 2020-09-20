@@ -28,5 +28,9 @@ static var cellHomeMenuId = "CellHomeMenu"
     func configureCell(image: String, text: String){
         self.homeMenuTextView.text = text
         self.homeMenuImageView.image = UIImage(named: image)
+        
+        let bgColorView = UIView()
+        bgColorView.backgroundColor = UIColor.clear
+        selectedBackgroundView = bgColorView
     }
 }
