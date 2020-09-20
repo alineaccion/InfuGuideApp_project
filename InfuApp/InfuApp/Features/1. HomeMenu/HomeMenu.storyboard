@@ -11,7 +11,6 @@
         <!--Navigation Controller-->
         <scene sceneID="NZr-Y4-API">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JeF-tD-x16" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController modalPresentationStyle="currentContext" id="alu-Uf-VaQ" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5s8-hI-ld6">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -21,6 +20,7 @@
                         <segue destination="9y1-gg-3yA" kind="relationship" relationship="rootViewController" id="XpQ-mW-rrD"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JeF-tD-x16" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1436" y="-185"/>
         </scene>
@@ -33,26 +33,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="adj-ai-DKD">
-                                <rect key="frame" x="16" y="232" width="382" height="630"/>
+                                <rect key="frame" x="16" y="450" width="382" height="348"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="348" id="7QI-df-FZh"/>
+                                </constraints>
                                 <color key="separatorColor" name="PrimaryLight"/>
                             </tableView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="provisional primaryDark" translatesAutoresizingMaskIntoConstraints="NO" id="aYG-Dw-Dsv">
-                                <rect key="frame" x="59" y="120" width="296" height="80"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashTitle" translatesAutoresizingMaskIntoConstraints="NO" id="aYG-Dw-Dsv">
+                                <rect key="frame" x="106" y="120" width="202" height="80"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="96Y-KT-3AX"/>
                                     <constraint firstAttribute="height" constant="80" id="ViI-Bj-A00"/>
+                                    <constraint firstAttribute="width" constant="202" id="qzy-Fj-7M6"/>
                                 </constraints>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashLabel" translatesAutoresizingMaskIntoConstraints="NO" id="3Sz-SS-q21">
+                                <rect key="frame" x="64" y="219" width="286" height="194"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" name="pruebafondomenu"/>
+                        <color key="backgroundColor" name="SplashBackground"/>
                         <constraints>
+                            <constraint firstItem="aYG-Dw-Dsv" firstAttribute="centerX" secondItem="nsK-YM-t0m" secondAttribute="centerX" id="9Bk-qM-hoS"/>
                             <constraint firstItem="aYG-Dw-Dsv" firstAttribute="top" secondItem="nsK-YM-t0m" secondAttribute="top" constant="32" id="GgQ-87-tSD"/>
-                            <constraint firstItem="nsK-YM-t0m" firstAttribute="trailing" secondItem="aYG-Dw-Dsv" secondAttribute="trailing" constant="59" id="T7N-dh-sCb"/>
+                            <constraint firstItem="3Sz-SS-q21" firstAttribute="leading" secondItem="nsK-YM-t0m" secondAttribute="leading" constant="64" id="Tl8-In-K7P"/>
                             <constraint firstItem="adj-ai-DKD" firstAttribute="leading" secondItem="nsK-YM-t0m" secondAttribute="leading" constant="16" id="WNY-PN-qbr"/>
-                            <constraint firstItem="adj-ai-DKD" firstAttribute="top" secondItem="aYG-Dw-Dsv" secondAttribute="bottom" constant="32" id="X74-u1-P7o"/>
-                            <constraint firstItem="aYG-Dw-Dsv" firstAttribute="leading" secondItem="nsK-YM-t0m" secondAttribute="leading" constant="59" id="dqw-YG-pde"/>
-                            <constraint firstItem="adj-ai-DKD" firstAttribute="bottom" secondItem="nsK-YM-t0m" secondAttribute="bottom" id="gyl-t0-ySO"/>
+                            <constraint firstItem="adj-ai-DKD" firstAttribute="top" secondItem="3Sz-SS-q21" secondAttribute="bottom" constant="37" id="ctC-3c-wzh"/>
+                            <constraint firstItem="adj-ai-DKD" firstAttribute="bottom" secondItem="nsK-YM-t0m" secondAttribute="bottom" constant="-64" id="gyl-t0-ySO"/>
                             <constraint firstItem="nsK-YM-t0m" firstAttribute="trailing" secondItem="adj-ai-DKD" secondAttribute="trailing" constant="16" id="uVS-Xo-OaR"/>
+                            <constraint firstItem="3Sz-SS-q21" firstAttribute="top" secondItem="aYG-Dw-Dsv" secondAttribute="bottom" constant="19" id="vjD-bR-YYe"/>
+                            <constraint firstItem="nsK-YM-t0m" firstAttribute="trailing" secondItem="3Sz-SS-q21" secondAttribute="trailing" constant="64" id="yyC-Bj-s2M"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nsK-YM-t0m"/>
                     </view>
@@ -69,12 +79,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="provisional primaryDark" width="152" height="152"/>
+        <image name="SplashLabel" width="224" height="40"/>
+        <image name="SplashTitle" width="103.33333587646484" height="25.333333969116211"/>
         <namedColor name="PrimaryLight">
             <color red="0.98400002717971802" green="1" blue="0.98799997568130493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <namedColor name="pruebafondomenu">
-            <color red="0.94499999284744263" green="0.97299998998641968" blue="0.91399997472763062" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="SplashBackground">
+            <color red="0.97647058823529409" green="0.93725490196078431" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
