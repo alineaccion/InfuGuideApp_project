@@ -11,12 +11,32 @@ import UIKit
 
 class DetailViewModel {
     
-    var needUpdateDetailData: PublishSubject<Bool> = PublishSubject()
+    private var infuID: Infussion?
     
+    var needNavigateToClock: PublishSubject<Infussion> = PublishSubject()
     
     func onViewLoaded() {
-        needUpdateDetailData.onNext(true)
+        let jsonData = loadJsonData(name: "SampleData")!
+        do {
+            infuID = try JSONDecoder().decode(Infussion.self, from: jsonData)
+        } catch {}
     }
+    
+    private func loadJsonData(name: String) -> Data? {
+        do {
+            if let bundlePath = Bundle.main.path(forResource: name,
+                                                 ofType: "json"),
+                let jsonData = try String(contentsOfFile: bundlePath).data(using: .utf8) {
+                return jsonData
+            }
+        } catch {
+            print(error)
+        }
+        return nil
+    }
+
+    
+   
    
     
     

@@ -13,7 +13,14 @@ class DetailViewController: UIViewController {
     // scroll view-> stack view que contiene toda la info
     //view imagen, label title, stack horizontal view tags, , info label, properties label, shop button
     @IBOutlet weak var imageDetail: UIImageView!
-    
+    @IBOutlet weak var titleDetail: UILabel!
+    @IBOutlet weak var tagTimeDetail: UIStackView!
+    @IBOutlet weak var tagTemperatureDetail: UIStackView!
+    @IBOutlet weak var tagInfuFamilyDetail: UIStackView!
+    @IBOutlet weak var infoTextDetail: UILabel!
+    @IBOutlet weak var propertiesTextDetail: UILabel!
+    @IBOutlet weak var shopButtonDetail: UIButton!
+
     static var storyboardId = "DetailViewController"
     static var storyboardName = "Detail"
     
@@ -22,11 +29,12 @@ class DetailViewController: UIViewController {
     private let viewModel = DetailViewModel()
     private let disposeBag = DisposeBag()
 
-     let detailInfo = DataDetail(title: "Te verde",
+   /*  let detailInfo = DataDetail(title: "Te verde",
                                  temperature: "100 ºC",
                                  time: "3min",
                                  infudescription: " ",
                                  properties: " ")
+ */
     
     
     

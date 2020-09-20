@@ -22,6 +22,7 @@ struct InfuFamily: Codable {
 
 // MARK: - Infussion
 struct Infussion: Codable {
+    let id: Int
     let title: String
     let generalInfo: String
     let properties: String
@@ -31,6 +32,7 @@ struct Infussion: Codable {
     let tags: Tags
 
     enum CodingKeys: String, CodingKey {
+        case id
         case title
         case generalInfo
         case properties
