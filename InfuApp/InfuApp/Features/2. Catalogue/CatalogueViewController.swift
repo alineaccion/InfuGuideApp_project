@@ -90,7 +90,7 @@ extension CatalogueViewController: UICollectionViewDelegate,UICollectionViewData
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let sizeCell = collectionView.frame.width/2
         
-        return CGSize(width: sizeCell, height: sizeCell)
+        return CGSize(width: sizeCell, height: sizeCell * 1.3)
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
