@@ -43,8 +43,61 @@ class DetailViewModel {
         guard let infussionObtained = infuAppData?.infussions.first(where: {$0.id == infuID}) else { return nil }
         return  infussionObtained
     }
-       
-   
+    
+    func getImageDetail() -> String {
+        guard let imageObtained = infussionData?.image else { return "" }
+        return imageObtained
+    }
+    
+    func getTitleDetail() -> String {
+        guard let titleObtained = infussionData?.title else { return "" }
+        return titleObtained
+        
+    }
+    
+    func getTagTimeDetail() -> String {
+        guard let timeObtained = infussionData?.tags.time else { return "" }
+        return timeObtained
+        
+    }
+    
+    func getTagTemperatureDetail() -> String {
+        guard let temperatureObtained = infussionData?.tags.temp else { return "" }
+               return temperatureObtained
+    }
+    
+    func getTagInfuFamilyDetail() -> String {
+        
+        guard let familyDetailObtained = infuAppData?.infuFamily.first(where: {$0.id == infussionData?.infuFamilyID}) else { return ""  }
+        return familyDetailObtained.title
+        
+    }
+    
+    func getInfoTextDetail() -> String {
+        guard let infoTextDetail = infussionData?.generalInfo else { return ""}
+        return infoTextDetail
+           
+       }
+    
+    func getPropertiesTextDetail() -> String {
+        guard let infoPropertiesDetail = infussionData?.properties else { return ""}
+              return infoPropertiesDetail
+    }
+    
+    func ShopButtonDetail() -> String {
+        guard let buttonShop = infussionData?.shopUrl else { return ""}
+        return buttonShop
+           
+       }
+    func ShopButtonDtailIsHidden() -> Bool {
+        guard (infussionData?.shopUrl) != nil else {return true}
+        return false
+    }
+    
+    
+    
+      
+    
     
     
     
