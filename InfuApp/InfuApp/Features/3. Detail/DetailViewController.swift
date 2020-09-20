@@ -24,12 +24,11 @@ class DetailViewController: UIViewController {
     static var storyboardId = "DetailViewController"
     static var storyboardName = "Detail"
     
-    
-    let storyBoard : UIStoryboard = UIStoryboard(name: "Detail", bundle:nil)
-    private let viewModel = DetailViewModel()
+    let viewModel = DetailViewModel()
     private let disposeBag = DisposeBag()
 
-   /*  let detailInfo = DataDetail(title: "Te verde",
+   /* Anterior a json
+     let detailInfo = DataDetail(title: "Te verde",
                                  temperature: "100 ºC",
                                  time: "3min",
                                  infudescription: " ",
