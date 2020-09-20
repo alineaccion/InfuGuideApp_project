@@ -14,9 +14,9 @@ class DetailViewController: UIViewController {
     //view imagen, label title, stack horizontal view tags, , info label, properties label, shop button
     @IBOutlet weak var imageDetail: UIImageView!
     @IBOutlet weak var titleDetail: UILabel!
-    @IBOutlet weak var tagTimeDetail: UIStackView!
-    @IBOutlet weak var tagTemperatureDetail: UIStackView!
-    @IBOutlet weak var tagInfuFamilyDetail: UIStackView!
+    @IBOutlet weak var tagTimeDetail: UILabel!
+    @IBOutlet weak var tagTemperatureDetail: UILabel!
+    @IBOutlet weak var tagInfuFamilyDetail: UILabel!
     @IBOutlet weak var infoTextDetail: UILabel!
     @IBOutlet weak var propertiesTextDetail: UILabel!
     @IBOutlet weak var shopButtonDetail: UIButton!
@@ -39,11 +39,20 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewModel.onViewLoaded()
+        configureViews()
         
     }
     
     private func configureViews() {
-       // detailView.dataSource = self
+        imageDetail.image = UIImage(named:viewModel.getImageDetail())
+        titleDetail.text = viewModel.getTitleDetail()
+        tagTimeDetail.text = viewModel.getTagTimeDetail()
+        tagTemperatureDetail.text = viewModel.getTagTemperatureDetail()
+        tagInfuFamilyDetail.text = viewModel.getTagInfuFamilyDetail()
+        infoTextDetail.text = viewModel.getInfoTextDetail()
+        propertiesTextDetail.text = viewModel.getPropertiesTextDetail()
+        shopButtonDetail.isHidden = viewModel.ShopButtonDtailIsHidden()
         
     }
     
