@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -25,7 +26,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bqe-QD-6zZ">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Relajante" translatesAutoresizingMaskIntoConstraints="NO" id="mOS-MW-SD0">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TeVerde" translatesAutoresizingMaskIntoConstraints="NO" id="mOS-MW-SD0">
                                                         <rect key="frame" x="8" y="-10" width="359" height="210"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="210" id="H3y-9i-aWw"/>
@@ -345,7 +346,7 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="kpM-oC-was"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="nlm-dD-wgK"/>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMq-8D-cdr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMq-8D-cdr">
                                 <rect key="frame" x="73.5" y="850" width="228" height="50"/>
                                 <color key="backgroundColor" name="ButtonBackground"/>
                                 <constraints>
@@ -365,6 +366,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="Eel-jZ-pcG"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Eel-jZ-pcG" firstAttribute="bottom" secondItem="YMq-8D-cdr" secondAttribute="bottom" constant="16" id="3nc-Nh-RBN"/>
@@ -374,19 +376,8 @@
                             <constraint firstItem="Eel-jZ-pcG" firstAttribute="trailing" secondItem="RFr-5L-HFz" secondAttribute="trailing" id="ZW4-hP-mnG"/>
                             <constraint firstItem="RFr-5L-HFz" firstAttribute="top" secondItem="Eel-jZ-pcG" secondAttribute="top" id="x0I-KF-tI3"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Eel-jZ-pcG"/>
                     </view>
                     <size key="freeformSize" width="375" height="950"/>
-                    <connections>
-                        <outlet property="imageDetail" destination="mOS-MW-SD0" id="ZCp-Se-Szw"/>
-                        <outlet property="infoTextDetail" destination="Zpg-Yp-oiF" id="YbA-ka-NnL"/>
-                        <outlet property="propertiesTextDetail" destination="IIK-Sd-Ifd" id="3BQ-FX-Npd"/>
-                        <outlet property="shopButtonDetail" destination="YMq-8D-cdr" id="JFU-b0-8JE"/>
-                        <outlet property="tagInfuFamilyDetail" destination="5QO-GB-hxf" id="DgU-YN-XAM"/>
-                        <outlet property="tagTemperatureDetail" destination="ViS-tQ-ihY" id="sMn-jL-QY8"/>
-                        <outlet property="tagTimeDetail" destination="Egr-YJ-qgA" id="bxR-b3-Ynj"/>
-                        <outlet property="titleDetail" destination="N9T-YF-CUh" id="CRh-cb-LP3"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xtd-ro-CDA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -394,7 +385,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Relajante" width="1872" height="1248"/>
+        <image name="TeVerde" width="640" height="359.66665649414062"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <namedColor name="ButtonBackground">
             <color red="0.90196078431372551" green="0.95686274509803926" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
