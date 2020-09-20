@@ -29,6 +29,7 @@ struct Infussion: Codable {
     let image: String
     let icon: String
     let infuFamilyID: Int
+    let shopUrl: String?
     let tags: Tags
 
     enum CodingKeys: String, CodingKey {
@@ -39,6 +40,7 @@ struct Infussion: Codable {
         case image
         case icon
         case infuFamilyID = "infuFamilyID"
+        case shopUrl
         case tags
     }
 }
