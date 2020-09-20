@@ -45,20 +45,20 @@ class CatalogueViewController: UIViewController {
     func configureObservers() {
         viewModel.needNavigateToDetail
             .observeOn(MainScheduler.instance)
-            .subscribe(onNext: {[weak self] infussion in
-                self?.navigateToDetail(infussion: infussion )
+            .subscribe(onNext: {[weak self] infussionId in
+                self?.navigateToDetail(infussionId: infussionId )
             })
             .disposed(by: disposeBag)
     }
     
-    func navigateToDetail(infussion: Infussion) {
+    func navigateToDetail(infussionId: Int) {
         guard let viewController = UIStoryboard(name: DetailViewController.storyboardName, bundle: nil)
             .instantiateViewController(withIdentifier: DetailViewController.storyboardId) as? DetailViewController
             else {
                 return
         }
 
-       // viewController.viewModel.dataCatalogue(for: ) =
+        viewController.viewModel.infuID = infussionId
             navigationController?.pushViewController(viewController, animated: true)
     }
     
@@ -75,7 +75,7 @@ extension CatalogueViewController: UICollectionViewDelegate,UICollectionViewData
             return UICollectionViewCell()
         }
         if let itemCatalogue = viewModel.catalogueItem(for: indexPath.row) {
-            cell.configureCatalogueCell(image:itemCatalogue.image, text: itemCatalogue.title)
+            cell.configureCatalogueCell(image:itemCatalogue.icon, text: itemCatalogue.title)
         }
         return cell
     }
