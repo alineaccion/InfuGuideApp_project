@@ -11,15 +11,19 @@ import UIKit
 
 class DetailViewModel {
     
-    private var infuID: Infussion?
+    var infuAppData: InfuAppData?
+    var infuID: Int?
+    private var infussionData: Infussion?
     
     var needNavigateToClock: PublishSubject<Infussion> = PublishSubject()
     
     func onViewLoaded() {
         let jsonData = loadJsonData(name: "SampleData")!
         do {
-            infuID = try JSONDecoder().decode(Infussion.self, from: jsonData)
+            infuAppData = try JSONDecoder().decode(InfuAppData.self, from: jsonData)
         } catch {}
+        
+        infussionData = getInfussion()
     }
     
     private func loadJsonData(name: String) -> Data? {
@@ -34,9 +38,12 @@ class DetailViewModel {
         }
         return nil
     }
-
     
-   
+    func getInfussion() -> Infussion? {
+        guard let infussionObtained = infuAppData?.infussions.first(where: {$0.id == infuID}) else { return nil }
+        return  infussionObtained
+    }
+       
    
     
     
