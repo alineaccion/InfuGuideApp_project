@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,39 +18,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashTitle" translatesAutoresizingMaskIntoConstraints="NO" id="f9y-cJ-A5n">
-                                <rect key="frame" x="80" y="84" width="254" height="135"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="135" id="4bQ-Ow-M8p"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashLabel" translatesAutoresizingMaskIntoConstraints="NO" id="i69-dv-NuH">
-                                <rect key="frame" x="95" y="234" width="224" height="40"/>
-                            </imageView>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dve-Bt-jzT">
-                                <rect key="frame" x="0.0" y="396" width="360" height="500"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dve-Bt-jzT">
+                                <rect key="frame" x="0.0" y="421" width="360" height="475"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SplashImage" translatesAutoresizingMaskIntoConstraints="NO" id="ebA-JC-RqX">
-                                        <rect key="frame" x="33" y="28" width="354" height="96"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashImage" translatesAutoresizingMaskIntoConstraints="NO" id="ebA-JC-RqX">
+                                        <rect key="frame" x="0.0" y="8" width="352" height="467"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="ebA-JC-RqX" secondAttribute="bottom" id="Awa-yA-tT6"/>
+                                    <constraint firstItem="ebA-JC-RqX" firstAttribute="top" secondItem="Dve-Bt-jzT" secondAttribute="top" constant="8" id="ByT-Lw-rQh"/>
+                                    <constraint firstAttribute="trailing" secondItem="ebA-JC-RqX" secondAttribute="trailing" constant="8" id="Fa4-TY-vdM"/>
+                                    <constraint firstItem="ebA-JC-RqX" firstAttribute="leading" secondItem="Dve-Bt-jzT" secondAttribute="leading" id="yFM-rl-4hK"/>
+                                </constraints>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashTitle" translatesAutoresizingMaskIntoConstraints="NO" id="HGT-vz-7La">
+                                <rect key="frame" x="106" y="120" width="202" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Oii-Bi-vX5"/>
+                                    <constraint firstAttribute="width" constant="202" id="Quu-aJ-hXr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashLabel" translatesAutoresizingMaskIntoConstraints="NO" id="7Uf-3o-LOJ">
+                                <rect key="frame" x="64" y="219" width="286" height="194"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="194" id="cFA-gR-5f0"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="194" id="l9e-hF-7iB"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="SplashBackGround"/>
                         <constraints>
-                            <constraint firstItem="f9y-cJ-A5n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8u3-A1-tBa"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dve-Bt-jzT" secondAttribute="trailing" constant="50" id="IVi-Ae-ZeZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f9y-cJ-A5n" secondAttribute="trailing" constant="80" id="Pae-Rw-nlM"/>
-                            <constraint firstItem="f9y-cJ-A5n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dOk-Ii-4QQ"/>
-                            <constraint firstItem="Dve-Bt-jzT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-32" id="eHD-Mu-I3I"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="Dve-Bt-jzT" secondAttribute="bottom" constant="-55" id="kuM-uB-H80"/>
-                            <constraint firstItem="i69-dv-NuH" firstAttribute="top" secondItem="f9y-cJ-A5n" secondAttribute="bottom" constant="15" id="kwq-DN-e1S"/>
-                            <constraint firstItem="i69-dv-NuH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nHH-1G-ZFm"/>
-                            <constraint firstItem="f9y-cJ-A5n" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="qPI-kb-0hl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dve-Bt-jzT" secondAttribute="trailing" constant="54" id="E9W-bh-hk4"/>
+                            <constraint firstItem="7Uf-3o-LOJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="EE6-MR-pkR"/>
+                            <constraint firstItem="7Uf-3o-LOJ" firstAttribute="top" secondItem="HGT-vz-7La" secondAttribute="bottom" constant="19" id="EWQ-vN-FJR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Uf-3o-LOJ" secondAttribute="trailing" constant="64" id="H2S-h7-2fb"/>
+                            <constraint firstItem="HGT-vz-7La" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="Hqu-ib-PuQ"/>
+                            <constraint firstItem="Dve-Bt-jzT" firstAttribute="top" secondItem="7Uf-3o-LOJ" secondAttribute="bottom" constant="8" symbolic="YES" id="eD6-c5-eRM"/>
+                            <constraint firstItem="Dve-Bt-jzT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="eHD-Mu-I3I"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Dve-Bt-jzT" secondAttribute="bottom" constant="-34" id="kuM-uB-H80"/>
+                            <constraint firstItem="7Uf-3o-LOJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="qyy-se-M4Z"/>
+                            <constraint firstItem="HGT-vz-7La" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="r4C-x7-isc"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <segue destination="Ggf-dh-m8N" kind="show" identifier="SEGUE_FROM_SPLASH_TO_MENUTYPES" id="FVN-gE-clC"/>
@@ -76,5 +89,8 @@
         <namedColor name="SplashBackGround">
             <color red="0.97647058823529409" green="0.93725490196078431" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
