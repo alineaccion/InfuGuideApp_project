@@ -65,7 +65,7 @@ extension HomeMenuViewController: UITableViewDelegate, UITableViewDataSource {
         }
         guard let infuFamilyItem = viewModel.infuFamilyItem(for: indexPath.row) else { return cell }
         // se incluyen valores vacios por defecto
-        cell.configureCell(image: infuFamilyItem.image, text: infuFamilyItem.title)
+        cell.configureCell(image: infuFamilyItem.image, text: infuFamilyItem.longTitle)
         return cell
     }
     
