@@ -22,6 +22,7 @@
 		B78C14BA250A93DE00C16738 /* DataHomeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C14B9250A93DE00C16738 /* DataHomeMenu.swift */; };
 		B78FF7862514DD7900E03C63 /* InfuAppObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FF7852514DD7900E03C63 /* InfuAppObject.swift */; };
 		B78FF788251662A200E03C63 /* SampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = B7AA93EF2511110400AB3AAD /* SampleData.json */; };
+		B78FF78D2517C0D500E03C63 /* UIView+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FF78C2517C0D500E03C63 /* UIView+Properties.swift */; };
 		B7AA93DE2510100200AB3AAD /* CatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93DD2510100200AB3AAD /* CatalogueViewController.swift */; };
 		B7AA93E02510D00300AB3AAD /* CatalogueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93DF2510D00300AB3AAD /* CatalogueViewModel.swift */; };
 		B7AA93E42510D09F00AB3AAD /* DataCatalogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93E32510D09F00AB3AAD /* DataCatalogue.swift */; };
@@ -55,6 +56,7 @@
 		B78C14B6250A8F2700C16738 /* CellHomeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellHomeMenu.swift; sourceTree = "<group>"; };
 		B78C14B9250A93DE00C16738 /* DataHomeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHomeMenu.swift; sourceTree = "<group>"; };
 		B78FF7852514DD7900E03C63 /* InfuAppObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfuAppObject.swift; sourceTree = "<group>"; };
+		B78FF78C2517C0D500E03C63 /* UIView+Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Properties.swift"; sourceTree = "<group>"; };
 		B7AA93DD2510100200AB3AAD /* CatalogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewController.swift; sourceTree = "<group>"; };
 		B7AA93DF2510D00300AB3AAD /* CatalogueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewModel.swift; sourceTree = "<group>"; };
 		B7AA93E32510D09F00AB3AAD /* DataCatalogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCatalogue.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		B7446FE42508DA9700F968D1 /* InfuApp */ = {
 			isa = PBXGroup;
 			children = (
+				B78FF78B2517C0C800E03C63 /* Extensions */,
 				B78FF7872514DE3A00E03C63 /* Models */,
 				B7446FF92508DABF00F968D1 /* App */,
 				B78C14B8250A93CB00C16738 /* Data */,
@@ -229,6 +232,14 @@
 				B78FF7852514DD7900E03C63 /* InfuAppObject.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B78FF78B2517C0C800E03C63 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B78FF78C2517C0D500E03C63 /* UIView+Properties.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		CE99FB71F92B5CA43B5781DC /* Pods */ = {
@@ -378,6 +389,7 @@
 				B7AA93DE2510100200AB3AAD /* CatalogueViewController.swift in Sources */,
 				B7AA93E62510ED1F00AB3AAD /* HomeMenuViewController.swift in Sources */,
 				B7AA93E82510EDDB00AB3AAD /* CatalogueCell.swift in Sources */,
+				B78FF78D2517C0D500E03C63 /* UIView+Properties.swift in Sources */,
 				B78FF7862514DD7900E03C63 /* InfuAppObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
