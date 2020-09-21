@@ -8,6 +8,14 @@
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Tipo de infusion-->
         <scene sceneID="OOQ-sZ-3Fb">
@@ -45,7 +53,7 @@
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cola de caballo gordo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Nck-Lg-QPz">
                                                                     <rect key="frame" x="4" y="0.0" width="156" height="60"/>
-                                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                                                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
                                                                     <color key="textColor" name="Font"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -106,7 +114,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="27" id="VdE-7D-yl1"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -139,6 +147,7 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="IQh-BQ-jJS"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="TitleLabel" destination="yWC-KS-7lI" id="SSD-Aq-WXK"/>
                         <outlet property="collectionView" destination="9rw-Lz-SHZ" id="vKr-1j-hWb"/>
                     </connections>
                 </viewController>
