@@ -84,7 +84,7 @@ class DetailViewModel {
               return infoPropertiesDetail
     }
     
-    func ShopButtonDetail() -> String {
+    func getShopDetail() -> String {
         guard let buttonShop = infussionData?.shopUrl else { return ""}
         return buttonShop
            
