@@ -31,11 +31,23 @@ class CatalogueViewModel {
     
     func getInfussionCatalogue() -> [Infussion]? {
         if infuFamilyID == 0 {
-            return infuAppData?.infussions.shuffled()
+            return infuAppData?.infussions
         } else {
             guard let infussionList = infuAppData?.infussions.filter({$0.infuFamilyID == infuFamilyID}) else { return nil }
             return  infussionList
         }
+    }
+    
+    func getSymbol(indexPathRow: Int) -> String? {
+        if infuFamilyID == 0 {
+            guard let infuFamilyIDSelected = infuAppData?.infussions[indexPathRow].infuFamilyID else { return "" }
+            
+            guard let symbolObtained = infuAppData?.infuFamily.first(where: {$0.id == infuFamilyIDSelected})?.symbol else { return ""}
+            return symbolObtained
+        } else {
+            return ""
+        }
+        
     }
     
     func catalogueCount() -> Int {
