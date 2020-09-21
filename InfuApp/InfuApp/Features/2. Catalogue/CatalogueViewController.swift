@@ -13,6 +13,7 @@ import RxSwift
 class CatalogueViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var TitleLabel: UILabel!
     
     static var storyboardId = "CollectionListViewController"
     static var storyboardName = "Catalogue"
@@ -23,9 +24,12 @@ class CatalogueViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        viewModel.onViewLoaded()
+        
+        addLogoToNavigationBarItem()
         configureViews()
         configureObservers()
-        viewModel.onViewLoaded()
     }
     
     /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -40,6 +44,8 @@ class CatalogueViewController: UIViewController {
         // collectionView.register(UINib(nibName: CatalogueCell.cellCatalogueId, bundle: nil), forCellWithReuseIdentifier: CatalogueCell.cellCatalogueId)
         collectionView.delegate = self
         collectionView.dataSource = self
+        
+        TitleLabel.text = viewModel.getTitleLabel()
     }
     
     func configureObservers() {
