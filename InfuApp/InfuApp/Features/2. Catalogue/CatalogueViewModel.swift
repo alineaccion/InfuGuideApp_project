@@ -48,6 +48,12 @@ class CatalogueViewModel {
         return nil
     }
     
+    func getTitleLabel() -> String {
+        guard let titleLabel = infuAppData?.infuFamily.first(where: {$0.id == infuFamilyID})?.longTitle else { return ""}
+        return titleLabel
+        
+    }
+    
     func getInfussionCatalogue() -> [Infussion]? {
         guard let infussionList = infuAppData?.infussions.filter({$0.infuFamilyID == infuFamilyID}) else { return nil }
         return  infussionList
