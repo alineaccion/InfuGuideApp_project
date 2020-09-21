@@ -79,8 +79,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="SplashLabel" width="224" height="40"/>
-        <image name="SplashTitle" width="103.33333587646484" height="25.333333969116211"/>
+        <image name="SplashLabel" width="2016" height="360"/>
+        <image name="SplashTitle" width="1395" height="342"/>
         <namedColor name="PrimaryLight">
             <color red="0.98400002717971802" green="1" blue="0.98799997568130493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
