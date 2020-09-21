@@ -8,6 +8,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Argesta Display Regular.otf">
+            <string>ArgestaDisplay-Regular</string>
+        </array>
         <array key="Montserrat-Light.ttf">
             <string>Montserrat-Light</string>
         </array>
@@ -69,7 +72,7 @@
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Té verde" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9T-YF-CUh">
                                                         <rect key="frame" x="16" y="8" width="343" height="54"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                        <fontDescription key="fontDescription" name="ArgestaDisplay-Regular" family="Argesta Display" pointSize="30"/>
                                                         <color key="textColor" name="Font"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
