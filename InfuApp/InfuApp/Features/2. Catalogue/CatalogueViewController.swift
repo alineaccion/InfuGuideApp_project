@@ -1,6 +1,6 @@
 
 //
-//  CollectionListViewController.swift
+//  CatalogueViewController.swift
 //  InfuApp
 //
 //  Created by Alicia Moreno Alvarez on 14/09/2020.
@@ -34,16 +34,9 @@ class CatalogueViewController: UIViewController {
         configureObservers()
     }
     
-    /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let destination = segue.destination as? DetailViewController else {
-            return
-        }
-        destination.
-    }
- */
     
     func configureViews() {
-        // collectionView.register(UINib(nibName: CatalogueCell.cellCatalogueId, bundle: nil), forCellWithReuseIdentifier: CatalogueCell.cellCatalogueId)
+        // No necesario si la celda esta dentro de la collectionView -> collectionView.register(UINib(nibName: CatalogueCell.cellCatalogueId, bundle: nil), forCellWithReuseIdentifier: CatalogueCell.cellCatalogueId)
         collectionView.delegate = self
         collectionView.dataSource = self
         
@@ -71,7 +64,7 @@ class CatalogueViewController: UIViewController {
     }
     
 }
-// -------------------------- EXTENSION -----------------------------
+
 
 extension CatalogueViewController: UICollectionViewDelegate,UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -87,16 +80,9 @@ extension CatalogueViewController: UICollectionViewDelegate,UICollectionViewData
         }
         return cell
     }
-    // POR QUE NO FUNCIONA CONFIGURAR TAMAÑO CELDA??????????
-    // COMO CONFIGURAR ESPACIO ENTRE CELDAS?????????
-    /* (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
-    {
-
-        return 5.0;
-    }
- */
+  
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        // Numero de columnas. La fraccion indica en cuantas partes se divide la pantalla
+        // Numero de columnas. La fraccion indica en cuantas partes se divide la pantalla. Pendiente mejorar
         let sizeCell = collectionView.frame.width/3
         
         return CGSize(width: sizeCell, height: sizeCell * 1.3)
