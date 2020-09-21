@@ -39,6 +39,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        addLogoToNavigationBarItem()
         viewModel.onViewLoaded()
         configureViews()
         
@@ -67,8 +68,10 @@ class DetailViewController: UIViewController {
     */
     }
 
-   
-}
+    @IBAction func shopInfussion(_ sender: Any) {
+        if let url = URL(string: viewModel.getShopDetail()) {
+            UIApplication.shared.open(url)
+        }
+    }
     
-   
-
+}
