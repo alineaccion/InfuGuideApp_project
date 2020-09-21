@@ -34,11 +34,9 @@ class DetailViewController: UIViewController {
                                  infudescription: " ",
                                  properties: " ")
  */
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.isNavigationBarHidden = false
         addLogoToNavigationBarItem()
         viewModel.onViewLoaded()
         configureViews()
