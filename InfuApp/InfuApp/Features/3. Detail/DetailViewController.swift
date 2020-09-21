@@ -28,13 +28,6 @@ class DetailViewController: UIViewController {
     let viewModel = DetailViewModel()
     private let disposeBag = DisposeBag()
 
-   /* Anterior a json
-     let detailInfo = DataDetail(title: "Te verde",
-                                 temperature: "100 ºC",
-                                 time: "3min",
-                                 infudescription: " ",
-                                 properties: " ")
- */
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = false
@@ -45,6 +38,11 @@ class DetailViewController: UIViewController {
     }
     
     private func configureViews() {
+        let backButton = UIImage(named: "ic_back")
+        self.navigationController?.navigationBar.backIndicatorImage = backButton
+        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = backButton
+        self.navigationController?.navigationBar.tintColor = .font
+        
         imageDetail.image = UIImage(named:viewModel.getImageDetail())
         titleDetail.text = viewModel.getTitleDetail()
         tagTimeDetail.text = viewModel.getTagTimeDetail()
@@ -55,20 +53,34 @@ class DetailViewController: UIViewController {
         shopButtonDetail.isHidden = viewModel.ShopButtonDtailIsHidden()
         symbolDetail.image = UIImage(named: viewModel.getSymbolDetail())
         
+        navigationItem.rightBarButtonItems = [
+                 UIBarButtonItem(image: UIImage(named: "icon_clock"), style: .plain, target: self, action: #selector(navigateToClock))]
     }
     
     private func configureObservers() {
-       /* PENDIENTE SI HAY RELOJ
-         
-         viewModel.needUpdateDetailData
-            .observeOn(MainScheduler.instance)
-            .subscribe(onNext: { [weak self] data in self?.detailView
-                
-            })
+        viewModel.needNavigateToClock
+        .observeOn(MainScheduler.instance)
+        .subscribe(onNext: {[weak self] infussionId in
+            self?.navigateToClock()
+        })
+        .disposed(by: disposeBag)
         
-        NECESARIO NAVEGAR AL TEMPORIZADOR -> pendiente!!!!
-    */
+        
+        
+     
     }
+    
+    @objc func navigateToClock() {
+           guard let viewController = UIStoryboard(name: ClockViewController.storyboardName, bundle: nil)
+               .instantiateViewController(withIdentifier: ClockViewController.storyboardId) as? ClockViewController
+               else {
+                   return
+           }
+        
+           viewController.viewModel.infuAppData = viewModel.getInfuAppData()
+        viewController.viewModel.infussionId = viewModel.infuID
+               navigationController?.pushViewController(viewController, animated: true)
+       }
 
     @IBAction func shopInfussion(_ sender: Any) {
         if let url = URL(string: viewModel.getShopDetail()) {
