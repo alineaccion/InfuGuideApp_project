@@ -24,16 +24,21 @@ class CatalogueViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.isNavigationBarHidden = false
-
+        
+        configureViews()
         viewModel.onViewLoaded()
         addLogoToNavigationBarItem()
-        configureViews()
         configureObservers()
+        self.navigationController?.isNavigationBarHidden = false
     }
     
     
     func configureViews() {
+        let backButton = UIImage(named: "ic_back")
+        self.navigationController?.navigationBar.backIndicatorImage = backButton
+        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = backButton
+        self.navigationController?.navigationBar.tintColor = .font
+        
         collectionView.delegate = self
         collectionView.dataSource = self
         TitleLabel.text = viewModel.getTitleLabel()
@@ -71,9 +76,10 @@ extension CatalogueViewController: UICollectionViewDelegate,UICollectionViewData
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CatalogueCell.cellCatalogueId, for: indexPath) as? CatalogueCell else {
             return UICollectionViewCell()
         }
-        if let itemCatalogue = viewModel.catalogueItem(for: indexPath.row) {
-            cell.configureCatalogueCell(image:itemCatalogue.icon, text: itemCatalogue.title)
-        }
+        guard let itemCatalogue = viewModel.catalogueItem(for: indexPath.row), let symbol = viewModel.getSymbol(indexPathRow: indexPath.row) else { return cell }
+            
+            cell.configureCatalogueCell(image:itemCatalogue.icon, symbol: symbol, text: itemCatalogue.title)
+
         return cell
     }
   
