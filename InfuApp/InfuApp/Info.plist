@@ -62,8 +62,8 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Argestadisplay-Regular</string>
 		<string>Montserrat-Light</string>
+		<string>Argesta Display Regular</string>
 		<string>Montserrat-Regular</string>
 		<string>Montserrat-SemiBold</string>
 	</array>
