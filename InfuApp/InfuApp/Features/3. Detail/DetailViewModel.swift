@@ -15,11 +15,15 @@ class DetailViewModel {
     var infuID: Int?
     private var infussionData: Infussion?
     
-    var needNavigateToClock: PublishSubject<Infussion> = PublishSubject()
+    var needNavigateToClock: PublishSubject<Int> = PublishSubject()
     
     func onViewLoaded() {
         infussionData = getInfussion()
     }
+    
+    func getInfuAppData() -> InfuAppData? {
+           return infuAppData
+       }
     
     func getInfussion() -> Infussion? {
         guard let infussionObtained = infuAppData?.infussions.first(where: {$0.id == infuID}) else { return nil }
