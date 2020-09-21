@@ -15,6 +15,19 @@
             }
         },
         {
+            "id": 24,
+            "title":"Diente de león",
+            "generalInfo": "",
+            "properties": "",
+            "image": "dienteDeLeon",
+            "icon": "YellowMug",
+            "infuFamilyID": 3,
+            "tags": {
+                "time": 2,
+                "temp": "100ºC"
+            }
+        },
+        {
             "id": 2,
             "title":"Té Negro",
             "generalInfo": "Tomado solo o con leche, el té negro puro se caracteriza por su fermentación completa, de ahí su intenso color, sabor, aroma y que sea uno de los que mayor grado de teína contiene, junto con el té rojo. Una curiosidad sobre esta variedad de té que, por supuesto, se elabora con la Camelia Sinensis, al igual que el resto de tés, es que en China no se le conoce como té negro, sino como un té rojo post fermentado. La denominación de té negro es, más bien, un término acuñado en Occidente y que se ha extendido a otros continentes.",
@@ -157,7 +170,7 @@
             "id": 12,
             "title":"Azahar",
             "generalInfo": "La Flor de azahar es terapéutica. Es muy valorada tanto en cocina como medicina natural para combatir el estrés y la ansiedad. Esta flor crece en los árboles frutales naranjo, limonero y cidro. De color blanco, despide un olor característico que es muy valorado en aromaterapia y cosmética. ",
-            "properties": "Propiedades sedantes: estas propiedades nos permiten conciliar el sueño y mitigar las migrañas o el dolor de cabeza. Para obtener este beneficio lo ideal es beber agua de azahar o tomar una infusión antes de irse a dormir. Propiedades ansiolíticas e hipnóticas: combate el estrés y la ansiedad gracias a sus propiedades ansiolíticas e hipnóticas. Esta propiedad de la flor puede ayudar mucho a los niños con trastorno de hiperactividad. Alivia las indigestiones: trata las indigestiones leves, reduce el dolor estomacal y calma las náuseas o vómitos. Ayuda a tratar la diarrea: tiene propiedades antidiarréicas. Equilibra los niveles de colesterol. Alivia el dolor de garganta: para el dolor de garganta, quitar la tos y favorecer un correcto funcionamiento de los riñones, se puede complementar con otros ingredientes como la miel, el limón o la canela. Propiedades curativas y calmantes para la piel: el aceite esencial de azahar  se usa tanto para la higiene como para tratamiento tópico.",
+            "properties": "Propiedades sedantes: estas propiedades nos permiten conciliar el sueño y mitigar las migrañas o el dolor de cabeza. Para obtener este beneficio lo ideal es beber agua de azahar o tomar una infusión antes de irse a dormir. Propiedades ansiolíticas e hipnóticas: combate el estrés y la ansiedad gracias a sus propiedades ansiolíticas e hipnóticas. \nEsta propiedad de la flor puede ayudar mucho a los niños con trastorno de hiperactividad. Alivia las indigestiones: trata las indigestiones leves, reduce el dolor estomacal y calma las náuseas o vómitos. Ayuda a tratar la diarrea: tiene propiedades antidiarréicas. Equilibra los niveles de colesterol. Alivia el dolor de garganta: para el dolor de garganta, quitar la tos y favorecer un correcto funcionamiento de los riñones, se puede complementar con otros ingredientes como la miel, el limón o la canela. Propiedades curativas y calmantes para la piel: el aceite esencial de azahar  se usa tanto para la higiene como para tratamiento tópico.",
             "image": "azahar",
             "icon": "YellowMug",
             "infuFamilyID": 2,
@@ -309,19 +322,7 @@
                 "temp": "100ºC"
             }
         },
-        {
-            "id": 24,
-            "title":"Diente de león",
-            "generalInfo": "",
-            "properties": "",
-            "image": "dienteDeLeon",
-            "icon": "YellowMug",
-            "infuFamilyID": 3,
-            "tags": {
-                "time": 2,
-                "temp": "100ºC"
-            }
-        },
+        
         {
             "id": 25,
             "title":"Tomillo",
@@ -331,7 +332,7 @@
             "icon": "GreenMug",
             "infuFamilyID": 3,
             "tags": {
-                "time": 2,
+                "time": 1,
                 "temp": "100ºC"
             }
         }
