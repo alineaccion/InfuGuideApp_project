@@ -30,8 +30,12 @@ class CatalogueViewModel {
     }
     
     func getInfussionCatalogue() -> [Infussion]? {
-        guard let infussionList = infuAppData?.infussions.filter({$0.infuFamilyID == infuFamilyID}) else { return nil }
-        return  infussionList
+        if infuFamilyID == 0 {
+            return infuAppData?.infussions.shuffled()
+        } else {
+            guard let infussionList = infuAppData?.infussions.filter({$0.infuFamilyID == infuFamilyID}) else { return nil }
+            return  infussionList
+        }
     }
     
     func catalogueCount() -> Int {
