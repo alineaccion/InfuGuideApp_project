@@ -16,20 +16,19 @@ class HomeMenuViewController: UIViewController {
     // MARK: - Properties
      let viewModel = HomeMenuViewModel()
     private let disposeBag = DisposeBag()
-    
-   // Antes de json -> var listMenuType: [DataHomeMenu]?
-    
+        
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       // Pendiente probar -> self.navigationController?.isNavigationBarHidden = false
         configureViews()
         configureObservers()
         viewModel.onViewLoaded()
-        
     }
-    // añadir funcion willappear
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = true
+    }
     
     func configureViews() {
         tableView.register(UINib(nibName: CellHomeMenu.cellHomeMenuId, bundle: nil), forCellReuseIdentifier: CellHomeMenu.cellHomeMenuId)

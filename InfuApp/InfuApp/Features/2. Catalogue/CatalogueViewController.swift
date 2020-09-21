@@ -26,7 +26,6 @@ class CatalogueViewController: UIViewController {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = false
 
-        
         viewModel.onViewLoaded()
         addLogoToNavigationBarItem()
         configureViews()
