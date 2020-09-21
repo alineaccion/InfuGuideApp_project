@@ -1,5 +1,5 @@
 //
-//  InfuDetailViewController.swift
+//  DetailViewController.swift
 //  InfuApp
 //
 //  Created by Alicia Moreno Alvarez on 15/09/2020.
@@ -58,13 +58,15 @@ class DetailViewController: UIViewController {
     }
     
     private func configureObservers() {
-       /* viewModel.needUpdateDetailData
+       /* PENDIENTE SI HAY RELOJ
+         
+         viewModel.needUpdateDetailData
             .observeOn(MainScheduler.instance)
             .subscribe(onNext: { [weak self] data in self?.detailView
                 
             })
         
-        //NECESARIO NAVEGAR AL TEMPORIZADOR?????
+        NECESARIO NAVEGAR AL TEMPORIZADOR -> pendiente!!!!
     */
     }
 

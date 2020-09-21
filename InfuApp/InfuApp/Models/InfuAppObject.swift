@@ -47,7 +47,7 @@ struct Infussion: Codable {
 
 // MARK: - Tags
 struct Tags: Codable {
-    let time: String
+    let time: Int
     let temp: String
 }
 

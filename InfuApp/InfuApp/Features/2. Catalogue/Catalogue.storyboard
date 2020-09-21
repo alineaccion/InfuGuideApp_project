@@ -36,22 +36,22 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="CatalogueCell" id="lH1-aY-bgx" userLabel="CatalogueCell" customClass="CatalogueCell" customModule="InfuApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="1Lt-vJ-o5v">
-                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="200"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8eJ-go-ujn">
-                                                    <rect key="frame" x="8" y="8" width="164" height="164"/>
+                                                    <rect key="frame" x="8" y="8" width="164" height="184"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teVerde" translatesAutoresizingMaskIntoConstraints="NO" id="rJr-KX-YtY">
-                                                            <rect key="frame" x="16" y="4" width="132" height="101"/>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenMug" translatesAutoresizingMaskIntoConstraints="NO" id="rJr-KX-YtY">
+                                                            <rect key="frame" x="16" y="4" width="132" height="121"/>
                                                         </imageView>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yf1-k2-rjB">
-                                                            <rect key="frame" x="0.0" y="105" width="164" height="60"/>
+                                                            <rect key="frame" x="0.0" y="125" width="164" height="60"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cola de caballo gordo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Nck-Lg-QPz">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Infusion" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Nck-Lg-QPz">
                                                                     <rect key="frame" x="4" y="0.0" width="156" height="60"/>
                                                                     <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
                                                                     <color key="textColor" name="Font"/>
@@ -71,7 +71,6 @@
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="Yf1-k2-rjB" secondAttribute="trailing" id="9Ek-Bg-Uq7"/>
-                                                        <constraint firstAttribute="bottom" secondItem="rJr-KX-YtY" secondAttribute="bottom" constant="59" id="S0J-53-xKO"/>
                                                         <constraint firstAttribute="bottom" secondItem="Yf1-k2-rjB" secondAttribute="bottom" constant="-1" id="hI9-GK-F3O"/>
                                                         <constraint firstItem="rJr-KX-YtY" firstAttribute="leading" secondItem="8eJ-go-ujn" secondAttribute="leading" constant="16" id="keP-Tm-E9x"/>
                                                         <constraint firstAttribute="trailing" secondItem="rJr-KX-YtY" secondAttribute="trailing" constant="16" id="kyy-z5-bz9"/>
@@ -99,6 +98,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="8eJ-go-ujn" secondAttribute="trailing" constant="8" id="yDN-qy-7KJ"/>
                                             </constraints>
                                         </collectionViewCellContentView>
+                                        <size key="customSize" width="180" height="200"/>
                                         <connections>
                                             <outlet property="collectionListImageView" destination="rJr-KX-YtY" id="qhw-Mh-hVG"/>
                                             <outlet property="collectionListTextView" destination="Nck-Lg-QPz" id="1DW-sE-Qnj"/>
@@ -109,7 +109,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ow-Z6-HIL">
                                 <rect key="frame" x="0.0" y="44" width="414" height="50"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWC-KS-7lI">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo de infusion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWC-KS-7lI">
                                         <rect key="frame" x="8" y="11.5" width="398" height="27"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="27" id="VdE-7D-yl1"/>
@@ -167,7 +167,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="teVerde" width="65" height="36"/>
+        <image name="GreenMug" width="585" height="324"/>
         <namedColor name="ButtonBackground">
             <color red="0.90200001001358032" green="0.9570000171661377" blue="0.92199999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

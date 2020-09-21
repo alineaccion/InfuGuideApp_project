@@ -31,12 +31,12 @@
                                 <rect key="frame" x="0.0" y="44" width="375" height="872"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="im6-uk-fwD">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="841.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1400"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bqe-QD-6zZ">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bqe-QD-6zZ" userLabel="ViewImage">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Relajante" translatesAutoresizingMaskIntoConstraints="NO" id="mOS-MW-SD0">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teVerde" translatesAutoresizingMaskIntoConstraints="NO" id="mOS-MW-SD0">
                                                         <rect key="frame" x="8" y="-10" width="359" height="210"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="210" id="H3y-9i-aWw"/>
@@ -64,7 +64,7 @@
                                                     <constraint firstAttribute="height" constant="8" id="xQb-W4-GCg"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZa-QN-bSV">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZa-QN-bSV" userLabel="ViewTitle">
                                                 <rect key="frame" x="0.0" y="212" width="375" height="78"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Té verde" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9T-YF-CUh">
@@ -82,7 +82,7 @@
                                                     <constraint firstItem="N9T-YF-CUh" firstAttribute="top" secondItem="eZa-QN-bSV" secondAttribute="top" constant="8" id="ch0-5M-WRD"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wLn-nP-fde">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wLn-nP-fde" userLabel="ViewTags">
                                                 <rect key="frame" x="0.0" y="292" width="356" height="30"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4cd-z6-wOK">
@@ -102,7 +102,7 @@
                                                                                     <constraint firstAttribute="height" constant="20" id="Ifa-96-D7b"/>
                                                                                 </constraints>
                                                                             </imageView>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  3 min" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TgA-S3-pjn">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TgA-S3-pjn">
                                                                                 <rect key="frame" x="20" y="5" width="80" height="20"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="20" id="8Qw-RN-d10"/>
@@ -129,14 +129,14 @@
                                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ViS-tQ-ihY">
                                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>
                                                                         <subviews>
-                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="termometro2" translatesAutoresizingMaskIntoConstraints="NO" id="eJD-fw-2Nb">
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="termometro" translatesAutoresizingMaskIntoConstraints="NO" id="eJD-fw-2Nb">
                                                                                 <rect key="frame" x="0.0" y="5" width="20" height="20"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="20" id="3ye-Im-Jd9"/>
                                                                                     <constraint firstAttribute="height" constant="20" id="tkQ-1m-YvM"/>
                                                                                 </constraints>
                                                                             </imageView>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  100ºC" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8O-K4-Ygw">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100ºC" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8O-K4-Ygw">
                                                                                 <rect key="frame" x="20" y="5" width="80" height="20"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="80" id="1kX-bP-STs"/>
@@ -170,7 +170,7 @@
                                                                                     <constraint firstAttribute="width" constant="20" id="u07-av-5Xq"/>
                                                                                 </constraints>
                                                                             </imageView>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Energía" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptq-Ha-G8a">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Energía" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptq-Ha-G8a">
                                                                                 <rect key="frame" x="20" y="5" width="80" height="20"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="80" id="XTc-M2-3PV"/>
@@ -204,7 +204,7 @@
                                                     <constraint firstItem="4cd-z6-wOK" firstAttribute="centerY" secondItem="wLn-nP-fde" secondAttribute="centerY" id="sDK-jF-SRB"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o2K-TR-Meg">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o2K-TR-Meg" userLabel="ViewInfo">
                                                 <rect key="frame" x="0.0" y="324" width="375" height="61"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Información general" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dqj-56-bsb">
@@ -222,7 +222,7 @@
                                                     <constraint firstAttribute="trailing" secondItem="Dqj-56-bsb" secondAttribute="trailing" constant="16" id="tku-bR-TdF"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NGV-0S-CFJ">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NGV-0S-CFJ" userLabel="ViewLine">
                                                 <rect key="frame" x="0.0" y="387" width="375" height="5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AZ7-JJ-rgt">
@@ -241,13 +241,13 @@
                                                     <constraint firstAttribute="trailing" secondItem="AZ7-JJ-rgt" secondAttribute="trailing" constant="16" id="ekg-HF-R6h"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="il2-As-caD">
-                                                <rect key="frame" x="0.0" y="394" width="375" height="125.5"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="il2-As-caD" userLabel="ViewInfoText">
+                                                <rect key="frame" x="0.0" y="394" width="375" height="269.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zpg-Yp-oiF">
-                                                        <rect key="frame" x="16" y="0.0" width="343" height="125.5"/>
-                                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,</string>
-                                                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="17"/>
+                                                        <rect key="frame" x="16" y="0.0" width="343" height="269.5"/>
+                                                        <string key="text">Al igual que el resto de tés, este también se elabora con las hojas de la planta de la Camelia Sinensis, siendo éste uno de los más consumidos del mundo, junto con el té negro. La diferencia con otros tipos de tés es que este no pasa por ningún proceso de oxidación ni fermentación, de ahí su color, como el de las hojas de la planta con las que se elabora.Este hecho también hace que este sea más suave de sabor y mucho menos terroso que el té negro o el té rojo, por ejemplo. </string>
+                                                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -260,8 +260,8 @@
                                                     <constraint firstAttribute="trailing" secondItem="Zpg-Yp-oiF" secondAttribute="trailing" constant="16" id="o6e-Ho-Drv"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="icC-qf-qSE">
-                                                <rect key="frame" x="0.0" y="521.5" width="375" height="61"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="icC-qf-qSE" userLabel="ViewProperties">
+                                                <rect key="frame" x="0.0" y="665.5" width="375" height="61"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Propiedades" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMs-iw-aph">
                                                         <rect key="frame" x="16" y="40" width="343" height="21"/>
@@ -278,8 +278,8 @@
                                                     <constraint firstItem="zMs-iw-aph" firstAttribute="top" secondItem="icC-qf-qSE" secondAttribute="top" constant="40" id="vkS-di-ark"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kzk-SI-AgT">
-                                                <rect key="frame" x="0.0" y="584.5" width="375" height="5"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kzk-SI-AgT" userLabel="ViewLine2">
+                                                <rect key="frame" x="0.0" y="728.5" width="375" height="5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cdx-MX-wvu">
                                                         <rect key="frame" x="16" y="2" width="343" height="1"/>
@@ -297,12 +297,13 @@
                                                     <constraint firstAttribute="trailing" secondItem="cdx-MX-wvu" secondAttribute="trailing" constant="16" id="wOU-4l-zq6"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l8D-9B-Vsw">
-                                                <rect key="frame" x="0.0" y="591.5" width="375" height="104"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l8D-9B-Vsw" userLabel="ViewPropertiesText">
+                                                <rect key="frame" x="0.0" y="735.5" width="375" height="518.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIK-Sd-Ifd">
-                                                        <rect key="frame" x="16" y="0.0" width="343" height="104"/>
-                                                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="17"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIK-Sd-Ifd">
+                                                        <rect key="frame" x="16" y="0.0" width="343" height="518.5"/>
+                                                        <string key="text">Dietas: este se incluye en numerosas dietas porque ayuda a perder peso, siempre y cuando se incluya dentro de unas pautas de vida saludables. Ya sabes que el té verde adelgaza un gran beneficio.Mejora problemas del aparato digestivo: tales como la diarrea, gracias a sus propiedades astringentes. Salud cardiovascular: al ser un antioxidante natural, esto ayuda a que las células del cuerpo se regeneren y, por tanto, mejore esta parte de nuestro cuerpo. </string>
+                                                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -316,21 +317,21 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FcO-GL-kao">
-                                                <rect key="frame" x="0.0" y="697.5" width="375" height="60"/>
+                                                <rect key="frame" x="0.0" y="1256" width="375" height="60"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="Jgk-mJ-f64"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h3C-Bh-Jxi">
-                                                <rect key="frame" x="0.0" y="759.5" width="375" height="10"/>
+                                                <rect key="frame" x="0.0" y="1318" width="375" height="10"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="10" id="0cC-42-xlz"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PO3-yL-Ebe">
-                                                <rect key="frame" x="0.0" y="771.5" width="375" height="70"/>
+                                                <rect key="frame" x="0.0" y="1330" width="375" height="70"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="BFr-f2-yHw"/>
@@ -411,10 +412,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Relajante" width="1872" height="1248"/>
         <image name="clock" catalog="system" width="128" height="121"/>
         <image name="rayo" width="144" height="234"/>
-        <image name="termometro2" width="117" height="234"/>
+        <image name="teVerde" width="1728" height="1152"/>
+        <image name="termometro" width="117" height="234"/>
         <namedColor name="ButtonBackground">
             <color red="0.90200001001358032" green="0.9570000171661377" blue="0.92199999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

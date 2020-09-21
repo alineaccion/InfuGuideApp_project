@@ -18,14 +18,15 @@ class CatalogueViewModel {
     //private let navigationIdentifier = "SEGUE_FROM_CELLCATALOGUE_TO_DETAIL"
     
     var needNavigateToDetail: PublishSubject<Int> = PublishSubject()
-    // var needUpdateCatalogue: PublishSubject<Bool> = PublishSubject()
+    // No necesario con json ->  var needUpdateCatalogue: PublishSubject<Bool> = PublishSubject()
     
-    /* let listCatalogue = [DataCatalogue(title: "Te negro", image: "1"),
+    /* Antes de json ->  let listCatalogue = [DataCatalogue(title: "Te negro", image: "1"),
      DataCatalogue(title: "Te rojo", image: "2"),
      DataCatalogue(title: "Te verde", image: "3"),
      DataCatalogue(title: "Te matcha", image: "4"),
      DataCatalogue(title: "Mate", image: "5")]
      */
+    
     func onViewLoaded() {
         let jsonData = loadJsonData(name: "SampleData")!
         do {

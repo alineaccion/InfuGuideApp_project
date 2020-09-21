@@ -1,5 +1,5 @@
 //
-//  InfuDetailViewModel.swift
+//  DetailViewModel.swift
 //  InfuApp
 //
 //  Created by Alicia Moreno Alvarez on 15/09/2020.
@@ -57,7 +57,7 @@ class DetailViewModel {
     
     func getTagTimeDetail() -> String {
         guard let timeObtained = infussionData?.tags.time else { return "" }
-        return timeObtained
+        return "\(timeObtained) min"
         
     }
     
