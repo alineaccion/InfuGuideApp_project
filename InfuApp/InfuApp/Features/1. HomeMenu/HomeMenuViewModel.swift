@@ -16,13 +16,14 @@ class HomeMenuViewModel {
     
     private var infuAppData: InfuAppData?
     
-    /*let listHomeMenu = [DataHomeMenu(title: "Estimulante", image: "Estimulante", infutype:                             .estimulante),
+    /*Antes de json -> let listHomeMenu = [DataHomeMenu(title: "Estimulante", image: "Estimulante", infutype:                             .estimulante),
      DataHomeMenu(title: "Relajante", image: "Relajante", infutype: .relajante),
      DataHomeMenu(title: "Sano", image: "Sano", infutype: .saludable)]
      */
     
     func onViewLoaded() {
-        // David no me mates por usar !, es para que no funcione si no hay datos y no quedar mal :)
+        // David no me mates por usar !, es para que no funcione si no hay datos :)
+        // pediente hacer guard let porque a David no le ha gustado mi idea
         let jsonData = loadJsonData(name: "SampleData")!
         do {
             infuAppData = try JSONDecoder().decode(InfuAppData.self, from: jsonData)

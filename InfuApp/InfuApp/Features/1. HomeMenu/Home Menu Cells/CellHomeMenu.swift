@@ -15,7 +15,6 @@ class CellHomeMenu: UITableViewCell {
 
 static var cellHomeMenuId = "CellHomeMenu"
     
-    
     override func prepareForReuse() {
         homeMenuImageView.image = nil
         homeMenuTextView.text = nil

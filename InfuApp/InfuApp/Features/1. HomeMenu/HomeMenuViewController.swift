@@ -18,17 +18,19 @@ class HomeMenuViewController: UIViewController {
      let viewModel = HomeMenuViewModel()
     private let disposeBag = DisposeBag()
     
-   // var listMenuType: [DataHomeMenu]?
+   // Antes de json -> var listMenuType: [DataHomeMenu]?
     
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       // Pendiente probar -> self.navigationController?.isNavigationBarHidden = false
         configureViews()
         configureObservers()
         viewModel.onViewLoaded()
         
     }
+    // añadir funcion willappear
     
     func configureViews() {
         tableView.register(UINib(nibName: CellHomeMenu.cellHomeMenuId, bundle: nil), forCellReuseIdentifier: CellHomeMenu.cellHomeMenuId)

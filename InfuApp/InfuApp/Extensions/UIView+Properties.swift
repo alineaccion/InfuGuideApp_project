@@ -6,7 +6,7 @@
 //  Copyright © 2020 Alicia Moreno Alvarez. All rights reserved.
 //
 import UIKit
-// Para modificar vistas en storyboard sin codigo
+// Para modificar vistas en storyboard sin codigo añadiendo las opciones para personalizar el diseño de la pantalla
 //https://stackoverflow.com/questions/54999229/cornerradius-and-shadow-on-a-uiview-using-ibinspectable-swift-4-2
 
 extension UIView {

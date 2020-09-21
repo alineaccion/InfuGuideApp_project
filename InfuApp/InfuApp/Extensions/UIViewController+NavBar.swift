@@ -8,6 +8,7 @@
 
 import UIKit
 extension UIViewController {
+    // Añade Logo en la navigationBar
     
     func addLogoToNavigationBarItem() {
         let imageView = UIImageView()
