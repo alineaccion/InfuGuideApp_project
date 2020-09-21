@@ -28,7 +28,6 @@ class CatalogueViewController: UIViewController {
 
         
         viewModel.onViewLoaded()
-        
         addLogoToNavigationBarItem()
         configureViews()
         configureObservers()
@@ -36,10 +35,8 @@ class CatalogueViewController: UIViewController {
     
     
     func configureViews() {
-        // No necesario si la celda esta dentro de la collectionView -> collectionView.register(UINib(nibName: CatalogueCell.cellCatalogueId, bundle: nil), forCellWithReuseIdentifier: CatalogueCell.cellCatalogueId)
         collectionView.delegate = self
         collectionView.dataSource = self
-        
         TitleLabel.text = viewModel.getTitleLabel()
     }
     
@@ -58,7 +55,7 @@ class CatalogueViewController: UIViewController {
             else {
                 return
         }
-
+        viewController.viewModel.infuAppData = viewModel.getInfuAppData()
         viewController.viewModel.infuID = infussionId
             navigationController?.pushViewController(viewController, animated: true)
     }

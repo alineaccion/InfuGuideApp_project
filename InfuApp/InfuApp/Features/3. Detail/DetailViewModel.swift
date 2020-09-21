@@ -18,25 +18,7 @@ class DetailViewModel {
     var needNavigateToClock: PublishSubject<Infussion> = PublishSubject()
     
     func onViewLoaded() {
-        let jsonData = loadJsonData(name: "SampleData")!
-        do {
-            infuAppData = try JSONDecoder().decode(InfuAppData.self, from: jsonData)
-        } catch {}
-        
         infussionData = getInfussion()
-    }
-    
-    private func loadJsonData(name: String) -> Data? {
-        do {
-            if let bundlePath = Bundle.main.path(forResource: name,
-                                                 ofType: "json"),
-                let jsonData = try String(contentsOfFile: bundlePath).data(using: .utf8) {
-                return jsonData
-            }
-        } catch {
-            print(error)
-        }
-        return nil
     }
     
     func getInfussion() -> Infussion? {

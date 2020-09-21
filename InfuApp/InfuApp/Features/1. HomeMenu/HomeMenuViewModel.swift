@@ -16,18 +16,8 @@ class HomeMenuViewModel {
     
     private var infuAppData: InfuAppData?
     
-    /*Antes de json -> let listHomeMenu = [DataHomeMenu(title: "Estimulante", image: "Estimulante", infutype:                             .estimulante),
-     DataHomeMenu(title: "Relajante", image: "Relajante", infutype: .relajante),
-     DataHomeMenu(title: "Sano", image: "Sano", infutype: .saludable)]
-     */
-    
     func onViewLoaded() {
-        // David no me mates por usar !, es para que no funcione si no hay datos :)
-        // pediente hacer guard let porque a David no le ha gustado mi idea
-        let jsonData = loadJsonData(name: "SampleData")!
-        do {
-            infuAppData = try JSONDecoder().decode(InfuAppData.self, from: jsonData)
-        } catch {}
+        loadAppData()
     }
     
     private func loadJsonData(name: String) -> Data? {
@@ -35,12 +25,25 @@ class HomeMenuViewModel {
             if let bundlePath = Bundle.main.path(forResource: name,
                                                  ofType: "json"),
                 let jsonData = try String(contentsOfFile: bundlePath).data(using: .utf8) {
+                
                 return jsonData
             }
         } catch {
             print(error)
         }
         return nil
+    }
+    
+    private func loadAppData() {
+        let jsonData = loadJsonData(name: "SampleData")!
+        do {
+            infuAppData = try JSONDecoder().decode(InfuAppData.self, from: jsonData)
+        } catch {}
+        
+    }
+    
+    func getInfuAppData() -> InfuAppData? {
+        return infuAppData
     }
     
     func infuFamilyCount() -> Int {

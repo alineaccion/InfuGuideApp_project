@@ -14,7 +14,6 @@ class HomeMenuViewController: UIViewController {
     // MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!
     // MARK: - Properties
-    
      let viewModel = HomeMenuViewModel()
     private let disposeBag = DisposeBag()
     
@@ -50,7 +49,7 @@ class HomeMenuViewController: UIViewController {
     func navigateToCatalogue(familyID: Int) {
         guard let viewController = UIStoryboard(name: CatalogueViewController.storyboardName, bundle: nil)
             .instantiateViewController(withIdentifier: CatalogueViewController.storyboardId) as? CatalogueViewController else { return }
-        
+        viewController.viewModel.infuAppData = viewModel.getInfuAppData()
         viewController.viewModel.infuFamilyID = familyID
         navigationController?.pushViewController(viewController, animated: true)
         
