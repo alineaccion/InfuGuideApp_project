@@ -84,6 +84,11 @@ class DetailViewModel {
               return infoPropertiesDetail
     }
     
+    func getSymbolDetail() -> String {
+        guard let symbolDetailObtained = infuAppData?.infuFamily.first(where: {$0.id == infussionData?.infuFamilyID}) else { return ""}
+        return symbolDetailObtained.symbol
+    }
+    
     func getShopDetail() -> String {
         guard let buttonShop = infussionData?.shopUrl else { return ""}
         return buttonShop
