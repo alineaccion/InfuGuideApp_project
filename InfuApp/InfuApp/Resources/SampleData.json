@@ -337,6 +337,8 @@
         }
     ],
     "infuFamily": [
+        
+        
         {
             "id": 1,
             "longTitle":"Obtén la energia que necesitas",
@@ -357,6 +359,14 @@
             "title": "Salud",
             "image": "salud",
             "symbol": "corazon"
+        },
+        {
+            "id": 0,
+            "longTitle":"Ver todas las infusiones",
+            "title": "",
+            "image": "viewAll",
+            "symbol": ""
+
         }
     ]
 }
