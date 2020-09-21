@@ -23,6 +23,7 @@
 		B78FF7862514DD7900E03C63 /* InfuAppObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FF7852514DD7900E03C63 /* InfuAppObject.swift */; };
 		B78FF788251662A200E03C63 /* SampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = B7AA93EF2511110400AB3AAD /* SampleData.json */; };
 		B78FF78D2517C0D500E03C63 /* UIView+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FF78C2517C0D500E03C63 /* UIView+Properties.swift */; };
+		B78FF7942517ED0C00E03C63 /* UIViewController+NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FF7932517ED0C00E03C63 /* UIViewController+NavBar.swift */; };
 		B7AA93DE2510100200AB3AAD /* CatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93DD2510100200AB3AAD /* CatalogueViewController.swift */; };
 		B7AA93E02510D00300AB3AAD /* CatalogueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93DF2510D00300AB3AAD /* CatalogueViewModel.swift */; };
 		B7AA93E42510D09F00AB3AAD /* DataCatalogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA93E32510D09F00AB3AAD /* DataCatalogue.swift */; };
@@ -61,6 +62,7 @@
 		B78FF7902517DF9400E03C63 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		B78FF7912517DFA200E03C63 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		B78FF7922517DFAF00E03C63 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		B78FF7932517ED0C00E03C63 /* UIViewController+NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavBar.swift"; sourceTree = "<group>"; };
 		B7AA93DD2510100200AB3AAD /* CatalogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewController.swift; sourceTree = "<group>"; };
 		B7AA93DF2510D00300AB3AAD /* CatalogueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewModel.swift; sourceTree = "<group>"; };
 		B7AA93E32510D09F00AB3AAD /* DataCatalogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCatalogue.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				B78FF78C2517C0D500E03C63 /* UIView+Properties.swift */,
+				B78FF7932517ED0C00E03C63 /* UIViewController+NavBar.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				B7AA93E02510D00300AB3AAD /* CatalogueViewModel.swift in Sources */,
 				B7446FE82508DA9700F968D1 /* SceneDelegate.swift in Sources */,
 				B78C14B7250A8F2700C16738 /* CellHomeMenu.swift in Sources */,
+				B78FF7942517ED0C00E03C63 /* UIViewController+NavBar.swift in Sources */,
 				B7AA93DE2510100200AB3AAD /* CatalogueViewController.swift in Sources */,
 				B7AA93E62510ED1F00AB3AAD /* HomeMenuViewController.swift in Sources */,
 				B7AA93E82510EDDB00AB3AAD /* CatalogueCell.swift in Sources */,
