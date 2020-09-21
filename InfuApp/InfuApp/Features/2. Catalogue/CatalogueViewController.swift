@@ -24,6 +24,8 @@ class CatalogueViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.isNavigationBarHidden = false
+
         
         viewModel.onViewLoaded()
         
