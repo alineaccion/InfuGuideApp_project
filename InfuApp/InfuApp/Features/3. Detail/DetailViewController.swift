@@ -20,7 +20,8 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var infoTextDetail: UILabel!
     @IBOutlet weak var propertiesTextDetail: UILabel!
     @IBOutlet weak var shopButtonDetail: UIButton!
-
+    @IBOutlet weak var symbolDetail: UIImageView!
+    
     static var storyboardId = "DetailViewController"
     static var storyboardName = "Detail"
     
@@ -52,6 +53,7 @@ class DetailViewController: UIViewController {
         infoTextDetail.text = viewModel.getInfoTextDetail()
         propertiesTextDetail.text = viewModel.getPropertiesTextDetail()
         shopButtonDetail.isHidden = viewModel.ShopButtonDtailIsHidden()
+        symbolDetail.image = UIImage(named: viewModel.getSymbolDetail())
         
     }
     
