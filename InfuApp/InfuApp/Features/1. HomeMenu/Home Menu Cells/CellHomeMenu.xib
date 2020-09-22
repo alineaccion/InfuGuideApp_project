@@ -8,14 +8,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Argesta Display Regular.otf">
+        <array key="Argesta Display Regular 400.otf">
             <string>ArgestaDisplay-Regular</string>
         </array>
     </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellHomeMenu" rowHeight="170" id="ySg-aX-TLH" userLabel="MenuTypeViewCell" customClass="CellHomeMenu" customModule="InfuApp" customModuleProvider="target">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellHomeMenu" rowHeight="170" id="ySg-aX-TLH" userLabel="MenuTypeViewCell" customClass="CellHomeMenu" customModule="InfuGuide" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="400" height="116"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ySg-aX-TLH" id="CC0-RW-Igk">
@@ -38,11 +38,19 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo de infusion" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mq-8A-JwN">
-                                <rect key="frame" x="16" y="8" width="242" height="84"/>
+                                <rect key="frame" x="40" y="8" width="218" height="84"/>
                                 <fontDescription key="fontDescription" name="ArgestaDisplay-Regular" family="Argesta Display" pointSize="20"/>
                                 <color key="textColor" name="Font"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pAL-yy-PvV">
+                                <rect key="frame" x="11" y="43" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="15" id="0Oy-d3-oYJ"/>
+                                    <constraint firstAttribute="width" constant="15" id="2Nt-5B-QVn"/>
+                                    <constraint firstAttribute="height" constant="15" id="g7O-KQ-DK3"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -50,9 +58,11 @@
                             <constraint firstItem="5uU-L5-TjY" firstAttribute="top" secondItem="QoI-WT-wGl" secondAttribute="top" constant="8" id="K9x-oC-fqz"/>
                             <constraint firstItem="5uU-L5-TjY" firstAttribute="leading" secondItem="6mq-8A-JwN" secondAttribute="trailing" constant="8" symbolic="YES" id="YNf-DL-hF4"/>
                             <constraint firstAttribute="bottom" secondItem="5uU-L5-TjY" secondAttribute="bottom" constant="8" id="dXC-11-Aed"/>
+                            <constraint firstItem="6mq-8A-JwN" firstAttribute="leading" secondItem="pAL-yy-PvV" secondAttribute="trailing" constant="14" id="eOX-Wz-kAn"/>
                             <constraint firstAttribute="trailing" secondItem="5uU-L5-TjY" secondAttribute="trailing" constant="8" id="fmB-2G-eOx"/>
                             <constraint firstItem="6mq-8A-JwN" firstAttribute="top" secondItem="QoI-WT-wGl" secondAttribute="top" constant="8" id="hmO-N7-aBj"/>
-                            <constraint firstItem="6mq-8A-JwN" firstAttribute="leading" secondItem="QoI-WT-wGl" secondAttribute="leading" constant="16" id="mLP-BG-W5B"/>
+                            <constraint firstItem="pAL-yy-PvV" firstAttribute="top" secondItem="QoI-WT-wGl" secondAttribute="top" constant="43" id="kb9-1m-l9M"/>
+                            <constraint firstItem="6mq-8A-JwN" firstAttribute="leading" secondItem="QoI-WT-wGl" secondAttribute="leading" constant="40" id="mLP-BG-W5B"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -74,6 +84,7 @@
             <connections>
                 <outlet property="homeMenuImageView" destination="5uU-L5-TjY" id="Awe-Ic-Qu1"/>
                 <outlet property="homeMenuTextView" destination="6mq-8A-JwN" id="RBU-LF-dDg"/>
+                <outlet property="tagSymbolHomeMenu" destination="pAL-yy-PvV" id="ypd-qI-Tva"/>
             </connections>
             <point key="canvasLocation" x="208.69565217391306" y="-25.446428571428569"/>
         </tableViewCell>

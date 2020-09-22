@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Argesta Display Regular.otf">
+        <array key="Argesta Display Regular 400.otf">
             <string>ArgestaDisplay-Regular</string>
         </array>
         <array key="Montserrat-Light.ttf">
@@ -25,7 +25,7 @@
         <!--Detail View Controller-->
         <scene sceneID="aQt-Kq-Wme">
             <objects>
-                <viewController storyboardIdentifier="DetailViewController" id="2LN-Ed-Fvt" customClass="DetailViewController" customModule="InfuApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" id="2LN-Ed-Fvt" customClass="DetailViewController" customModule="InfuGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XM9-qf-VdB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,7 +34,7 @@
                                 <rect key="frame" x="0.0" y="44" width="375" height="872"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="im6-uk-fwD">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1400"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1909"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bqe-QD-6zZ" userLabel="ViewImage">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
@@ -116,6 +116,14 @@
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                         </subviews>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="5"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                                <real key="value" value="-2"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
                                                                     </stackView>
                                                                 </subviews>
                                                                 <color key="backgroundColor" name="ButtonBackground"/>
@@ -125,6 +133,11 @@
                                                                     <constraint firstAttribute="bottom" secondItem="Egr-YJ-qgA" secondAttribute="bottom" id="iUZ-cp-OaH"/>
                                                                     <constraint firstItem="Egr-YJ-qgA" firstAttribute="leading" secondItem="cbK-zx-v7N" secondAttribute="leading" id="reW-A8-zdR"/>
                                                                 </constraints>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="5"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6t-n0-fYD">
                                                                 <rect key="frame" x="120" y="0.0" width="100" height="30"/>
@@ -150,6 +163,11 @@
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                         </subviews>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="5"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
                                                                     </stackView>
                                                                 </subviews>
                                                                 <color key="backgroundColor" name="ButtonBackground"/>
@@ -159,6 +177,11 @@
                                                                     <constraint firstItem="ViS-tQ-ihY" firstAttribute="leading" secondItem="h6t-n0-fYD" secondAttribute="leading" id="Fno-TS-pJN"/>
                                                                     <constraint firstItem="ViS-tQ-ihY" firstAttribute="top" secondItem="h6t-n0-fYD" secondAttribute="top" id="h7d-qe-p01"/>
                                                                 </constraints>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="5"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T2U-sU-h1u">
                                                                 <rect key="frame" x="240" y="0.0" width="100" height="30"/>
@@ -184,6 +207,11 @@
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                         </subviews>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="5"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
                                                                     </stackView>
                                                                 </subviews>
                                                                 <color key="backgroundColor" name="ButtonBackground"/>
@@ -193,6 +221,11 @@
                                                                     <constraint firstAttribute="trailing" secondItem="5QO-GB-hxf" secondAttribute="trailing" id="f5u-6e-dgG"/>
                                                                     <constraint firstItem="5QO-GB-hxf" firstAttribute="leading" secondItem="T2U-sU-h1u" secondAttribute="leading" id="zHe-8D-92i"/>
                                                                 </constraints>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="5"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
                                                             </view>
                                                         </subviews>
                                                     </stackView>
@@ -208,11 +241,11 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o2K-TR-Meg" userLabel="ViewInfo">
-                                                <rect key="frame" x="0.0" y="324" width="375" height="61"/>
+                                                <rect key="frame" x="0.0" y="324" width="375" height="64.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Información general" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dqj-56-bsb">
-                                                        <rect key="frame" x="16" y="40" width="343" height="21"/>
-                                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="17"/>
+                                                        <rect key="frame" x="16" y="40" width="343" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
                                                         <color key="textColor" name="Font"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -226,7 +259,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NGV-0S-CFJ" userLabel="ViewLine">
-                                                <rect key="frame" x="0.0" y="387" width="375" height="5"/>
+                                                <rect key="frame" x="0.0" y="390.5" width="375" height="5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AZ7-JJ-rgt">
                                                         <rect key="frame" x="16" y="2" width="343" height="1"/>
@@ -245,12 +278,12 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="il2-As-caD" userLabel="ViewInfoText">
-                                                <rect key="frame" x="0.0" y="394" width="375" height="269.5"/>
+                                                <rect key="frame" x="0.0" y="397.5" width="375" height="771.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zpg-Yp-oiF">
-                                                        <rect key="frame" x="16" y="0.0" width="343" height="269.5"/>
+                                                        <rect key="frame" x="16" y="0.0" width="343" height="771.5"/>
                                                         <string key="text">Al igual que el resto de tés, este también se elabora con las hojas de la planta de la Camelia Sinensis, siendo éste uno de los más consumidos del mundo, junto con el té negro. La diferencia con otros tipos de tés es que este no pasa por ningún proceso de oxidación ni fermentación, de ahí su color, como el de las hojas de la planta con las que se elabora.Este hecho también hace que este sea más suave de sabor y mucho menos terroso que el té negro o el té rojo, por ejemplo. </string>
-                                                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="18"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -264,11 +297,11 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="icC-qf-qSE" userLabel="ViewProperties">
-                                                <rect key="frame" x="0.0" y="665.5" width="375" height="61"/>
+                                                <rect key="frame" x="0.0" y="1171" width="375" height="64.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Propiedades" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMs-iw-aph">
-                                                        <rect key="frame" x="16" y="40" width="343" height="21"/>
-                                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="17"/>
+                                                        <rect key="frame" x="16" y="40" width="343" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
                                                         <color key="textColor" name="Font"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -282,7 +315,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kzk-SI-AgT" userLabel="ViewLine2">
-                                                <rect key="frame" x="0.0" y="728.5" width="375" height="5"/>
+                                                <rect key="frame" x="0.0" y="1237.5" width="375" height="5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cdx-MX-wvu">
                                                         <rect key="frame" x="16" y="2" width="343" height="1"/>
@@ -301,12 +334,12 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l8D-9B-Vsw" userLabel="ViewPropertiesText">
-                                                <rect key="frame" x="0.0" y="735.5" width="375" height="518.5"/>
+                                                <rect key="frame" x="0.0" y="1244.5" width="375" height="518.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIK-Sd-Ifd">
                                                         <rect key="frame" x="16" y="0.0" width="343" height="518.5"/>
                                                         <string key="text">Dietas: este se incluye en numerosas dietas porque ayuda a perder peso, siempre y cuando se incluya dentro de unas pautas de vida saludables. Ya sabes que el té verde adelgaza un gran beneficio.Mejora problemas del aparato digestivo: tales como la diarrea, gracias a sus propiedades astringentes. Salud cardiovascular: al ser un antioxidante natural, esto ayuda a que las células del cuerpo se regeneren y, por tanto, mejore esta parte de nuestro cuerpo. </string>
-                                                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="18"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -320,21 +353,21 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FcO-GL-kao">
-                                                <rect key="frame" x="0.0" y="1256" width="375" height="60"/>
+                                                <rect key="frame" x="0.0" y="1765" width="375" height="60"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="Jgk-mJ-f64"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h3C-Bh-Jxi">
-                                                <rect key="frame" x="0.0" y="1318" width="375" height="10"/>
+                                                <rect key="frame" x="0.0" y="1827" width="375" height="10"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="10" id="0cC-42-xlz"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PO3-yL-Ebe">
-                                                <rect key="frame" x="0.0" y="1330" width="375" height="70"/>
+                                                <rect key="frame" x="0.0" y="1839" width="375" height="70"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="BFr-f2-yHw"/>

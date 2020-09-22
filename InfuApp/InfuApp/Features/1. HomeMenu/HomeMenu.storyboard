@@ -27,7 +27,7 @@
         <!--Home Menu View Controller-->
         <scene sceneID="7rf-oy-ldV">
             <objects>
-                <viewController modalPresentationStyle="currentContext" id="9y1-gg-3yA" customClass="HomeMenuViewController" customModule="InfuApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="currentContext" id="9y1-gg-3yA" customClass="HomeMenuViewController" customModule="InfuGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kkg-Yw-gJQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

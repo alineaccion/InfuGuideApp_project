@@ -12,21 +12,23 @@ class CellHomeMenu: UITableViewCell {
     
     @IBOutlet weak var homeMenuImageView: UIImageView!
     @IBOutlet weak var homeMenuTextView: UILabel!
-
-static var cellHomeMenuId = "CellHomeMenu"
+    @IBOutlet weak var tagSymbolHomeMenu: UIImageView!
+    static var cellHomeMenuId = "CellHomeMenu"
     
     override func prepareForReuse() {
         homeMenuImageView.image = nil
         homeMenuTextView.text = nil
+        tagSymbolHomeMenu.image = nil
     }
     
     override func awakeFromNib() {
         super.awakeFromNib()
     }
     
-    func configureCell(image: String, text: String){
+    func configureCell(image: String, text: String, imageSymbol: String){
         self.homeMenuTextView.text = text
         self.homeMenuImageView.image = UIImage(named: image)
+        self.tagSymbolHomeMenu.image = UIImage(named: imageSymbol)
         
         let bgColorView = UIView()
         bgColorView.backgroundColor = UIColor.clear
