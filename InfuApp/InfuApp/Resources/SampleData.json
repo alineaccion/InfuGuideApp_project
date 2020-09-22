@@ -1,10 +1,24 @@
 {
     "infussions": [
         {
+                   "id": 22,
+                   "title":"Cola de caballo",
+                   "generalInfo": "El Equisetum arvense o cola de caballo es una especie de arbusto perteneciente a la familia de las equisetáceas. \n\nEs un arbusto perenne de tallo rizomatoso, distribuido en el hemisferio norte. \n\nPuede tener tallos estériles y fértiles. \n\nLos estériles arrancan a crecer después de que los fértiles hayan emergido, y tienden a ser más largos y arbustivos. \n\nLos fértiles suelen ser la mitad de largo que los estériles y más suculentos.",
+                   "properties": "Se impone como un poderoso agente diurético y depurativo, tanto a nivel interno como externo, y no suele faltar de las más celebradas formulaciones herbarias que nos proponen los herbolarios expertos. \n\nDestaca así mismo como un potente regenerador celular por su contenido en sílice, lo que hace de ella uno de los mejores recursos herbarios para la reparación de los tejidos dañados. \n|nToma nota de su variada acción terapéutica y déjate aconsejar para incluirla sin problemas en tus remedios naturales habituales. \n\nPor su alto contenido en sales minerales y vitaminas, la cola de caballo debe recomendarse en primer lugar como un aliado natural para tratar la astenia, la debilidad, estados leves de anemia y para etapas de desarrollo, pero también como apoyo en la vejez y en los periodos de convalecencia. \n\nActúa como un diurético potente y resolutivo. \n Se indica para favorecer la emisión de orina y la eliminación de toxinas desde el hígado y el riñón. \n\nEs útil para contravenir la retención de líquidos y los edemas. \nSe incluye en formulaciones para favorecer la depuración orgánica y la pérdida de peso en personas obesas o con sobrepeso. \n\nTe ayudará a aliviar diferentes afecciones genitourinarias, como la molesta cistitis, uretritis, nefritis y para prevenir la formación de piedras en el riñón. \n\nSe muestra como un antiinflamatorio seguro y eficaz, que une su poder depurativo y desintoxicante para mediar en problemas de tipo reumático, en casos de artritis, artrosis y gota. \nTe ayudará a eliminar los excesos de ácido úrico y urea.",
+                   "image": "colaDeCaballo",
+                   "icon": "YellowMug",
+                   "infuFamilyID": 3,
+                   "shopUrl": "https://www.amazon.es/s?k=infusion+cola+de+caballo&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=29Y0Z3KG95XZ8&sprefix=infusion+cola%2Caps%2C173&ref=nb_sb_ss_i_1_13",
+                   "tags": {
+                       "time": 5,
+                       "temp": "100ºC"
+                   }
+               },
+        {
             "id": 1,
             "title":"Té Verde",
-            "generalInfo": "Al igual que el resto de tés, este también se elabora con las hojas de la planta de la Camelia Sinensis, siendo éste uno de los más consumidos del mundo, junto con el té negro. La diferencia con otros tipos de tés es que este no pasa por ningún proceso de oxidación ni fermentación, de ahí su color, como el de las hojas de la planta con las que se elabora.Este hecho también hace que este sea más suave de sabor y mucho menos terroso que el té negro o el té rojo, por ejemplo. ",
-            "properties": "Dietas: este se incluye en numerosas dietas porque ayuda a perder peso, siempre y cuando se incluya dentro de unas pautas de vida saludables. Ya sabes que el té verde adelgaza un gran beneficio.Mejora problemas del aparato digestivo: tales como la diarrea, gracias a sus propiedades astringentes. Salud cardiovascular: al ser un antioxidante natural, esto ayuda a que las células del cuerpo se regeneren y, por tanto, mejore esta parte de nuestro cuerpo. Mejora el aspecto de la piel: gracias a las vitaminas y minerales que aporta al cuerpo, pero especialmente por sus propiedades antioxidantes. Reduce las posibilidades de sufrir cáncer: una vez más, las propiedades antioxidantes del té verde son las responsables de destruir las células muertas o malignas y regenerar otras, de manera natural.Mejora el sistema inmunitario: gracias a las vitaminas y minerales que nos aporta, por lo que es una bebida excelente para cuidarnos durante todo el año. ",
+            "generalInfo": "Al igual que el resto de tés, este también se elabora con las hojas de la planta de la Camelia Sinensis, siendo éste uno de los más consumidos del mundo, junto con el té negro. \nLa diferencia con otros tipos de tés es que este no pasa por ningún proceso de oxidación ni fermentación, de ahí su color, como el de las hojas de la planta con las que se elabora. \nEste hecho también hace que este sea más suave de sabor y mucho menos terroso que el té negro o el té rojo, por ejemplo. ",
+            "properties": "Dietas: este se incluye en numerosas dietas porque ayuda a perder peso, siempre y cuando se incluya dentro de unas pautas de vida saludables. Ya sabes que el té verde adelgaza un gran beneficio. \nMejora problemas del aparato digestivo: tales como la diarrea, gracias a sus propiedades astringentes. \n\nSalud cardiovascular: al ser un antioxidante natural, esto ayuda a que las células del cuerpo se regeneren y, por tanto, mejore esta parte de nuestro cuerpo. \n\nMejora el aspecto de la piel: gracias a las vitaminas y minerales que aporta al cuerpo, pero especialmente por sus propiedades antioxidantes. \n\nReduce las posibilidades de sufrir cáncer: una vez más, las propiedades antioxidantes del té verde son las responsables de destruir las células muertas o malignas y regenerar otras, de manera natural. \n\nMejora el sistema inmunitario: gracias a las vitaminas y minerales que nos aporta, por lo que es una bebida excelente para cuidarnos durante todo el año. ",
             "image": "teVerde",
             "icon": "GreenMug",
             "infuFamilyID": 1,
@@ -28,10 +42,38 @@
             }
         },
         {
+                   "id": 21,
+                   "title":"Calendula",
+                   "generalInfo": "La caléndula es una flor a la que se le conoce con el término de maravilla. \n\nSu forma y los llamativos tonos de sus pétalos, entre amarillos y anaranjados, , hacen del uso de esta flor, una planta de una gran belleza. \n|nLo que no todo el mundo sabe es que además posee numerosas e importantes propiedades curativas y de conservación para nuestro organismo. \n\n El uso de la caléndula para mejorar nuestra apariencia física, salud y bienestar se remontan muy atrás en la historia. \n\nYa los antiguos egipcios la consideraban una planta milagrosa y con muchísimas posibilidades.",
+                   "properties": "Posee un gran poder cicatrizante y antiséptico, además de regenerar la piel y producir colágeno, por lo que es muy recomendable para curar heridas, tratar cicatrices, pies y manos agrietadas, pieles quemadas o con acné, úlceras bucales y eccemas. \n\nTiene una importante capacidad antiinflamatoria y es muy recomendable para curar la gingivitis y la faringitis. \n\nLos flavonoides son sustancias que reparan los vasos sanguíneos y circulatorios, y que están muy presentes en la caléndula. Esto hace que regule el ciclo menstrual, sobre todo los espasmos que produce. \n\nUna infusión de caléndula te va a ayudar mucho ante problemas digestivos como la indigestión, la gastritis o los vómitos.",
+                   "image": "calendula",
+                   "icon": "RedMug",
+                   "infuFamilyID": 3,
+                   "shopUrl": "https://www.amazon.es/s?k=infusion+calendula&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2H1WT1N46ASVR&sprefix=infusion+cale%2Caps%2C193&ref=nb_sb_ss_i_1_13",
+                   "tags": {
+                       "time": 10,
+                       "temp": "100ºC"
+                   }
+               },
+        {
+                   "id": 9,
+                   "title":"Lavanda",
+                   "generalInfo": "La lavanda, también llamada cantueso, espliego, alhucema o lavandula, pertenece a la familia de las lamiáceas y es originaria del norte y este de África, la zona mediterránea, el sur europeo, la India y Arabia. \nEsta planta aromática tiene tallos leñosos con múltiples ramas de hojas elípticas y dentadas que se pueblan de flores púrpuras, aunque también hay variedades rosadas, azules y blancas. \nLo que quizás no sabías es que sus aromas tienen propiedades calmantes y otros beneficios para la salud que puedes aprovechar preparando una simple infusión de lavanda.",
+                   "properties": "Alivia los trastornos nerviosos: la lavanda suele utilizarse para tratar la ansiedad y el insomnio. \n\nAyuda a conciliar el sueño. Justamente su efecto calmante ayudaría a conciliar el sueño, venciendo así al fastidioso insomnio. \n\nMejora los síntomas del síndrome premenstrual. Las mujeres que padecen el síndrome premenstrual se quejan de fuertes dolores de cabeza y cólicos en la zona abdominal. \n\nPropiedades digestivas: la infusión de lavanda ayuda a mejorar la digestión, siendo así muy recomendada tras grandes comilonas. \n\nPor otra parte, aliviaría las flatulencias y el estreñimiento: su uso extensivo en la medicina popular a lo largo de los años señala que sería efectivo para mejorar estas condiciones. \n\nReduce el dolor: se han llevado a cabo muchas investigaciones sobre la capacidad de la lavanda para disminuir el dolor provocado por diferentes malestares, como por ejemplo el dolor tras una cesárea.",
+                   "image": "lavanda",
+                   "icon": "RedMug",
+                   "infuFamilyID": 2,
+                   "shopUrl": "https://www.amazon.es/s?k=lavanda+infusion&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=M5BGRUBG19UI&sprefix=lavanda+infusion%2Caps%2C168&ref=nb_sb_ss_i_1_16",
+                   "tags": {
+                       "time": 10,
+                       "temp": "100ºC"
+                   }
+               },
+        {
             "id": 2,
             "title":"Té Negro",
-            "generalInfo": "Tomado solo o con leche, el té negro puro se caracteriza por su fermentación completa, de ahí su intenso color, sabor, aroma y que sea uno de los que mayor grado de teína contiene, junto con el té rojo. Una curiosidad sobre esta variedad de té que, por supuesto, se elabora con la Camelia Sinensis, al igual que el resto de tés, es que en China no se le conoce como té negro, sino como un té rojo post fermentado. La denominación de té negro es, más bien, un término acuñado en Occidente y que se ha extendido a otros continentes.",
-            "properties": "Los tés negros se caracterizan por su largo proceso de oxidación, que es el que le da ese color, sabor y hace que sea el que más teína tenga de todas las variedades. Un proceso que también desarrolla las siguientes propiedades en el té negro: Antioxidante: se habla mucho de las propiedades antioxidantes del té verde puro, por lo que esta variedad se suele emplear, en muchas ocasiones, en cremas para regenerar las células externas de la piel. Sin embargo, el té negro posee mayor cantidad de antioxidantes, por lo que consumir de 1 a 3 tazas al día de esta bebida, contribuiría a consumir una buena cantidad de antioxidantes. Pero, no sólo eso, las propiedades antioxidantes del té negro también reduce las posibilidades de sufrir cataratas, entre otros beneficios. Salud cardiovascular: gracias a las propiedades que se asocian al té negro, hoy se sabe que éste mejora nuestra salud cardiovascular, reduciendo los niveles de colesterol malo en sangre. Del mismo modo, también ayuda a mejorar la circulación, además de ser diurético, por lo que es ideal para personas que tienen problemas de retención de líquidos. Estimulante: siempre se ha dicho que el té negro es uno de los mejores para tomar en el desayuno, junto con el té rojo, algo que se explica, además de por los dos puntos anteriores, por su capacidad estimulante. A diferencia del café, la cantidades de teína o cafeína hace que nuestro cerebro se active, pero no nos pone nerviosos, así que....¿qué me dices si lo añades a tu lista de tés de primera hora? Lo puedes infusionar con agua o añadirle algo de leche. Súmale las propiedades del caco puro o de los frutos rojos, por ejemplo y tu desayuno será redondo. Regula el azúcar el sangre: al tener la propiedades de controlar estos niveles (por supuesto, no deberás añadir azúcar cuando lo tomes, pero su sabor es tan rico que no te costará nada tomarlo sin nada), el té negro se convierte en un excelente aliado para las personas que sufren de diabetes.",
+            "generalInfo": "Tomado solo o con leche, el té negro puro se caracteriza por su fermentación completa, de ahí su intenso color, sabor, aroma y que sea uno de los que mayor grado de teína contiene, junto con el té rojo. \n\nUna curiosidad sobre esta variedad de té que, por supuesto, se elabora con la Camelia Sinensis, al igual que el resto de tés, es que en China no se le conoce como té negro, sino como un té rojo post fermentado. \n\nLa denominación de té negro es, más bien, un término acuñado en Occidente y que se ha extendido a otros continentes.",
+            "properties": "Los tés negros se caracterizan por su largo proceso de oxidación, que es el que le da ese color, sabor y hace que sea el que más teína tenga de todas las variedades. \n\nUn proceso que también desarrolla las siguientes propiedades en el té negro: \nAntioxidante: se habla mucho de las propiedades antioxidantes del té verde puro, por lo que esta variedad se suele emplear, en muchas ocasiones, en cremas para regenerar las células externas de la piel. \n\nSalud cardiovascular: gracias a las propiedades que se asocian al té negro, hoy se sabe que éste mejora nuestra salud cardiovascular, reduciendo los niveles de colesterol malo en sangre. Del mismo modo, también ayuda a mejorar la circulación, además de ser diurético, por lo que es ideal para personas que tienen problemas de retención de líquidos. \n\nEstimulante: siempre se ha dicho que el té negro es uno de los mejores para tomar en el desayuno, junto con el té rojo, algo que se explica, además de por los dos puntos anteriores, por su capacidad estimulante. A diferencia del café, la cantidades de teína o cafeína hace que nuestro cerebro se active, pero no nos pone nerviosos. \n\nRegula el azúcar el sangre: al tener la propiedades de controlar estos niveles (por supuesto, no deberás añadir azúcar cuando lo tomes, pero su sabor es tan rico que no te costará nada tomarlo sin nada), el té negro se convierte en un excelente aliado para las personas que sufren de diabetes.",
             "image": "teNegro",
             "icon": "RedMug",
             "infuFamilyID": 1,
@@ -42,24 +84,25 @@
             }
         },
         {
-            "id": 3,
-            "title":"Té Rojo",
-            "generalInfo": "El té rojo o Pu Erh es originario de China, concretamente de la provincia de Yunnan, situada al suroeste del país. De hecho, si bien el cultivo de este tipo de tés se pueden encontrar en otras partes del mundo, es de Yunnan de donde proceden los de mayor calidad. Calidad que también se aprecia en su grado de fermentación. Tal y como los expertos aseguran: a mayor fermentación, mayor calidad y mejor sabor.",
-            "properties": "¿Sabías que los chinos consideran al té rojo como “el té de la salud”? por este motivo los beneficios del té rojo son innumerables. Y es que otra de las curiosidades de este té es la forma en la que apareció, por casualidad, como atestiguan las fuentes de información más antiguas, al dejar que pasará más tiempo de fermentación cuando pretendían elaborar un té verde. Esta “casualidad” ha hecho que el té rojo chino o Pu Erh conserve, casi de manera íntegra, todas las propiedades del té verde que, dicho sea de paso, no son pocas, y a las que se unen las del té rojo. Pero, ¿cuáles son? Principalmente las siguientes: Antioxidante: debido a la cantidad de polifenoles que se producen durante el proceso de fermentación. Así las cosas, el té rojo es ideal para regenerar las células de nuestro cuerpo y, por tanto, cuidarnos por dentro y fuera. Estimulante: aunque no tanto como el té negro o el té verde, ya que pierda gran parte de esta propiedad durante su proceso de fermentación. Sin embargo, tomando té rojo estimularemos las funciones cognitivas, mejorando nuestro rendimiento diario,ya sea en el trabajo, si practicamos deporte o si estamos estudiando, por ejemplo. Además, también regula las funciones del sistema nervioso, por lo que nos ayuda a reducir el estrés y mejora nuestro estado de ánimo en los casos de depresión leve. Función hepática: son numerosos los estudios que han demostrado que, tomado de manera moderada, el té rojo ayuda a proteger el buen funcionamiento del hígado, además de ayudarnos a depurar nuestro organismo, de ahí su efecto quema-grasas natural. Adelgazante: como ya hemos dicho, el te rojo tiene propiedades adelgazantes, es decir, el te rojo adelgaza y es un quema-grasas natural, pero no sólo eso, también tiene grandes el té pu erh cuenta con propiedades diuréticas, por lo que esto también contribuye a disminuir la retención de líquidos que es, en muchos casos, la causante de que algunas personas no consigan perder el peso que necesitan. Digestivo: uno de los remedios de la abuela para frenar los vómitos de las gastroenteritis o las diarreas ha sido siempre tomar una taza de té rojo, en el segundo caso, acompañada de un chorrito de limón exprimido natural para aumentar las propiedades astringentes del primero. Esto se debe a los taninos que contiene el té rojo, en el segundo caso y a las bacterias que se crean durante su fermentación, en el caso de ser un remedio para frenar los vómitos. En líneas generales y siempre que no se abuse o nuestro médico de cabecera no diga lo contrario, debido a nuestro estado de salud, el té rojo mejora el sistema digestivo, siendo ideal para tomarlo en cualquier momento del día (salvo cuando se acerca la hora de dormir ya que, a pesar de no ser el té con mayor cantidad de teína, sí que la contiene).",
-            "image": "teRojo",
+            "id": 18,
+            "title":"Rooibos",
+            "generalInfo": "El rooibos no es propiamente un té. \n\nProcede de una planta originaria de Sudáfrica distinta a la planta del té. \n\nAunque se asemeja mucho a éste y se suele tomar también en infusión, una de las propiedades del rooibos que lo diferencia de cualquier otro tipo de té, es que no contiene cafeína. \n\nPosee un sabor ligeramente dulce que unido a su ausencia de cafeína y a la gran cantidad de propiedades que posee, hacen que se haya convertido en una de las infusiones con más éxito del momento.",
+            "properties": "No contiene cafeína, por lo que no tiene ninguna acción estimulante ni excitante. \n\nPreviene el insomnio y contribuye a la relajación muscular. En infusión es ideal tomarla por la noche, ya que no sólo no excita sino que ayuda a relajarse. \n\nRico en antioxidantes. \n\nTiene un efecto preventivo contra el envejecimiento prematuro. \nAdemás sus componentes ayudan a mejorar algunas patologías de la piel como la dermatitis, eccemas, manchas, arrugas, etc. \n\nAyuda a solucionar problemas metabólicos como la retención de líquidos debido a sus propiedades diuréticas, que hacen que sea de gran ayuda en las dietas de adelgazamiento y para aquellas personas con problemas de sobrepeso u obesidad.",
+            "image": "rooibos",
             "icon": "RedMug",
-            "infuFamilyID": 1,
-              "shopUrl": "https://www.amazon.es/s?k=te+rojo&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_2",
+            "infuFamilyID": 3,
+            "shopUrl": "https://www.amazon.es/s?k=infusion+rooibos&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_2",
             "tags": {
-                "time": 3,
+                "time": 5,
                 "temp": "100ºC"
             }
         },
+      
         {
             "id": 4,
             "title":"Té Matcha",
-            "generalInfo": "Matcha en japonés significa “té en polvo”, este polvo procede de las mejores hojas de té verde molidas. El té matcha contiene infinidad de antioxidantes y vitaminas que nos ayudan a mantenernos en forma y a mejorar nuestra salud. Sembrada en las mejores tierras de Kioto, 20 días antes de su recolección, se tapa la plantación de té verde con el fin de aumentar la concentración de clorofila, teanina y cafeína, provocando que se retrase su crecimiento. Este es el momento en el que el té obtiene aminoácidos que le aportan a la hoja un sabor más dulce.",
-            "properties": "Es uno de los complementos prefectos ya que aporta numerosos beneficios sobre nuestro cuerpo y mente de las personas que lo consumen, como es el alto nivel antioxidante. Para ayudarte a comprar al mejor precio de este producto de gran calidad, entre todas sus principales propiedades cabe mencionar las siguientes para disfrutar de beber la mejor taza: Reduce los efectos negativos de los radicales libres: Uno de sus beneficios es debido a su alto contenido en antioxidantes, el te matcha puro disminuye las posibilidades de sufrir diferentes tipos de cáncer. Por lo que mejora el aspecto de la piel, al regenerar las células muertas de nuestro organismo y retrasar el síntoma oxidativo de la piel, es ideal para los que quieran lucir una belleza sublime. Efectos Depurativos: Tiene gran contenido en vitamina C fortalece, por un lado, nuestras defensas y, por otro, contribuye en la función depurativo del organismo, siendo un excelentes efectos diurético. Salvo contraindicación médica, es muy recomendable, por sus beneficios, para los que sufren retención de líquidos, y de ayudarnos a eliminar toxinas. Mejorar el tránsito intestinal:en otro apartado  ya decíamos que tiene un alto nivel de taninos, por lo que además de mejorar el tránsito intestinal y terminar con las molestias que el mismo puede ocasionar y es un laxante excelente para los que sufren de estreñimiento, ya que contiene efectos para combatirlo, sin duda un gran beneficio que ayuda en la salud. Aliado para perder peso: hacen que sea un excelente remedio muy habitual para la ayuda en la dieta para perder peso. Aporta vitalidad: son muchos los deportistas que en lugar de beber una taza de té normal, también toman para beneficiarse de todas las características y propiedades que se le asocian, entre otras, aportarles vitalidad y energía, mejorando su rendimiento, durante sus entrenamientos  como puedes ver de manera saludable gracias a sus efectos. Reduce los niveles de azúcar en sangre y el colesterol malo: debido a su alto contenido en antioxidantes, ideal para combatir el envejecimiento y mantener una vida saludable. Aunque es un té dulce intenso, aquellos que normalmente emplean algún edulcorante para ingerir tazas de te matcha puro, con la bebida no lo necesitarán. ",
+            "generalInfo": "Matcha en japonés significa “té en polvo”, este polvo procede de las mejores hojas de té verde molidas. \nEl té matcha contiene infinidad de antioxidantes y vitaminas que nos ayudan a mantenernos en forma y a mejorar nuestra salud. \nSembrada en las mejores tierras de Kioto, 20 días antes de su recolección, se tapa la plantación de té verde con el fin de aumentar la concentración de clorofila, teanina y cafeína, provocando que se retrase su crecimiento. \nEste es el momento en el que el té obtiene aminoácidos que le aportan a la hoja un sabor más dulce.",
+            "properties": "Es uno de los complementos prefectos ya que aporta numerosos beneficios sobre nuestro cuerpo y mente de las personas que lo consumen, como es el alto nivel antioxidante. \nPara ayudarte a conocer este producto de gran calidad, entre todas sus principales propiedades cabe mencionar las siguientes para disfrutar de beber la mejor taza: \n\nReduce los efectos negativos de los radicales libres: uno de sus beneficios es debido a su alto contenido en antioxidantes, el te matcha puro disminuye las posibilidades de sufrir diferentes tipos de cáncer. \nPor lo que mejora el aspecto de la piel, al regenerar las células muertas de nuestro organismo y retrasar el síntoma oxidativo de la piel, es ideal para los que quieran lucir una belleza sublime. \n\nEfectos Depurativos: Tiene gran contenido en vitamina C fortalece, por un lado, nuestras defensas y, por otro, contribuye en la función depurativo del organismo, siendo un excelentes efectos diurético.\n Salvo contraindicación médica, es muy recomendable, por sus beneficios, para los que sufren retención de líquidos, y de ayudarnos a eliminar toxinas.\n\n Mejorar el tránsito intestinal: tiene un alto nivel de taninos, por lo que además de mejorar el tránsito intestinal y terminar con las molestias que el mismo puede ocasionar y es un laxante excelente para los que sufren de estreñimiento, ya que contiene efectos para combatirlo, sin duda un gran beneficio que ayuda en la salud. \n\nAliado para perder peso: hacen que sea un excelente remedio muy habitual para la ayuda en la dieta para perder peso. \n\nAporta vitalidad: son muchos los deportistas que en lugar de beber una taza de té normal, también toman para beneficiarse de todas las características y propiedades que se le asocian, entre otras, aportarles vitalidad y energía, mejorando su rendimiento, durante sus entrenamientos  como puedes ver de manera saludable gracias a sus efectos.\n\n Reduce los niveles de azúcar en sangre y el colesterol malo: debido a su alto contenido en antioxidantes, ideal para combatir el envejecimiento y mantener una vida saludable. \nAunque es un té dulce intenso, aquellos que normalmente emplean algún edulcorante para ingerir tazas de te matcha puro, con la bebida no lo necesitarán. ",
             "image": "teMatcha",
             "icon": "GreenMug",
             "infuFamilyID": 1,
@@ -70,10 +113,24 @@
             }
         },
         {
+                   "id": 11,
+                   "title":"Melisa",
+                   "generalInfo": "La melisa es una planta medicinal relajante y tonificante del sistema nervioso, que se usa para tratar la ansiedad, la depresión, la tensión nerviosa y los malestares digestivos que generan.",
+                   "properties": "La melisa tiene propiedades relajantes, es beneficiosa para el insomnio y dolores de cabeza, antidepresiva, es eficaz contra las paperas, la varicela y el herpes labial. \n\nSe utiliza en aromaterapia gracias a su intenso olor a limón, además de ser un ideal repelente de mosquitos para niños.",
+                   "image": "melisa",
+                   "icon": "YellowMug",
+                   "infuFamilyID": 2,
+                   "shopUrl": "https://www.amazon.es/s?k=infusion+melisa&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_1",
+                   "tags": {
+                       "time": 5,
+                       "temp": "100ºC"
+                   }
+               },
+        {
             "id": 5,
             "title":"Mate",
-            "generalInfo": "El mate es una infusión hecha con hojas de yerba mate (Ilex paraguariensis), planta originaria de las cuencas de los ríos Paraná, Paraguay y el curso superior del río Uruguay. Estas plantas previamente secadas, cortadas y molidas forman la yerba mate, la cual tiene sabor amargo debido a los taninos de sus hojas. Por esto, hay quienes gustan de endulzar un poco el mate con azúcar, stevia o endulzante no calórico. La espuma que se genera al «cebar» se debe a los glucósidos que la yerba mate contiene.",
-            "properties": "Su capacidad diurética explica una paradoja de la dieta gaucha hasta inicios del siglo XX: hasta entonces los habitantes de las zonas rurales del Cono Sur solían tener una dieta hiperproteínica sin aparente contrabalanceo, lo cual hubiera provocado ―en el más benigno de los casos― una elevadísima concentración de urea, que se reflejaría rápidamente en afecciones imposibilitantes como la gota. Sin embargo, la diuresis que se lograba por la elevada ingesta de mate contrapesaba los excesos de una dieta hiperproteica.[cita requerida] El mate, por otra parte, posee excelentes antioxidantes. Según las conclusiones de un estudio llevado a cabo en Estados Unidos, el consumo de mate puede reducir el colesterol LDL o colesterol «malo», a la vez que promueve el aumento de colesterol HDL o colesterol «bueno». La investigación afirma que tiene propiedades que inducen la actividad de importantes enzimas antioxidantes en el organismo; una de las más importantes es la paraoxonasa-1, que ayuda a retirar el colesterol malo y tiene efectos cardioprotectores; del mismo modo el mate ayuda a limpiar los intestinos al favorecer la motilidad de los mismos.59​También aporta el mate (especialmente si es bebido mediante el «cebado» con bombilla) elevados niveles de xantinas y hasta doce beneficiosos polifenoles entre los cuales se destacan el ácido clorogénico y la quercitina60​ Sus condiciones antioxidantes son similares a las del té verde, aunque el mate es más nutritivo ya que aporta vitaminas B1, B2, B3, B5, C y E, así como hierro, magnesio, potasio y más de diez aminoácidos.",
+            "generalInfo": "El mate es una infusión hecha con hojas de yerba mate (Ilex paraguariensis), planta originaria de las cuencas de los ríos Paraná, Paraguay y el curso superior del río Uruguay. \nEstas plantas previamente secadas, cortadas y molidas forman la yerba mate, la cual tiene sabor amargo debido a los taninos de sus hojas. \nPor esto, hay quienes gustan de endulzar un poco el mate con azúcar, stevia o endulzante no calórico. \nLa espuma que se genera al «cebar» se debe a los glucósidos que la yerba mate contiene.",
+            "properties": "Su capacidad diurética explica una paradoja de la dieta gaucha hasta inicios del siglo XX: hasta entonces los habitantes de las zonas rurales del Cono Sur solían tener una dieta hiperproteínica sin aparente contrabalanceo, lo cual hubiera provocado ― en el más benigno de los casos ― una elevadísima concentración de urea, que se reflejaría rápidamente en afecciones imposibilitantes como la gota. \n\nSin embargo, la diuresis que se lograba por la elevada ingesta de mate contrapesaba los excesos de una dieta hiperproteica. \n\nEl mate, por otra parte, posee excelentes antioxidantes.\n Según las conclusiones de un estudio llevado a cabo en Estados Unidos, el consumo de mate puede reducir el colesterol LDL o colesterol «malo», a la vez que promueve el aumento de colesterol HDL o colesterol «bueno». \n\nLa investigación afirma que tiene propiedades que inducen la actividad de importantes enzimas antioxidantes en el organismo; una de las más importantes es la paraoxonasa-1, que ayuda a retirar el colesterol malo y tiene efectos cardioprotectores; del mismo modo el mate ayuda a limpiar los intestinos al favorecer la motilidad de los mismos. \n\nTambién aporta (especialmente si es bebido mediante el «cebado» con bombilla) elevados niveles de xantinas y hasta doce beneficiosos polifenoles entre los cuales se destacan el ácido clorogénico y la quercitina. \n\nSus condiciones antioxidantes son similares a las del té verde, aunque el mate es más nutritivo ya que aporta vitaminas B1, B2, B3, B5, C y E, así como hierro, magnesio, potasio y más de diez aminoácidos.",
             "image": "Mate",
             "icon": "GreenMug",
             "infuFamilyID": 1,
@@ -84,24 +141,25 @@
             }
         },
         {
-            "id": 6,
-            "title":"Té Azul",
-            "generalInfo": "El Oolong es también conocido como té azul, pero...¿a qué se debe ese nombre? ¿acaso el color de la infusión del té es azul? ¡Para nada! El color de la infusión de esta variedad de té es más bien anaranjada, sin embargo, se conoce como té azul por el color que adquieren las hojas con las que se elabora, tras su proceso de oxidación. En el caso de otros tés suele ser, más bien, marrón y en el caso del oolong, tiende al azul.",
-            "properties": "Comenzamos por sus propiedades antioxidantes, lo que contribuye, por un lado, a mejorar el aspecto de nuestra piel (se dice que es el secreto de belleza de muchas mujeres en China y Japón), pero también la salud de nuestras células internas, reduciendo así las posibilidades de sufrir diferentes tipos de cáncer y cuidando de nuestra salud cardiovascular. Por otro lado, el té azul es muy digestivo, por lo que es ideal para tomar tras comidas copiosas, pero también para poner a punto nuestro organismo nada más comenzar el día. De esta manera, no sólo nos ayudará activar nuestro cerebro, sino que también nos aportará una sensación de bienestar interna como pocos tés consiguen hacer nada más levantarnos. ¿Te cuento un secreto? Échale el jugo de medio limón y tómalo en ayunas: esto te ayudará a depurar el organismo, combinando el poder alcalinizante del limón, con el digestivo del Oolong. Si eres de los que se levanta con ardor de estómago por las mañanas, este puede ser tu mejor remedio natural, pero recuerda no abusar: nunca consumas más de 2 o 3 tazas al día. Unido a las propiedades digestivas, este té también es astringente, por lo que es ideal para personas que tienen una diarrea o que van demasiadas veces al baño.",
-            "image": "teAzul",
-            "icon": "RedMug",
-            "infuFamilyID": 1,
-            "shopUrl": "https://www.amazon.es/s?k=te+azul&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_1",
-            "tags": {
-                "time": 3,
-                "temp": "80ºC"
-            }
-        },
+                   "id": 17,
+                   "title":"Manzanilla",
+                   "generalInfo": "La manzanilla o camomila común o romana (A chamaemelum nobilel sin. Anthemis nobilis) es una hierba perenne de la familia de las asteráceas, nativa de Europa. \n\nEl tallo tierno y las sumidades floridas se usan secos o frescos en infusión, aromática y ligeramente amarga. Se la confunde muchas veces con la manzanilla alemana, Matricaria recutita.",
+                   "properties": "Los efectos terapéuticos asociados a la manzanilla son: \n\nDigestiva, carminativa, sedante, tónica, vasodilatadora y antiespasmódica. \n\nComo infusión se usa para alivios de estómagos. \n\nOtro de los usos de la manzanilla es para lavar los ojos en caso de alergias.",
+                   "image": "manzanilla",
+                   "icon": "YellowMug",
+                   "infuFamilyID": 3,
+                   "shopUrl": "https://www.amazon.es/s?k=infusion+manzanilla&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=C0NXRALGG6N5&sprefix=infusion+ma%2Caps%2C188&ref=nb_sb_ss_i_3_11",
+                   "tags": {
+                       "time": 5,
+                       "temp": "100ºC"
+                   }
+               },
+       
         {
             "id": 7,
             "title":"Ginseng",
-            "generalInfo": "Panax ginseng, el ginseng o ginseng es una pequeña planta herbácea de la familia Araliaceae, cuya raíz se utiliza tradicionalmente en la medicina china. Tiene las hojas divididas en 5 lóbulos. Las flores son de color púrpura y se disponen en umbela. Los frutos son dos drupas. La raíz es carnosa y gruesa, y con el tiempo, como ocurre con otras raíces, entre ellas la mandrágora, puede adoptar una forma que recuerda a la figura humana. Las raíces que tienen más años de crianza, son las más ricas en principios activos. Se desarrollan en las zonas frías y estribaciones de las montañas de China, Corea, Rusia, Japón, México y Canadá.",
-            "properties": "La parte empleada de la planta es la raíz. Popularmente se utiliza para tratar diversos trastornos de salud (tales como problemas cardíacos, la diabetes, el trastorno por déficit de atención con hiperactividad, etc.), fortalecer la memoria y el sistema inmunitario, mejorar el rendimiento, prevención del cáncer, etc. No obstante, no existe evidencia científica sólida de su efectividad en ninguno de ellos, por lo que no se puede hacer ninguna recomendación firme sobre su empleo. El ginseng en polvo es utilizado desde épocas milenarias en la medicina tradicional China. Sus efectos en la salud reproductiva han sido confirmados por la comunidad científica. El consumo de 900 mg de ginseng diarios es efectivo para estimular la producción de hormonas sexuales en hombres así como de la cantidad y la calidad de los espermatozoides.",
+            "generalInfo": "Panax ginseng, el ginseng o ginseng es una pequeña planta herbácea de la familia Araliaceae, cuya raíz se utiliza tradicionalmente en la medicina china. \n\nTiene las hojas divididas en 5 lóbulos. Las flores son de color púrpura y se disponen en umbela. \nLos frutos son dos drupas. La raíz es carnosa y gruesa, y con el tiempo, como ocurre con otras raíces, entre ellas la mandrágora, puede adoptar una forma que recuerda a la figura humana. \nLas raíces que tienen más años de crianza, son las más ricas en principios activos. \nSe desarrollan en las zonas frías y estribaciones de las montañas de China, Corea, Rusia, Japón, México y Canadá.",
+            "properties": "La parte empleada de la planta es la raíz. \n\nPopularmente se utiliza para tratar diversos trastornos de salud (tales como problemas cardíacos, la diabetes, el trastorno por déficit de atención con hiperactividad, etc.), fortalecer la memoria y el sistema inmunitario, mejorar el rendimiento, prevención del cáncer, etc. \n\nNo obstante, no existe evidencia científica sólida de su efectividad en ninguno de ellos, por lo que no se puede hacer ninguna recomendación firme sobre su empleo. \n\nEl ginseng en polvo es utilizado desde épocas milenarias en la medicina tradicional China. Sus efectos en la salud reproductiva han sido confirmados por la comunidad científica. \n\nEl consumo de 900 mg de ginseng diarios es efectivo para estimular la producción de hormonas sexuales en hombres así como de la cantidad y la calidad de los espermatozoides.",
             "image": "ginseng",
             "icon": "YellowMug",
             "infuFamilyID": 1,
@@ -114,8 +172,8 @@
         {
             "id": 8,
             "title":"Valeriana",
-            "generalInfo": "La valeriana (Valeriana officinalis), tradicionalmente utilizada por su acción tranquilizante, relajante e inductora del sueño, es una planta que actúa como un agente sedante, relajando el sistema nervioso y el cerebro, por lo que se suele recomendar a personas con trastornos del sueño, o para aliviar el estrés",
-            "properties": "La valeriana tiene muchos beneficios medicinales, aunque su uso más conocido es como hierba relajante. Estas son sus principales propiedades: Es efectiva para cólicos y diarreas. Combate el insomnio. Disminuye el estrés y la ansiedad. Se usa para reducir convulsiones o temblores leves. Util en caso de síndrome de fatiga crónica. Es antiinflamatorio. Puede tratar el dolor muscular y de las articulaciones. Alivia el dolor de cabeza. Es efectivo para disminuir los dolores durante la menstruación y síntomas de la menopausia. Combate las alteraciones hepáticas.",
+            "generalInfo": "La valeriana (Valeriana officinalis), tradicionalmente utilizada por su acción tranquilizante, relajante e inductora del sueño, es una planta que actúa como un agente sedante, relajando el sistema nervioso y el cerebro, por lo que se suele recomendar a personas con trastornos del sueño, o para aliviar el estrés.",
+            "properties": "La valeriana tiene muchos beneficios medicinales, aunque su uso más conocido es como hierba relajante. \nEstas son sus principales propiedades: \n\nEs efectiva para cólicos y diarreas. \n\nCombate el insomnio. \n\nDisminuye el estrés y la ansiedad. \n\nSe usa para reducir convulsiones o temblores leves. \n\nÚtil en caso de síndrome de fatiga crónica. \n\nEs antiinflamatoria. Puede tratar el dolor muscular y de las articulaciones. \n\nAlivia el dolor de cabeza. \n\nEs efectivo para disminuir los dolores durante la menstruación y síntomas de la menopausia. \n\nCombate las alteraciones hepáticas.",
             "image": "valeriana",
             "icon": "YellowMug",
             "infuFamilyID": 2,
@@ -125,25 +183,12 @@
                 "temp": "100ºC"
             }
         },
-        {
-            "id": 9,
-            "title":"Lavanda",
-            "generalInfo": "La lavanda, también llamada cantueso, espliego, alhucema o lavandula, pertenece a la familia de las lamiáceas y es originaria del norte y este de África, la zona mediterránea, el sur europeo, la India y Arabia. Esta planta aromática tiene tallos leñosos con múltiples ramas de hojas elípticas y dentadas que se pueblan de flores púrpuras, aunque también hay variedades rosadas, azules y blancas. Lo que quizás no sabías es que sus aromas tienen propiedades calmantes y otros beneficios para la salud que puedes aprovechar preparando una simple infusión de lavanda. Es más, la medicina ayurvédica la prescribe para aliviar toda clase de malestares que van desde el tratamiento de la ansiedad y el insomnio hasta la mejora de los molestos dolores premenstruales. ",
-            "properties": "Alivia los trastornos nerviosos: la lavanda suele utilizarse para tratar la ansiedad y el insomnio. Ayuda a conciliar el sueño. Justamente su efecto calmante ayudaría a conciliar el sueño, venciendo así al fastidioso insomnio. Mejora los síntomas del síndrome premenstrual. Las mujeres que padecen el síndrome premenstrual se quejan de fuertes dolores de cabeza y cólicos en la zona abdominal. Una investigación publicada por BioPhychoSocial Medicine indicó que el uso de lavanda en la aromaterapia ayuda a mejora los síntomas premenstruales, seguramente debido a su acción calmante sobre el sistema nervioso. Propiedades digestivas: la infusión de lavanda ayuda a mejorar la digestión, siendo así muy recomendada tras grandes comilonas. Por otra parte, aliviaría las flatulencias y el estreñimiento: su uso extensivo en la medicina popular a lo largo de los años señala que sería efectivo para mejorar estas condiciones. Reduce el dolor: se han llevado a cabo muchas investigaciones sobre la capacidad de la lavanda para disminuir el dolor provocado por diferentes malestares, como por ejemplo el dolor tras una cesárea.",
-            "image": "lavanda",
-            "icon": "RedMug",
-            "infuFamilyID": 2,
-            "shopUrl": "https://www.amazon.es/s?k=lavanda+infusion&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=M5BGRUBG19UI&sprefix=lavanda+infusion%2Caps%2C168&ref=nb_sb_ss_i_1_16",
-            "tags": {
-                "time": 10,
-                "temp": "100ºC"
-            }
-        },
+       
         {
             "id": 10,
             "title":"Tila",
             "generalInfo": "La tila o té de tilo es una infusión que se hace con el fruto en forma de flor de algunas de las especies del género tilia (tilos). ",
-            "properties": "Tiene propiedades antiespasmódicas, somníferas y ansiolíticas1​ debido a su contenido en alfa-pineno, limoneno, nerol, eugenol y ácido cafeico, junto con quercetina y terpineol, aunque sus efectos dependen de la persona que la consuma. El té de tilo tiene ciertos componentes nutricionales. Se pueden encontrar altas dosis de farmesol, sustancia que le da su característico perfume. También podemos destacar su contenido en taninos, mucílagos, carotenos, glucósidos, suercitrósidos y vitamina C. Todas estas sustancias provocan un efecto de relajación y calma en el organismo, que pueden resultar de ayuda para aquellas personas que sufren de dolores menstruales o de migrañas. La tila ayuda, en especial, a aquellas personas que sufren problemas para encontrar el sueño o que padecen de insomnio. Sin embargo, no solo presenta estas cualidades, sino que también ayuda a recuperar el apetito y a mejorarnos cuando contraemos un resfriado. El efecto relajante actúa sobre todo en el sistema cardiovascular, más en concreto cuando se presenta hipertensión, puesto que influye en la bajada de la presión de la sangre. Por lo tanto, ayuda a prevenir ciertas enfermedades cardiovasculares como el infarto cardiaco, trombosis o simplemente mejora otras ya existentes como varices, arteriosclerosis… entre otras.  Además, produce un doble efecto, ya que a su vez restaura las paredes de los vasos sanguíneos.",
+            "properties": "Tiene propiedades antiespasmódicas, somníferas y ansiolíticas1​ debido a su contenido en alfa-pineno, limoneno, nerol, eugenol y ácido cafeico, junto con quercetina y terpineol, aunque sus efectos dependen de la persona que la consuma. \n\nEl té de tilo tiene ciertos componentes nutricionales. \nSe pueden encontrar altas dosis de farmesol, sustancia que le da su característico perfume. \n\nTambién podemos destacar su contenido en taninos, mucílagos, carotenos, glucósidos, suercitrósidos y vitamina C. \n\nTodas estas sustancias provocan un efecto de relajación y calma en el organismo, que pueden resultar de ayuda para aquellas personas que sufren de dolores menstruales o de migrañas. \n\nLa tila ayuda, en especial, a aquellas personas que sufren problemas para encontrar el sueño o que padecen de insomnio. \n\nSin embargo, no solo presenta estas cualidades, sino que también ayuda a recuperar el apetito y a mejorarnos cuando contraemos un resfriado. \n\nEl efecto relajante actúa sobre todo en el sistema cardiovascular, más en concreto cuando se presenta hipertensión, puesto que influye en la bajada de la presión de la sangre, por lo tanto, ayuda a prevenir ciertas enfermedades cardiovasculares como el infarto cardiaco, trombosis o simplemente mejora otras ya existentes como varices, arteriosclerosis… entre otras.  \n\nAdemás, produce un doble efecto, ya que a su vez restaura las paredes de los vasos sanguíneos.",
             "image": "tila",
             "icon": "YellowMug",
             "infuFamilyID": 2,
@@ -153,27 +198,16 @@
                 "temp": "100ºC"
             }
         },
-        {
-            "id": 11,
-            "title":"Melisa",
-            "generalInfo": "La melisa es una planta medicinal relajante y tonificante del sistema nervioso, que se usa para tratar la ansiedad, la depresión, la tensión nerviosa y los malestares digestivos que generan.",
-            "properties": "La melisa tiene propiedades relajantes, es beneficiosa para el insomnio y dolores de cabeza, antidepresiva, es eficaz contra las paperas, la varicela y el herpes labial. Se utiliza en aromaterapia gracias a su intenso olor a limón, además de ser un ideal repelente de mosquitos para niños.",
-            "image": "melisa",
-            "icon": "YellowMug",
-            "infuFamilyID": 2,
-            "tags": {
-                "time": 5,
-                "temp": "100ºC"
-            }
-        },
+       
         {
             "id": 12,
             "title":"Azahar",
-            "generalInfo": "La Flor de azahar es terapéutica. Es muy valorada tanto en cocina como medicina natural para combatir el estrés y la ansiedad. Esta flor crece en los árboles frutales naranjo, limonero y cidro. De color blanco, despide un olor característico que es muy valorado en aromaterapia y cosmética. ",
-            "properties": "Propiedades sedantes: estas propiedades nos permiten conciliar el sueño y mitigar las migrañas o el dolor de cabeza. Para obtener este beneficio lo ideal es beber agua de azahar o tomar una infusión antes de irse a dormir. Propiedades ansiolíticas e hipnóticas: combate el estrés y la ansiedad gracias a sus propiedades ansiolíticas e hipnóticas. \nEsta propiedad de la flor puede ayudar mucho a los niños con trastorno de hiperactividad. Alivia las indigestiones: trata las indigestiones leves, reduce el dolor estomacal y calma las náuseas o vómitos. Ayuda a tratar la diarrea: tiene propiedades antidiarréicas. Equilibra los niveles de colesterol. Alivia el dolor de garganta: para el dolor de garganta, quitar la tos y favorecer un correcto funcionamiento de los riñones, se puede complementar con otros ingredientes como la miel, el limón o la canela. Propiedades curativas y calmantes para la piel: el aceite esencial de azahar  se usa tanto para la higiene como para tratamiento tópico.",
+            "generalInfo": "La Flor de azahar es terapéutica. \nEs muy valorada tanto en cocina como medicina natural para combatir el estrés y la ansiedad. \nEsta flor crece en los árboles frutales naranjo, limonero y cidro. \nDe color blanco, despide un olor característico que es muy valorado en aromaterapia y cosmética. ",
+            "properties": "Propiedades sedantes: estas propiedades nos permiten conciliar el sueño y mitigar las migrañas o el dolor de cabeza. Para obtener este beneficio lo ideal es beber agua de azahar o tomar una infusión antes de irse a dormir. \n\nPropiedades ansiolíticas e hipnóticas: combate el estrés y la ansiedad gracias a sus propiedades ansiolíticas e hipnóticas. \nEsta propiedad de la flor puede ayudar mucho a los niños con trastorno de hiperactividad. \n\nAlivia las indigestiones: trata las indigestiones leves, reduce el dolor estomacal y calma las náuseas o vómitos. \n\nAyuda a tratar la diarrea: tiene propiedades antidiarréicas. Equilibra los niveles de colesterol. \n\nAlivia el dolor de garganta: para el dolor de garganta, quitar la tos y favorecer un correcto funcionamiento de los riñones, se puede complementar con otros ingredientes como la miel, el limón o la canela. \n\nPropiedades curativas y calmantes para la piel: el aceite esencial de azahar  se usa tanto para la higiene como para tratamiento tópico.",
             "image": "azahar",
             "icon": "YellowMug",
             "infuFamilyID": 2,
+            "shopUrl": "https://www.amazon.es/s?k=infusion+azahar&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_1",
             "tags": {
                 "time": 5,
                 "temp": "100ºC"
@@ -182,160 +216,149 @@
         {
             "id": 13,
             "title":"Hipérico",
-            "generalInfo": "",
-            "properties": "",
+            "generalInfo": "Esta planta se denomina de diferentes formas. \nAsí, es muy habitual encontrarla como hierba de San Juan debido a que florece a finales de junio, mes en que se celebra la festividad del evangelista (24 de junio). \nEsta fecha es el mejor momento para recogerla ya que los principios activos de la planta están más elevados. \nTambién se llama corazoncillo por la forma de su fruto. \nSu nombre en latín hace alusión a que en sus hojas se encuentran pequeñas vesículas transparentes de aceite esencial que, si se mira a contraluz, hacen que la hoja parezca estar perforada.",
+            "properties": "Los usos medicinales de la hierba de San Juan son conocidos desde la Grecia clásica, pero esta planta se popularizó en la Edad Media debido a su capacidad para sanar heridas. \nEn el siglo XVI era conocida como la hierba de las heridas y,  años más tarde, se popularizó como la hierba militar porque se empleaba en emplastos para acelerar la cicatrización. \n\nTiene un efecto positivo en la curación de: heridas, quemaduras leves, picaduras de insectos, espasmos musculares, ampollas, contusiones y esguinces. \n\nLa hiperforina aislada ha demostrado poseer actividad antiinflamatoria, antiviral, antibacteriana y antimalárica.",
             "image": "hiperico",
             "icon": "YellowMug",
             "infuFamilyID": 2,
-            "tags": {
-                "time": 2,
-                "temp": "100ºC"
-            }
-        },
-        {
-            "id": 14,
-            "title":"Boldo",
-            "generalInfo": "",
-            "properties": "",
-            "image": "boldo",
-            "icon": "RedMug",
-            "infuFamilyID": 2,
-            "tags": {
-                "time": 2,
-                "temp": "100ºC"
-            }
-        },
-        {
-            "id": 15,
-            "title":"Poleo Menta",
-            "generalInfo": "",
-            "properties": "",
-            "image": "poleoMenta",
-            "icon": "YellowMug",
-            "infuFamilyID": 3,
-            "tags": {
-                "time": 2,
-                "temp": "100ºC"
-            }
-        },
-        {
-            "id": 16,
-            "title":"Espino Blanco",
-            "generalInfo": "El espino blanco, de nombre científico Crataegus monogyna, es conocido también como espino albar o majuelo. Se trata de un árbol caducifolio que puede alcanzar los 14 metros de altura aunque, por lo general, se lo conserva como seto en las zonas agrícolas. Se distingue por su densa corona de hojas irregulares de un profundo color verde oscuro, su corteza de color pardo y con grietas anaranjadas y sus ramas con espinas. El espino blanco es una planta de la familia de las rosáceas, que incluye a la mayoría de las especies de frutas como el membrillo, la pera, la manzana o la cereza. Particularmente, este árbol se encuentra de forma natural en Europa, Asia y África del Norte.",
-            "properties": "El espino blanco es especialmente famoso por sus propiedades para controlar la tensión. La medicina Ayurveda utiliza el espino blanco hace mucho tiempo para tratar toda clase de insuficiencias cardíacas, desde arritmias hasta procesos más graves.Por lo general, la infusión se prepara con las flores de de este árbol, ya que le otorgan a la bebida un sabor más delicado. Sin embargo, los frutos han demostrado ser más ricos en sustancias antioxidantes, principalmente polifenoles. Por este motivo, puede ser recomendable prepararla con los frutos en lugar de las flores. ¿Qué nos dirías si te comentamos que tomarte una infusión de espino blanco puede ayudarte a mantener a raya el colesterol? Pues sí, el espino blanco forma parte de las infusiones con propiedades para mitigar el colesterol. Sus compuestos actuarían reduciendo los niveles plasmáticos del colesterol malo (LDL). Al evitar la formación de placas de colesterol, protege la salud cardíaca, ya que las placas pueden generar una obstrucción arterial que afecte al miocardio.",
-            "image": "espinoBlanco",
-            "icon": "YellowMug",
-            "infuFamilyID": 2,
+            "shopUrl": "https://www.amazon.es/s?k=infusion+hiperico&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_2",
             "tags": {
                 "time": 5,
                 "temp": "100ºC"
             }
         },
         {
-            "id": 17,
-            "title":"Manzanilla",
-            "generalInfo": "La manzanilla o camomila común o romana (A chamaemelum nobilel sin. Anthemis nobilis) es una hierba perenne de la familia de las asteráceas, nativa de Europa.",
-            "properties": "El tallo tierno y las sumidades floridas se usan secos o frescos en infusión, aromática y ligeramente amarga. Se la confunde muchas veces con la manzanilla alemana, Matricaria recutita. Los efectos terapéuticos asociados a la manzanilla son digestiva, carminativa, Sedante, tónica, vasodilatadora y antiespasmódica. Como infusión se usa para alivios de estómagos. Otro de los usos de la manzanilla es para lavar los ojos en caso de alergias. No se recomienda el uso de la manzanilla común durante el embarazo ya que puede causar contracciones uterinas y aborto. La manzanilla o camomila también es muy útil para el cabello. Aporta luminosidad y brillo a los cabellos castaños muy claros y rubios. No tiñe el cabello, ni funciona en cabellos oscuros, solo potencia su color y si es reforzado por los rayos solares al secarlo sobre todo en época de verano, se observará en el cabello claro hermosos reflejos dorados.",
-            "image": "manzanilla",
-            "icon": "YellowMug",
-            "infuFamilyID": 3,
-            "tags": {
-                "time": 4,
-                "temp": "100ºC"
-            }
-        },
+                  "id": 3,
+                  "title":"Té Rojo",
+                  "generalInfo": "El té rojo o Pu Erh es originario de China, concretamente de la provincia de Yunnan, situada al suroeste del país. \nDe hecho, si bien el cultivo de este tipo de tés se pueden encontrar en otras partes del mundo, es de Yunnan de donde proceden los de mayor calidad, que también se aprecia en su grado de fermentación. \nTal y como los expertos aseguran: a mayor fermentación, mayor calidad y mejor sabor.",
+                  "properties": "¿Sabías que los chinos consideran al té rojo como “el té de la salud”? por este motivo los beneficios del té rojo son innumerables. \n  Principalmente las siguientes: \n\nAntioxidante: debido a la cantidad de polifenoles que se producen durante el proceso de fermentación. Así las cosas, el té rojo es ideal para regenerar las células de nuestro cuerpo y, por tanto, cuidarnos por dentro y fuera. \n\nEstimulante: aunque no tanto como el té negro o el té verde, ya que pierda gran parte de esta propiedad durante su proceso de fermentación. \nSin embargo, tomando té rojo estimularemos las funciones cognitivas, mejorando nuestro rendimiento diario,ya sea en el trabajo, si practicamos deporte o si estamos estudiando, por ejemplo. \nAdemás, también regula las funciones del sistema nervioso, por lo que nos ayuda a reducir el estrés y mejora nuestro estado de ánimo en los casos de depresión leve. \n\nFunción hepática: son numerosos los estudios que han demostrado que, tomado de manera moderada, el té rojo ayuda a proteger el buen funcionamiento del hígado, además de ayudarnos a depurar nuestro organismo, de ahí su efecto quema-grasas natural. Adelgazante: como ya hemos dicho, el te rojo tiene propiedades adelgazantes, es decir, el te rojo adelgaza y es un quema-grasas natural, pero no sólo eso, también tiene grandes el té pu erh cuenta con propiedades diuréticas, por lo que esto también contribuye a disminuir la retención de líquidos que es, en muchos casos, la causante de que algunas personas no consigan perder el peso que necesitan. \n\nDigestivo: uno de los remedios de la abuela para frenar los vómitos de las gastroenteritis o las diarreas ha sido siempre tomar una taza de té rojo, en el segundo caso, acompañada de un chorrito de limón exprimido natural para aumentar las propiedades astringentes del primero. Esto se debe a los taninos que contiene el té rojo, en el segundo caso y a las bacterias que se crean durante su fermentación, en el caso de ser un remedio para frenar los vómitos. En líneas generales, el té rojo mejora el sistema digestivo, siendo ideal para tomarlo en cualquier momento del día (salvo cuando se acerca la hora de dormir ya que, a pesar de no ser el té con mayor cantidad de teína, sí que la contiene).",
+                  "image": "teRojo",
+                  "icon": "RedMug",
+                  "infuFamilyID": 1,
+                  "shopUrl": "https://www.amazon.es/s?k=te+rojo&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_2",
+                  "tags": {
+                      "time": 3,
+                      "temp": "100ºC"
+                  }
+              },
         {
-            "id": 18,
-            "title":"Rooibos",
-            "generalInfo": "",
-            "properties": "",
-            "image": "rooibos",
+            "id": 14,
+            "title":"Boldo",
+            "generalInfo": "El boldo es la única especie del género monotípico Peumus, de la familia de las monimiáceas. \n\nEste árbol es endémico de Chile. \nSus hojas, de fuerte aroma, se utilizan con propósitos culinarios y medicinales, sobre todo en América Latina.",
+            "properties": "Debido a sus beneficios, el boldo es una planta utilizada desde la época precolombina con muy diferentes aplicaciones, entre las que se encuentran, por supuesto, las medicinales. \n\nSu uso más popular es el de tratar dolencias digestivas, además de emplearse como un antiséptico y analgésico natural. \n\nLas infusiones de hojas de boldo (té de boldo) son muy útiles para tratar el estreñimiento además de favorecer la expulsión de los gases, es decir, está recomendado para aquellas personas que padecen cólicos y flatulencias. \n\nTambién reduce el riesgo de padecer cálculos biliares y depura el hígado. \n\nSus propiedades diuréticas y depurativas permiten eliminar los líquidos acumulados en el organismo y las toxinas de la sangre, por ello suelen tomarlo pacientes con infecciones urinarias, nefritis y cistitis. \n\nTambién es adecuado para tratar el insomnio gracias a sus propiedades sedantes y su capacidad para actuar sobre el sistema nervioso, y la presencia del cineol en su composición permite que se aplique por vía externa para descongestionar el pecho y para aliviar las dolencias reumáticas.",
+            "image": "boldo",
             "icon": "RedMug",
-            "infuFamilyID": 3,
+            "infuFamilyID": 2,
+            "shopUrl": "https://www.amazon.es/s?k=infusion+boldo&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss",
             "tags": {
-                "time": 2,
+                "time": 3,
                 "temp": "100ºC"
             }
         },
         {
-            "id": 19,
-            "title":"Anís",
-            "generalInfo": "",
-            "properties": "",
-            "image": "anis",
-            "icon": "RedMug",
-            "infuFamilyID": 3,
-            "tags": {
-                "time": 2,
-                "temp": "100ºC"
-            }
-        },
-        {
-            "id": 20,
-            "title":"Jengibre",
-            "generalInfo": "",
-            "properties": "",
-            "image": "jengibre",
+            "id": 15,
+            "title":"Poleo Menta",
+            "generalInfo": "El poleo menta o (pulegium Mentha), es una de las especies más conocidas del género Mentha. \nDe la familia de las labiadas, es una perenne cespitosa y de raíces rizomatosas que crece bien en sitios húmedos.",
+            "properties": "Uno de los usos más conocidos es tomar una infusión de  menta poleo para facilitar la digestión y evitar la acumulación de gases. \n\nSus compuestos tienen efectos anti espasmódicos para ayudar a calmar molestias de estómago. \n\nDebido a su alto contenido en mentol, esta planta se ha usado durante siglos para tratar afecciones respiratorias. \nTiene cualidades expectorantes y alivia los síntomas del resfriado o la gripe. \nActúa como descongestionante del sistema respiratorio y los pulmones.\n\nEl poleo menta en el pasado se usó para tratar la histeria, ya que sus componentes tienen efecto sedantes suaves. \nUna infusión de poleo menta tomada media hora antes de irse a  la cama puede contribuir a un sueño más relajante.",
+            "image": "poleoMenta",
             "icon": "YellowMug",
             "infuFamilyID": 3,
+            "shopUrl": "https://www.amazon.es/s?k=infusion+poleo+menta&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss",
             "tags": {
-                "time": 2,
+                "time": 8,
                 "temp": "100ºC"
             }
         },
         {
-            "id": 21,
-            "title":"Calendula",
-            "generalInfo": "",
-            "properties": "",
-            "image": "calendula",
-            "icon": "RedMug",
-            "infuFamilyID": 3,
-            "tags": {
-                "time": 2,
-                "temp": "100ºC"
-            }
-        },
-        {
-            "id": 22,
-            "title":"Cola de caballo",
-            "generalInfo": "",
-            "properties": "",
-            "image": "colaDeCaballo",
+            "id": 16,
+            "title":"Espino Blanco",
+            "generalInfo": "El espino blanco, de nombre científico Crataegus monogyna, es conocido también como espino albar o majuelo. \n\nSe trata de un árbol caducifolio que puede alcanzar los 14 metros de altura aunque, por lo general, se lo conserva como seto en las zonas agrícolas. \n\nSe distingue por su densa corona de hojas irregulares de un profundo color verde oscuro, su corteza de color pardo y con grietas anaranjadas y sus ramas con espinas. ",
+            "properties": "El espino blanco es especialmente famoso por sus propiedades para controlar la tensión. \n\nLa medicina Ayurveda utiliza el espino blanco hace mucho tiempo para tratar toda clase de insuficiencias cardíacas, desde arritmias hasta procesos más graves. \n\nPor lo general, la infusión se prepara con las flores de de este árbol, ya que le otorgan a la bebida un sabor más delicado. \nSin embargo, los frutos han demostrado ser más ricos en sustancias antioxidantes, principalmente polifenoles. \nPor este motivo, puede ser recomendable prepararla con los frutos en lugar de las flores. \n\n¿Qué nos dirías si te comentamos que tomarte una infusión de espino blanco puede ayudarte a mantener a raya el colesterol? \nPues sí, el espino blanco forma parte de las infusiones con propiedades para mitigar el colesterol. \n\nSus compuestos actuarían reduciendo los niveles plasmáticos del colesterol malo (LDL). \n\nAl evitar la formación de placas de colesterol, protege la salud cardíaca, ya que las placas pueden generar una obstrucción arterial que afecte al miocardio.",
+            "image": "espinoBlanco",
             "icon": "YellowMug",
-            "infuFamilyID": 3,
+            "infuFamilyID": 2,
+            "shopUrl": "https://www.amazon.es/s?k=infusion+espino+blanco&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3375615YY6WOF&sprefix=infusion+espino%2Caps%2C211&ref=nb_sb_ss_i_1_15",
             "tags": {
-                "time": 2,
+                "time": 10,
                 "temp": "100ºC"
             }
         },
-        {
-            "id": 23,
-            "title":"Hinojo",
-            "generalInfo": "",
-            "properties": "",
-            "image": "hinojo",
-            "icon": "YellowMug",
-            "infuFamilyID": 3,
-            "tags": {
-                "time": 2,
-                "temp": "100ºC"
-            }
-        },
-        
         {
             "id": 25,
             "title":"Tomillo",
-            "generalInfo": "",
-            "properties": "",
+            "generalInfo": "Thymus o tomillo es un género con alrededor de 215 a 350 especies de hierbas y subarbustos perennes de la familia de las Lamiáceas (antes, Labiadas). \n\nSon nativas de las regiones templadas de Europa y Asia, África del Norte y Groenlandia. \n\nVarios miembros del género son plantas aromáticas entre los cuales el más conocido y especie tipo es Thymus vulgaris que se cultiva como condimento, planta medicinal y planta ornamental.",
+            "properties": "El té de tomillo ayuda a calmar los cólicos menstruales y el síndrome premenstrual. \n\nIdeal para las personas que sufran de asma y bronquitis. \n\nPuedes realizar un té con agua hirviendo, tomillo y miel, a lo que añadiremos limón. \nSeguro que así te beneficias de sus poderes broncodilatadores. \n\nEsta hierba cuenta con una variedad de flavonoides como la luteolina y naringenina, que la convierten en una estupenda fuente de antioxidantes. \nAdemás aporta calcio, hierro, manganeso y fibra. \n\nPosee timol, un aceite volátil que le aporta poderes desinfectantes y antisépticos. \n\nExiste la posibilidad de usar una solución de té de tomillo con agua y jabón para limpiar las habitaciones de los enfermos. \nSólo necesitas dejarla enfriar y así ya podrás ponerte con las labores de limpieza. \nSi a este té le añadimos un poco de miel también se podrán tratar heridas.",
             "image": "tomillo",
             "icon": "GreenMug",
             "infuFamilyID": 3,
+            "shopUrl": "https://www.amazon.es/s?k=infusion+tomillo&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss",
             "tags": {
-                "time": 1,
+                "time": 5,
+                "temp": "90ºC"
+            }
+        },
+       
+        
+        {
+            "id": 19,
+            "title":"Anís",
+            "generalInfo": "El anís es una planta milenaria con fines culinarios, pero también medicinales. \nGeneralmente se utiliza su aceite y su semilla, pero también son muy útiles la raíz y las hojas, sobre todo para el fin medicinal.",
+            "properties": "Favorece el sistema digestivo: el anís tiene efecto sedante, antiespasmódico y carminativo por lo que se utiliza para tratar problemas digestivos. \nLa infusión de anís se recomienda para combatir gases, molestias, dolores intestinales, acidez, gastritis u otros problemas estomacales. \nFavorece la digestión y sus procesos gracias a un compuesto llamado atenol. \n\nFavorece el sistema nervioso: su efecto sedante también es beneficioso para calmar los nervios, reducir los niveles de estrés, y la neurastenia, un trastorno neurótico que se detecta por sentir un cansancio inexplicable luego de actividades psíquicas o físicas. \nLo ideal para obtener estos beneficios y beber una infusión a base de semillas de anís. \n\nFavorece el sistema respiratorio: posee propiedades antiiflamatorias y expectorantes que ayudan a liberar los bronquios de fluidos que los perjudican, por lo que es ideal para tratar casos de tos, bronquitis, asma, o gripe.",
+            "image": "anis",
+            "icon": "RedMug",
+            "infuFamilyID": 3,
+            "shopUrl": "https://www.amazon.es/s?k=infusion+anis&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_1",
+            "tags": {
+                "time": 5,
                 "temp": "100ºC"
             }
+        },
+        {
+                   "id": 6,
+                   "title":"Té Azul",
+                   "generalInfo": "El Oolong es también conocido como té azul, pero...¿a qué se debe ese nombre? ¿acaso el color de la infusión del té es azul? \n¡Para nada! El color de la infusión de esta variedad de té es más bien anaranjada, sin embargo, se conoce como té azul por el color que adquieren las hojas con las que se elabora, tras su proceso de oxidación. \nEn el caso de otros tés suele ser, más bien, marrón y en el caso del oolong, tiende al azul.",
+                   "properties": "Comenzamos por sus propiedades antioxidantes, lo que contribuye, por un lado, a mejorar el aspecto de nuestra piel (se dice que es el secreto de belleza de muchas mujeres en China y Japón), pero también la salud de nuestras células internas, reduciendo así las posibilidades de sufrir diferentes tipos de cáncer y cuidando de nuestra salud cardiovascular. \n\nPor otro lado, el té azul es muy digestivo, por lo que es ideal para tomar tras comidas copiosas, pero también para poner a punto nuestro organismo nada más comenzar el día. \nDe esta manera, no sólo nos ayudará activar nuestro cerebro, sino que también nos aportará una sensación de bienestar interna como pocos tés consiguen hacer nada más levantarnos. \n\n¿Te cuento un secreto? Échale el jugo de medio limón y tómalo en ayunas: \n esto te ayudará a depurar el organismo, combinando el poder alcalinizante del limón, con el digestivo del Oolong. \nSi eres de los que se levanta con ardor de estómago por las mañanas, este puede ser tu mejor remedio natural, pero recuerda no abusar: nunca consumas más de 2 o 3 tazas al día. \n\nUnido a las propiedades digestivas, este té también es astringente, por lo que es ideal para personas que tienen una diarrea o que van demasiadas veces al baño.",
+                   "image": "teAzul",
+                   "icon": "RedMug",
+                   "infuFamilyID": 1,
+                   "shopUrl": "https://www.amazon.es/s?k=te+azul&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_1",
+                   "tags": {
+                       "time": 3,
+                       "temp": "80ºC"
+                   }
+               },
+        {
+            "id": 20,
+            "title":"Jengibre",
+            "generalInfo": "El jengibre o kión es una planta de la familia de las zingiberáceas, cuyo tallo subterráneo es un rizoma horizontal muy apreciado por su aroma y sabor picante. La planta llega a tener 90 cm de altura, con largas hojas de 20 cm.",
+            "properties": "El jengibre está considerado como un alimento muy recomendable por sus múltiples propiedades y beneficios para la salud: es antiinflamatorio, calma el dolor, alivia las náuseas y vómitos, reduce los gases y la hinchazón, va bien para el resfriado. \n\nAdemás, tiene un efecto quemagrasa y va bien para adelgazar.",
+            "image": "jengibre",
+            "icon": "YellowMug",
+            "infuFamilyID": 3,
+            "shopUrl": "https://www.amazon.es/s?k=infusion+jengibre&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss",
+            "tags": {
+                "time": 5,
+                "temp": "100ºC"
+            }
+        },
+       
+       
+        {
+            "id": 23,
+            "title":"Hinojo",
+            "generalInfo": "Foeniculum vulgare, de nombre común hinojo, es la única especie del género Foeniculum.​ \nSe encuentra distribuida por las zonas templadas de todo el mundo, ​ aunque nativa de la zona meridional de Europa, en especial la costa del mar Mediterráneo, ​ donde crece en estado silvestre.",
+            "properties": "La primera de la lista del hinojo propiedades es favorecer la digestión ya que tiene efectos diuréticos, además es antiespasmódica, desintoxicante, diurética y carminativa. \n\nEsta es la razón por la que aparece en la composición de tantas infusiones. \nEs capaz de ayudar en las digestiones pesadas y en los empachos y alivia los espasmos gastrointestinales. \n\nAsimismo, es un gran aliado para combatir la sed, perfecto para recuperar fuerzas después de una sesión de yoga u otro deporte. \n\nAdemás, disminuye el mal sabor de boca, combate la halitosis ya que el hinojo posee propiedades antimicrobianas y tiene un aroma agradable. \n\nTambién ayuda a las personas con hipertensión ya que es una planta rica en potasio. \nUn mineral que permite estabilizar los niveles de tensión. \nSi lo combinamos con espino albar, vincapervinca o sanguinaria, sus cualidades diuréticas y contra la hipertensión se ven reforzadas. \n\nPor otra parte, ayuda a regular la producción de hormonas en el organismo, ¡especialmente indicado para tratar el síndrome premenstrual! y suele indicarse para rebajar los efectos adversos de una menstruación dolorosa. \nSe trata de un emenagogo, es decir es una planta que favorece la menstruación en caso de dismenorrea o amenorrea ya que tiene algunos principios activos como la betaina y el apiol. \n\nUn te de hinojo es perfecto para reducir los síntomas de la menopausia, ya sea la falta de sueño o la sequedad vaginal. \n\nLas semillas de esta planta están consideradas una gran fuente de antioxidantes, los cuales son fundamentales para proteger las células. \nIncluso, en diferentes preparados reduce los efectos de las picaduras de insectos y ayuda a que las heridas cicatricen.",
+            "image": "hinojo",
+            "icon": "YellowMug",
+            "infuFamilyID": 3,
+            "shopUrl": "https://www.amazon.es/s?k=infusion+hinojo&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_1",
+            "tags": {
+                "time": 5,
+                "temp": "90ºC"
+            }
         }
+        
+        
     ],
     "infuFamily": [
         
@@ -367,7 +390,7 @@
             "title": "",
             "image": "viewAll",
             "symbol": ""
-
+            
         }
     ]
 }
