@@ -31,11 +31,13 @@
       "size" : "40x40"
     },
     {
+      "filename" : "LOGO_APPLE_V5 120x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "LOGO_APPLE_V5-1.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
@@ -51,11 +53,13 @@
       "size" : "20x20"
     },
     {
+      "filename" : "LOGO_APPLE_V529x.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "29x29"
     },
     {
+      "filename" : "LOGO_APPLE_V5.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "29x29"

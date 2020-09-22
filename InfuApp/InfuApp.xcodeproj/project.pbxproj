@@ -58,7 +58,7 @@
 		B735C36D25091C6300895083 /* CellHomeMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellHomeMenu.xib; sourceTree = "<group>"; };
 		B735C36F2509254E00895083 /* Catalogue.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Catalogue.storyboard; sourceTree = "<group>"; };
 		B735C374250A386200895083 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
-		B7446FE22508DA9700F968D1 /* InfuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7446FE22508DA9700F968D1 /* InfuGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfuGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7446FE52508DA9700F968D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7446FE72508DA9700F968D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B7446FEC2508DA9700F968D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Splash.storyboard; sourceTree = "<group>"; };
@@ -66,6 +66,7 @@
 		B7446FF12508DA9A00F968D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7446FF32508DA9A00F968D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B74470002508DD6400F968D1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		B7729BD82519DCC9001F303E /* Argesta Display Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Argesta Display Regular.otf"; sourceTree = "<group>"; };
 		B78C14B6250A8F2700C16738 /* CellHomeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellHomeMenu.swift; sourceTree = "<group>"; };
 		B78C14B9250A93DE00C16738 /* DataHomeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHomeMenu.swift; sourceTree = "<group>"; };
 		B78FF7852514DD7900E03C63 /* InfuAppObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfuAppObject.swift; sourceTree = "<group>"; };
@@ -150,7 +151,7 @@
 		B7446FE32508DA9700F968D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7446FE22508DA9700F968D1 /* InfuApp.app */,
+				B7446FE22508DA9700F968D1 /* InfuGuide.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -278,6 +279,7 @@
 			isa = PBXGroup;
 			children = (
 				B711E3982519627100B504D8 /* Argesta Display Regular.otf */,
+				B7729BD82519DCC9001F303E /* Argesta Display Regular.otf */,
 				B78FF7922517DFAF00E03C63 /* Montserrat-SemiBold.ttf */,
 				B78FF7912517DFA200E03C63 /* Montserrat-Regular.ttf */,
 				B78FF7902517DF9400E03C63 /* Montserrat-Light.ttf */,
@@ -313,7 +315,7 @@
 			);
 			name = InfuApp;
 			productName = InfuApp;
-			productReference = B7446FE22508DA9700F968D1 /* InfuApp.app */;
+			productReference = B7446FE22508DA9700F968D1 /* InfuGuide.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -592,7 +594,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alicia.InfuApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = InfuGuide;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -610,7 +612,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alicia.InfuApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = InfuGuide;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

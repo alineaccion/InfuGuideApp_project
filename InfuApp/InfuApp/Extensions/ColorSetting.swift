@@ -17,3 +17,4 @@ extension UIColor {
     static var line: UIColor { UIColor(named: "Line")! }
     static var splashBackground: UIColor { UIColor(named: "SplashBackground")! }
 }
+

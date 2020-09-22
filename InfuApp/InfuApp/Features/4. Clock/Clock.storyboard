@@ -93,7 +93,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="resetButton:" destination="DGV-W2-jed" eventType="touchUpInside" id="FLN-Zl-r1W"/>
+                                            <action selector="resetAction:" destination="DGV-W2-jed" eventType="touchUpInside" id="TpR-13-5vu"/>
                                         </connections>
                                     </button>
                                 </subviews>
