@@ -11,9 +11,7 @@ import RxSwift
 
 class HomeMenuViewModel {
     // MARK: - Properties
-    
     var needNavigateToCatalogue: PublishSubject<Int> = PublishSubject()
-    
     private var infuAppData: InfuAppData?
     
     func onViewLoaded() {

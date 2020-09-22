@@ -12,7 +12,7 @@ class CatalogueCell: UICollectionViewCell {
     
     @IBOutlet weak var collectionListImageView: UIImageView!
     @IBOutlet weak var symbolImage: UIImageView!
-       @IBOutlet weak var collectionListTextView: UILabel!
+    @IBOutlet weak var collectionListTextView: UILabel!
     @IBOutlet weak var containerView: UIView!
     
     static var cellCatalogueId = "CatalogueCell"
@@ -23,14 +23,12 @@ class CatalogueCell: UICollectionViewCell {
         
     }
     override func awakeFromNib() {
-           super.awakeFromNib()
-       }
+        super.awakeFromNib()
+    }
     func configureCatalogueCell(image: String, symbol: String, text: String){
         self.collectionListTextView.text = text
         self.collectionListImageView.image = UIImage(named: image)
         self.symbolImage.image = UIImage(named: symbol)
     }
-    
-
     
 }

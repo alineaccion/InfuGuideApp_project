@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,7 +23,7 @@
                                         <rect key="frame" x="0.0" y="8" width="352" height="467"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="ebA-JC-RqX" secondAttribute="bottom" id="Awa-yA-tT6"/>
                                     <constraint firstItem="ebA-JC-RqX" firstAttribute="top" secondItem="Dve-Bt-jzT" secondAttribute="top" constant="8" id="ByT-Lw-rQh"/>
@@ -48,7 +46,6 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="SplashBackGround"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dve-Bt-jzT" secondAttribute="trailing" constant="54" id="E9W-bh-hk4"/>
@@ -62,6 +59,7 @@
                             <constraint firstItem="7Uf-3o-LOJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="qyy-se-M4Z"/>
                             <constraint firstItem="HGT-vz-7La" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="r4C-x7-isc"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <segue destination="Ggf-dh-m8N" kind="show" identifier="SEGUE_FROM_SPLASH_TO_MENUTYPES" id="FVN-gE-clC"/>
@@ -84,13 +82,10 @@
     </scenes>
     <resources>
         <image name="SplashImage" width="101" height="123.66666412353516"/>
-        <image name="SplashLabel" width="224" height="40"/>
-        <image name="SplashTitle" width="103.33333587646484" height="25.333333969116211"/>
+        <image name="SplashLabel" width="2016" height="360"/>
+        <image name="SplashTitle" width="1395" height="342"/>
         <namedColor name="SplashBackGround">
             <color red="0.97647058823529409" green="0.93725490196078431" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

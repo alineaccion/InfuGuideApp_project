@@ -22,8 +22,8 @@ class DetailViewModel {
     }
     
     func getInfuAppData() -> InfuAppData? {
-           return infuAppData
-       }
+        return infuAppData
+    }
     
     func getInfussion() -> Infussion? {
         guard let infussionObtained = infuAppData?.infussions.first(where: {$0.id == infuID}) else { return nil }
@@ -49,7 +49,7 @@ class DetailViewModel {
     
     func getTagTemperatureDetail() -> String {
         guard let temperatureObtained = infussionData?.tags.temp else { return "" }
-               return temperatureObtained
+        return temperatureObtained
     }
     
     func getTagInfuFamilyDetail() -> String {
@@ -62,12 +62,12 @@ class DetailViewModel {
     func getInfoTextDetail() -> String {
         guard let infoTextDetail = infussionData?.generalInfo else { return ""}
         return infoTextDetail
-           
-       }
+        
+    }
     
     func getPropertiesTextDetail() -> String {
         guard let infoPropertiesDetail = infussionData?.properties else { return ""}
-              return infoPropertiesDetail
+        return infoPropertiesDetail
     }
     
     func getSymbolDetail() -> String {
@@ -78,8 +78,8 @@ class DetailViewModel {
     func getShopDetail() -> String {
         guard let buttonShop = infussionData?.shopUrl else { return ""}
         return buttonShop
-           
-       }
+        
+    }
     func ShopButtonDtailIsHidden() -> Bool {
         guard (infussionData?.shopUrl) != nil else {return true}
         return false
@@ -87,7 +87,7 @@ class DetailViewModel {
     
     
     
-      
+    
     
     
     

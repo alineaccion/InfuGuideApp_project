@@ -10,7 +10,6 @@ import Foundation
 import Lottie
 import RxSwift
 
-
 class ClockViewController: UIViewController {
     
     static var storyboardId = "ClockViewController"
@@ -44,12 +43,12 @@ class ClockViewController: UIViewController {
             .disposed(by: disposeBag)
         
         
-            viewModel.needFinishCountDown
-                .observeOn(MainScheduler.instance)
-                .subscribe(onNext: {[weak self] isFinish in
-                    self?.finishCountDown()
-                })
-                .disposed(by: disposeBag)
+        viewModel.needFinishCountDown
+            .observeOn(MainScheduler.instance)
+            .subscribe(onNext: {[weak self] isFinish in
+                self?.finishCountDown()
+            })
+            .disposed(by: disposeBag)
     }
     
     func configureViews() {
@@ -65,23 +64,23 @@ class ClockViewController: UIViewController {
     
     func configureLottieAnimation() {
         // 2. Start AnimationView with animation name (without extension)
-         
-         animationView = .init(name: "clock")
-         
-         animationView!.frame = lottieContainerView.bounds
-         
-         // 3. Set animation content mode
-         
-         animationView!.contentMode = .scaleAspectFit
-         
-         // 4. Set animation loop mode
-         
-         animationView!.loopMode = .loop
-         
-         // 5. Adjust animation speed
-         
-         animationView!.animationSpeed = 1.0
-         
+        
+        animationView = .init(name: "clock")
+        
+        animationView!.frame = lottieContainerView.bounds
+        
+        // 3. Set animation content mode
+        
+        animationView!.contentMode = .scaleAspectFit
+        
+        // 4. Set animation loop mode
+        
+        animationView!.loopMode = .loop
+        
+        // 5. Adjust animation speed
+        
+        animationView!.animationSpeed = 1.0
+        
         lottieContainerView.addSubview(animationView!)
     }
     
@@ -92,7 +91,7 @@ class ClockViewController: UIViewController {
         
         let alertController = UIAlertController(title: "¡Enhorabuena!",
                                                 message: "¡Tu infusión de \(viewModel.getInfussionName()) ya está lista!!",
-                                                preferredStyle: .alert)
+            preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: "Genial!!",
                                                 style: .default))
         self.present(alertController, animated: true, completion: nil)

@@ -10,8 +10,7 @@ import RxSwift
 import UIKit
 
 class DetailViewController: UIViewController {
-    // scroll view-> stack view que contiene toda la info
-    //view imagen, label title, stack horizontal view tags, , info label, properties label, shop button
+    
     @IBOutlet weak var imageDetail: UIImageView!
     @IBOutlet weak var titleDetail: UILabel!
     @IBOutlet weak var tagTimeDetail: UILabel!
@@ -27,7 +26,7 @@ class DetailViewController: UIViewController {
     
     let viewModel = DetailViewModel()
     private let disposeBag = DisposeBag()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = false
@@ -54,34 +53,30 @@ class DetailViewController: UIViewController {
         symbolDetail.image = UIImage(named: viewModel.getSymbolDetail())
         
         navigationItem.rightBarButtonItems = [
-                 UIBarButtonItem(image: UIImage(named: "icon_clock"), style: .plain, target: self, action: #selector(navigateToClock))]
+            UIBarButtonItem(image: UIImage(named: "icon_clock"), style: .plain, target: self, action: #selector(navigateToClock))]
     }
     
     private func configureObservers() {
         viewModel.needNavigateToClock
-        .observeOn(MainScheduler.instance)
-        .subscribe(onNext: {[weak self] infussionId in
-            self?.navigateToClock()
-        })
-        .disposed(by: disposeBag)
-        
-        
-        
-     
+            .observeOn(MainScheduler.instance)
+            .subscribe(onNext: {[weak self] infussionId in
+                self?.navigateToClock()
+            })
+            .disposed(by: disposeBag)
     }
     
     @objc func navigateToClock() {
-           guard let viewController = UIStoryboard(name: ClockViewController.storyboardName, bundle: nil)
-               .instantiateViewController(withIdentifier: ClockViewController.storyboardId) as? ClockViewController
-               else {
-                   return
-           }
+        guard let viewController = UIStoryboard(name: ClockViewController.storyboardName, bundle: nil)
+            .instantiateViewController(withIdentifier: ClockViewController.storyboardId) as? ClockViewController
+            else {
+                return
+        }
         
-           viewController.viewModel.infuAppData = viewModel.getInfuAppData()
+        viewController.viewModel.infuAppData = viewModel.getInfuAppData()
         viewController.viewModel.infussionId = viewModel.infuID
-               navigationController?.pushViewController(viewController, animated: true)
-       }
-
+        navigationController?.pushViewController(viewController, animated: true)
+    }
+    
     @IBAction func shopInfussion(_ sender: Any) {
         if let url = URL(string: viewModel.getShopDetail()) {
             UIApplication.shared.open(url)

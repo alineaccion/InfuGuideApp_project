@@ -61,11 +61,9 @@ class CatalogueViewController: UIViewController {
         }
         viewController.viewModel.infuAppData = viewModel.getInfuAppData()
         viewController.viewModel.infuID = infussionId
-            navigationController?.pushViewController(viewController, animated: true)
+        navigationController?.pushViewController(viewController, animated: true)
     }
-    
 }
-
 
 extension CatalogueViewController: UICollectionViewDelegate,UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -77,12 +75,12 @@ extension CatalogueViewController: UICollectionViewDelegate,UICollectionViewData
             return UICollectionViewCell()
         }
         guard let itemCatalogue = viewModel.catalogueItem(for: indexPath.row), let symbol = viewModel.getSymbol(indexPathRow: indexPath.row) else { return cell }
-            
-            cell.configureCatalogueCell(image:itemCatalogue.icon, symbol: symbol, text: itemCatalogue.title)
-
+        
+        cell.configureCatalogueCell(image:itemCatalogue.icon, symbol: symbol, text: itemCatalogue.title)
+        
         return cell
     }
-  
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         // Numero de columnas. La fraccion indica en cuantas partes se divide la pantalla. Pendiente mejorar
         let sizeCell = collectionView.frame.width/3
@@ -93,8 +91,6 @@ extension CatalogueViewController: UICollectionViewDelegate,UICollectionViewData
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         viewModel.onCatalogueSelected(index: indexPath.row)
     }
-    
-    
     
 }
 

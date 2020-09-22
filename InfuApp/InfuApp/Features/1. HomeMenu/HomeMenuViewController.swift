@@ -8,17 +8,15 @@
 
 import UIKit
 import RxSwift
-// ocultar navigation bar
 
 class HomeMenuViewController: UIViewController {
     // MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!
     // MARK: - Properties
-     let viewModel = HomeMenuViewModel()
+    let viewModel = HomeMenuViewModel()
     private let disposeBag = DisposeBag()
-        
-    // MARK: - Lifecycle
     
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViews()
@@ -36,7 +34,7 @@ class HomeMenuViewController: UIViewController {
         tableView.dataSource = self
     }
     func configureObservers() {
-           
+        
         viewModel.needNavigateToCatalogue
             .observeOn(MainScheduler.instance)
             .subscribe(onNext: {[weak self] familyID in
@@ -51,7 +49,6 @@ class HomeMenuViewController: UIViewController {
         viewController.viewModel.infuAppData = viewModel.getInfuAppData()
         viewController.viewModel.infuFamilyID = familyID
         navigationController?.pushViewController(viewController, animated: true)
-        
     }
 }
 

@@ -47,7 +47,6 @@ class CatalogueViewModel {
         } else {
             return ""
         }
-        
     }
     
     func catalogueCount() -> Int {
