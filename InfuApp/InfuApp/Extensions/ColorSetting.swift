@@ -15,6 +15,6 @@ extension UIColor {
     static var buttonBackground: UIColor { UIColor(named: "ButtonBackground")! }
     static var font: UIColor { UIColor(named: "Font")! }
     static var line: UIColor { UIColor(named: "Line")! }
-    static var splashBackground: UIColor { UIColor(named: "SplashBackground")! }
+    static var splashBackground: UIColor { UIColor(named: "SplashBackGround")! }
 }
 

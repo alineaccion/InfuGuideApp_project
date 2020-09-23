@@ -162,8 +162,6 @@
 				B78C14B8250A93CB00C16738 /* Data */,
 				B78FF78B2517C0C800E03C63 /* Extensions */,
 				B7446FFA2508DAD600F968D1 /* Features */,
-				B7446FF32508DA9A00F968D1 /* Info.plist */,
-				B7446FF02508DA9A00F968D1 /* LaunchScreen.storyboard */,
 				B78FF7872514DE3A00E03C63 /* Models */,
 				B7446FFF2508DD4900F968D1 /* Resources */,
 			);
@@ -182,11 +180,13 @@
 		B7446FFA2508DAD600F968D1 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				B711E38A2519499E00B504D8 /* 4. Clock */,
-				B7446FFE2508DD3A00F968D1 /* 0. Splash */,
+				B7446FFE2508DD3A00F968D1 /* Splash */,
 				B7446FFB2508DB5D00F968D1 /* 1. HomeMenu */,
 				B7446FFC2508DD2100F968D1 /* 2. Catalogue */,
 				B7446FFD2508DD2C00F968D1 /* 3. Detail */,
+				B711E38A2519499E00B504D8 /* 4. Clock */,
+				B7446FF32508DA9A00F968D1 /* Info.plist */,
+				B7446FF02508DA9A00F968D1 /* LaunchScreen.storyboard */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -223,14 +223,14 @@
 			path = "3. Detail";
 			sourceTree = "<group>";
 		};
-		B7446FFE2508DD3A00F968D1 /* 0. Splash */ = {
+		B7446FFE2508DD3A00F968D1 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
 				B7446FEB2508DA9700F968D1 /* Splash.storyboard */,
 				B7FF5F85250A765B00042E25 /* SplashViewController.swift */,
 				B7FF5F87250A76AA00042E25 /* SplashViewModel.swift */,
 			);
-			path = "0. Splash";
+			path = Splash;
 			sourceTree = "<group>";
 		};
 		B7446FFF2508DD4900F968D1 /* Resources */ = {

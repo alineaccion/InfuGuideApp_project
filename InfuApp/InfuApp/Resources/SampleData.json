@@ -28,19 +28,7 @@
                 "temp": "75ºC"
             }
         },
-        {
-            "id": 24,
-            "title":"Diente de león",
-            "generalInfo": "",
-            "properties": "",
-            "image": "dienteDeLeon",
-            "icon": "YellowMug",
-            "infuFamilyID": 3,
-            "tags": {
-                "time": 2,
-                "temp": "100ºC"
-            }
-        },
+       
         {
                    "id": 21,
                    "title":"Calendula",
@@ -284,7 +272,7 @@
             }
         },
         {
-            "id": 25,
+            "id": 24,
             "title":"Tomillo",
             "generalInfo": "Thymus o tomillo es un género con alrededor de 215 a 350 especies de hierbas y subarbustos perennes de la familia de las Lamiáceas (antes, Labiadas). \n\nSon nativas de las regiones templadas de Europa y Asia, África del Norte y Groenlandia. \n\nVarios miembros del género son plantas aromáticas entre los cuales el más conocido y especie tipo es Thymus vulgaris que se cultiva como condimento, planta medicinal y planta ornamental.",
             "properties": "El té de tomillo ayuda a calmar los cólicos menstruales y el síndrome premenstrual. \n\nIdeal para las personas que sufran de asma y bronquitis. \n\nPuedes realizar un té con agua hirviendo, tomillo y miel, a lo que añadiremos limón. \nSeguro que así te beneficias de sus poderes broncodilatadores. \n\nEsta hierba cuenta con una variedad de flavonoides como la luteolina y naringenina, que la convierten en una estupenda fuente de antioxidantes. \nAdemás aporta calcio, hierro, manganeso y fibra. \n\nPosee timol, un aceite volátil que le aporta poderes desinfectantes y antisépticos. \n\nExiste la posibilidad de usar una solución de té de tomillo con agua y jabón para limpiar las habitaciones de los enfermos. \nSólo necesitas dejarla enfriar y así ya podrás ponerte con las labores de limpieza. \nSi a este té le añadimos un poco de miel también se podrán tratar heridas.",
